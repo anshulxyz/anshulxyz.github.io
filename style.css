@@ -1,8 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700');
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700);
 
 body {
   font-family: Roboto, Arial;
+  background: #eee;
   margin-top: 30px;
   margin-left: 30px;
 }
@@ -14,6 +15,7 @@ body {
 .subtitle {
   color: #727272;
   font-family: Roboto Mono, monospace;
+  font-size: 13px;
   margin-top: 5px;
   margin-bottom: 15px;
 }
@@ -24,11 +26,11 @@ p {
 }
 
 a:link {
-  color: #8870FF;
+  color: #F50057;
 }
 a:visited {
-color: #897FBA;
+color: #FF4081;
 }
 a:hover {
-color: #73B1D6;
+color: #d50000;
 }
