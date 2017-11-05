@@ -3,19 +3,21 @@
 
 body {
   font-family: Roboto, Arial;
-  background: #eee;
+  background: #000;
   margin-top: 30px;
   margin-left: 30px;
 }
 
 .title {
   margin-bottom: 0;
+  color: #fff;
+  font-size: 44px;
 }
 
 .subtitle {
-  color: #727272;
+  color: #aaa;
   font-family: Roboto Mono, monospace;
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 5px;
   margin-bottom: 15px;
 }
@@ -23,14 +25,22 @@ body {
 p {
   margin-top: 3px;
   margin-bottom: 3px;
+  font-size: 22px;
+  color: #eee;
 }
 
+
 a:link {
-  color: #F50057;
+  color: #eee;
+  background-color: #4A148C;
+  text-decoration:  none;  
 }
+
 a:visited {
-color: #FF4081;
+  color: #eee;  
 }
+
 a:hover {
-color: #d50000;
+  color: #eee;
+  background-color: #AA00FF; 
 }
