@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
+body {
+  font-family: Open Sans, Arial;
+  font-weight: 300;
+  background: #fff;
+}
+
+#container {
+  padding-top: 3em;
+  padding-left: 5em;
+  padding-right: 5em;
+  line-height: 1.4;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover{
+  border-bottom: 2px dashed;
+}
+
+#github {
+  color:#A086D3;
+}
+
+#twitter {
+  color: #1da1f2;
+}
+
+#resume {
+  color: #ff4f81;
+}
+
+#pr {
+  color: #4078c0;
+}
+
+#email {
+  color: #fbbc05;
+}
