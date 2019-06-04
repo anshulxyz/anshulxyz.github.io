@@ -4,24 +4,20 @@ body {
   font-family: Open Sans, Arial;
   font-weight: 300;
   background: #fff;
+  font-size: 1.5rem;
 }
 
-#container {
-  display: table;
-  position: absolute;
-  height: 100%;
-  width: 100%;
+@media (min-width: 576px) {
+  html { font-size: 1.75rem; }
 }
-
-#cell {
-  display: table-cell;
-  vertical-align: middle;
+@media (min-width: 768px) {
+  html { font-size: 2rem; }
 }
-
-#content {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1000px; /*whatever width you want*/
+@media (min-width: 992px) {
+  html { font-size: 2.15rem; }
+}
+@media (min-width: 1200px) {
+  html { font-size: 2.15rem; }
 }
 
 a:link {
@@ -31,6 +27,12 @@ a:link {
 a:hover{
   border-bottom: 2px dashed;
 }
+
+.row {
+  margin-top: 10%;
+  margin-left: 5%
+}
+
 
 #github {
   color:#A086D3;
