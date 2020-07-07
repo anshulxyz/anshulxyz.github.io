@@ -1,9 +1,9 @@
 # Site settings
-title: "TextLog"
-description: "Minimalist Jekyll theme for documentation site"
+title: "Anshul Chauhan"
+description: "A personal website of Anshul Chauhan."
 baseurl: "" # required if used under gh-pages branch, else (under master branch) just leave empty/blank
 url: ""
-author: "John Doe"
+author: "Anshul Chauhan"
 
 # Build settings
 kramdown:

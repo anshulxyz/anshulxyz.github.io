@@ -42,7 +42,7 @@
       font-size: $small-font-size;
     }
     .site-intro {
-        font-size: $big-font-size;
+        font-size: $med-font-size;
     }
 }
 
@@ -56,8 +56,8 @@
     a:hover {
         text-decoration: none;
         letter-spacing: 2px;
-        background-color: #333;
-        color: #eee;
+        // background-color: #333;
+        color: #333;
         padding-left: 0.5rem;
         padding-right: 0.5rem;
         padding-top: 0.2rem;
