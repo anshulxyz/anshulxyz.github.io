@@ -184,9 +184,12 @@
   font-size: $small-font-size;
   font-family: $code-font-family;
   p {
-    color: $grey-color;
+    color: $grey-color-light;
     a, a:visited {
-      color: $grey-color-dark;
+      color: $grey-color-light;
+    };
+    a:hover {
+        color: $background-color;
     }
   }
 }
