@@ -103,14 +103,20 @@ h6 {
  */
 a {
     color: $link-color;
-    text-decoration: none;
-    // text-decoration-color: $grey-color-light;
-    transition: all 0.5s linear;
-
+    text-decoration: underline;
+    text-decoration-color: $grey-color-light;
+    -webkit-text-decoration-color: $grey-color-light;
+    text-decoration-thickness: 3px;
+    
+    // transition: all 0.5s linear;
+    
     &:hover {
-        text-decoration: none;
-        color: $background-color;
-        background-color: $link-color;
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-decoration-color: $orange;
+        -webkit-text-decoration-color: $orange;
+        // color: $background-color;
+        // background-color: $link-color;
     }
 }
 
@@ -141,7 +147,7 @@ pre {
 code {
     padding: 1px 5px;
     font-family: $code-font-family;
-    color: #f14e32;
+    color: $orange;
 }
 
 pre {
@@ -204,4 +210,20 @@ hr {
         display: table;
         clear: both;
     }
+}
+
+// selector
+::-moz-selection {
+    /* Code for Firefox */
+    color: white;
+    background: $orange;
+}
+
+::selection {
+    color: white;
+    background: $orange;
+}
+
+.intro-name {
+    color: $orange;
 }

@@ -42,7 +42,8 @@
       font-size: $small-font-size;
     }
     .site-intro {
-        font-size: $med-font-size;
+        font-size: $base-font-size;
+        font-weight: normal;
     }
 }
 
@@ -78,6 +79,7 @@
  * Pages
  */
 .home {
+    margin-top: 1rem;
     section + section {
         margin-top: $spacing-unit;
         max-width: $max-width;
@@ -183,13 +185,13 @@
   margin-top: $spacing-unit;
   font-size: $small-font-size;
   font-family: $code-font-family;
+  position: fixed;
+  bottom: 0;
   p {
-    color: $grey-color-light;
+    color: $grey-color;
     a, a:visited {
-      color: $grey-color-light;
+      color: $grey-color;
     };
-    a:hover {
-        color: $background-color;
-    }
+
   }
 }

@@ -9,16 +9,18 @@ $code-font-family: Inconsolata, Monaco, Consolas, monospace;
 $base-font-size:   16px;
 $base-font-weight: 300;
 $small-font-size:  0.875rem;
-$med-font-size: 1.1rem;
+$med-font-size:    1.1rem;
 $big-font-size:    1.3rem;
 $base-line-height: 1.5;
 
 $spacing-unit:     2rem;
-$max-width:        48rem;
+$max-width:        46rem;
 
 $text-color:       #333;
 $background-color: #fff;
 $link-color:       #0645ad;
+
+$orange:           #f14e32;
 
 $grey-color:       #aaa;
 $grey-color-light: lighten($grey-color, 25%);
