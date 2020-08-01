@@ -35,11 +35,12 @@
  * Site header
  */
 .site-header {
-    border-bottom: 1px solid $grey-color-light;
+    // border-bottom: 1px solid $grey-color-light;
     margin-top: -2rem;
-    max-width: $max-width;
+    max-width: $intro-width;
     p {
-      font-size: $small-font-size;
+      font-size: $big-font-size;
+      font-weight: normal;
     }
     .site-intro {
         font-size: $base-font-size;
@@ -188,9 +189,9 @@
   position: fixed;
   bottom: 0;
   p {
-    color: $grey-color;
+    color: darken($grey-color, 45%);
     a, a:visited {
-      color: $grey-color;
+      color: darken($grey-color, 45%);
     };
 
   }

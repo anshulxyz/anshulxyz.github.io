@@ -14,13 +14,14 @@ $big-font-size:    1.3rem;
 $base-line-height: 1.5;
 
 $spacing-unit:     2rem;
-$max-width:        46rem;
+$max-width:        48rem;
+$intro-width:      calc(48rem - 10rem);
 
-$text-color:       #333;
-$background-color: #fff;
-$link-color:       #425e66;
+$orange:           #FF974F;
+$text-color:       #EFEFEF;
+$background-color: #011C26;
+$link-color:       #FF974F;
 
-$orange:           #f14e32;
 
 $grey-color:       #aaa;
 $grey-color-light: lighten($grey-color, 25%);

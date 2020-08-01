@@ -102,10 +102,10 @@ h6 {
  * Links
  */
 a {
-    color: $grey-color-dark;
-    text-decoration: underline;
-    text-decoration-color: $grey-color-light;
-    -webkit-text-decoration-color: $grey-color-light;
+    color: $link-color;
+    text-decoration: none;
+    text-decoration-color: $grey-color-dark;
+    -webkit-text-decoration-color: $grey-color-dark;
     text-decoration-thickness: 3px;
     
     // transition: all 0.5s linear;
@@ -113,8 +113,8 @@ a {
     &:hover {
         text-decoration: underline;
         text-decoration-thickness: 3px;
-        text-decoration-color: $orange;
-        -webkit-text-decoration-color: $orange;
+        text-decoration-color: $grey-color;
+        -webkit-text-decoration-color: $grey-color;
         // color: $background-color;
         // background-color: $link-color;
     }
