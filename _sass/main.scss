@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;700&display=swap');
+
+$white: #fff2dc;
+$light-orange: #FFB298;
+$orange: #fb5607;
+$dark-orange: #d31107;
+$blue: #1f2b67;
+
+
+body {
+  font-family: 'Be Vietnam', sans-serif;
+  background-color: $white;
+  color: black;
+}
+
+.row {
+  padding: 2rem;
+}
+
+.container {
+  width: 42rem;
+  margin: 0 auto;
+}
+
+.title-row {
+  background-color: $orange;
+}
+
+.title-title {
+  font-size: xx-large;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin: auto;
+  // width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: $light-orange;
+  color: black;
+}
