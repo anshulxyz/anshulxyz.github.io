@@ -2,16 +2,17 @@
 
 <div class="container">
   <div class="row title-row">
-    <span class="title-title"> <strong>{{ site.title }}</strong> </span>
-    <span class="title-description">{{ site.description}}
-      I like learning German, playing football, reading Hesse, drinking lemon tea, listening to post-rock and watching
-      obscure movies.
-      <br/>
+    <div class="col">
 
-      I like receiving email from individuals, say hi: {{ site.email }} 
+      <span class="title-title"> <strong>{{ site.title }}</strong> </span>
+      <br />
+      <span class="title-description">{{ site.description}}
+        <br />
+        email: {{ site.email }}
 
-    </span>
+      </span>
 
+    </div>
   </div>
   {% include footer.html %}
 </div>
