@@ -1,18 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
 {% include head.html %}
 
-<div class="container">
-  <div class="row title-row">
-    <div class="col">
-
-      <span class="title-title"> <strong>{{ site.title }}</strong> </span>
-      <br />
-      <span class="title-description">{{ site.description}}
+<body>
+  <div class="container">
+    <div class="row title-row">
+      <div class="col">
+        <span class="title-title"> <strong>{{ site.title }}</strong> </span>
         <br />
-        email: {{ site.email }}
-
-      </span>
-
+        interested in software engineering and data science
+        <br />
+        📨 {{ site.email }}
+        <br />
+        🐤 <a href="https://twitter.com/{{ site.username }}">twitter.com/{{ site.username }}</a>
+        <br />
+        👨‍💻 <a href="https://github.com/{{ site.username }}">github.com/{{ site.username }}</a>
+      </div>
     </div>
+    {% include footer.html %}
   </div>
-  {% include footer.html %}
-</div>
+</body>
+
+</html>

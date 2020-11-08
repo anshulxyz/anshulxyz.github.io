@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;700&display=swap");
 
-$white: #fff2dc;
-$light-orange: #FFB298;
+$white: #fdf6ea;
+$cream: #fff2dc;
+$light-orange: #ffb298;
 $orange: #fb5607;
 $dark-orange: #d31107;
 $blue: #1f2b67;
 
-
 body {
-  font-family: 'Be Vietnam', sans-serif;
+  font-family: "Be Vietnam", sans-serif;
   background-color: $white;
   color: black;
 }
@@ -17,19 +17,18 @@ body {
   padding: 2rem;
 }
 
-// .container {
-//   width: 100%;
-//   margin: 0 auto;
-// }
-
 @media (min-width: 768px) {
-  .container, .container-md, .container-sm {
+  .container,
+  .container-md,
+  .container-sm {
     max-width: 720px;
   }
 }
 
 @media (max-width: 420px) {
-  .container, .container-md, .container-sm {
+  .container,
+  .container-md,
+  .container-sm {
     padding: 0;
   }
   .row {
@@ -39,9 +38,12 @@ body {
     padding: 1rem;
   }
 }
-  
+
 .title-row {
   background-color: $orange;
+  a {
+    color: black;
+  }
 }
 
 .title-title {
