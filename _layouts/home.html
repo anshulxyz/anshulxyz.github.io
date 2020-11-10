@@ -6,15 +6,14 @@
   <div class="container">
     <div class="row title-row">
       <div class="col">
-        <span class="title-title"> <strong>{{ site.title }}</strong> </span>
+        <span class="title-title"> <strong>{{ site.title }}</strong></span>
+        <a href="https://twitter.com/{{ site.username }}">
+          <i class="fa fa-twitter" style="font-size:2rem; color: #d31107"></i></a>
+
         <br />
-        interested in software engineering and data science
+        interested in software development and data science
         <br />
         📨 {{ site.email }}
-        <br />
-        🐤 <a href="https://twitter.com/{{ site.username }}">twitter.com/{{ site.username }}</a>
-        <br />
-        👨‍💻 <a href="https://github.com/{{ site.username }}">github.com/{{ site.username }}</a>
       </div>
     </div>
     {% include footer.html %}
