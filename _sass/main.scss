@@ -1,64 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;700&display=swap");
-
-$white: #fdf6ea;
+$white: #f7f0f0;
 $cream: #fff2dc;
 $light-orange: #ffb298;
 $orange: #fb5607;
 $dark-orange: #d31107;
 $blue: #1f2b67;
+$gray: #555555;
 
 body {
-  font-family: "Be Vietnam", sans-serif;
   background-color: $white;
+  font-family: sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+
+a {
   color: black;
+  text-decoration: none;
+  border-bottom: 1px solid $orange;
+}
+// a:visited {
+//   color: #555555;
+// }
+a:active {
+  color: red;
 }
 
-.row {
-  padding: 2rem;
-}
-
-@media (min-width: 768px) {
-  .container,
-  .container-md,
-  .container-sm {
-    max-width: 720px;
-  }
-}
-
-@media (max-width: 420px) {
-  .container,
-  .container-md,
-  .container-sm {
-    padding: 0;
-  }
-  .row {
-    padding: 1rem;
-  }
-  .footer {
-    padding: 1rem;
-  }
-}
-
-.title-row {
-  background-color: $orange;
-  a {
-    color: black;
-  }
-}
-
-.title-title {
-  font-size: xx-large;
-}
-
-.footer {
-  position: absolute;
-  bottom: 0;
-
-  text-align: center;
-  margin: auto;
-  // width: 100%;
-  height: 60px; /* Set the fixed height of the footer here */
-  line-height: 60px; /* Vertically center the text there */
-  // background-color: $light-orange;
-  color: black;
-}
+// @media (prefers-color-scheme: dark) {
+//   html { background: #1c1c1c; color: white; }
+//   a { color: #6bf; }
+//   a:visited { color: #f8f; }
+//   a:active { color: red; }
+// }

@@ -4,16 +4,34 @@
 
 <body>
   <div class="container">
-    <div class="row title-row">
+    <div class="row">
       <div class="col">
-        <span class="title-title"> <strong>{{ site.title }}</strong></span>
-        <a href="https://twitter.com/{{ site.username }}">
-          <i class="fa fa-twitter" style="font-size:2rem; color: #d31107"></i></a>
-
-        <br />
-        interested in software development and data science
-        <br />
-        📨 {{ site.email }}
+        <h1>{{ site.title }}</h1>
+        <p>
+          a developer who is interested in data science
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h2>Contact</h2>
+        <table>
+          <tr>
+            <td>📨</td>
+            <td>email</td>
+            <td><a href="mailto:{{ site.email }}">{{ site.email }}</a></td>
+          </tr>
+          <tr>
+            <td>🐦</td>
+            <td>twitter</td>
+            <td><a href="https://twitter.com/{{ site.username }}">anshulxyz</a></td>
+          </tr>
+          <tr>
+            <td>🐙</td>
+            <td>github</td>
+            <td><a href="https://github.com/{{ site.username }}">anshulxyz</a></td>
+          </tr>
+        </table>
       </div>
     </div>
     {% include footer.html %}
