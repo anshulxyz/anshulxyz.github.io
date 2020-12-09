@@ -9,3 +9,8 @@ username: anshulxyz
 # Build settings
 plugins:
   - jekyll-feed
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM

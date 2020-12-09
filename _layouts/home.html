@@ -6,34 +6,33 @@
   <div class="container">
     <div class="row">
       <div class="col">
-        <h1>{{ site.title }}</h1>
+        <h2 class="title">Hi, I'm <strong>{{ site.title }}</strong>.</h2>
         <p>
-          a developer who is interested in data science
+          I work as a software developer focusing on Back-end.
+          I'm studying full-stack at Udacity.
+          I'm interested in bootstrap businesses and data science. <br/>
+          You can find me on <a href="https://twitter.com/{{ site.username }}">twitter</a>
+          and <a href="https://github.com/{{ site.username }}">github</a>.
+        </p>
+        <p>
+          Or email me: anshulchauhan@outlook.com
         </p>
       </div>
     </div>
     <div class="row">
-      <div class="col">
-        <h2>Contact</h2>
-        <table>
-          <tr>
-            <td>📨</td>
-            <td>email</td>
-            <td><a href="mailto:{{ site.email }}">{{ site.email }}</a></td>
-          </tr>
-          <tr>
-            <td>🐦</td>
-            <td>twitter</td>
-            <td><a href="https://twitter.com/{{ site.username }}">anshulxyz</a></td>
-          </tr>
-          <tr>
-            <td>🐙</td>
-            <td>github</td>
-            <td><a href="https://github.com/{{ site.username }}">anshulxyz</a></td>
-          </tr>
-        </table>
-      </div>
+      {% assign number_of_posts = site.posts | size %}
+      {% if number_of_posts > 0 %}
+      <h3><strong>Posts</strong></h3>
+      {% endif %}
+      <ul>
+        {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
     </div>
+
     {% include footer.html %}
   </div>
 </body>
