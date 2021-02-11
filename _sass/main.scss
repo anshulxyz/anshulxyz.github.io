@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&display=swap');
+@import "syntax";
+
 $cream: #fff2dc;
 $light-orange: #ffb298;
 $orange: #fb5607;
@@ -6,41 +9,50 @@ $blue: #1f2b67;
 $font-color: #495057;
 
 body {
-  background-color: #f2f2f2;
-  font-family: -apple-system, BlinkMacSystemFont, "akzidenz-grotesk_pro_regular",
-    sans-serif;
+  background-color: #ffffff;
+  font-family: 'Domine', serif;
+  font-weight: 400;
   max-width: 600px;
   margin: 0 auto;
   padding: 0 10px 0 10px;
+  font-size: 14px;
 }
 
 .title {
-  font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  // font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 300;
 }
 
 a {
   color: black;
   text-decoration: none;
-  border-bottom: 1px solid $light-orange;
+  border-bottom: 1px solid $orange;
 }
 
 a:hover {
   color: $dark-orange;
 }
+
 a:active {
   color: $orange;
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 1.5rem;
 }
 
 blockquote {
-  margin: 1rem 1.5rem 1rem .5rem;
-  border-left: 0.4rem solid lightgrey;
+  margin: 1rem 1.5rem 1rem 0.5rem;
+  border-left: 0.4rem solid lightgray;
   p {
     margin-left: 0.5rem;
     color: dimgrey;
   }
+}
+
+.footnotes {
+  font-size: small;
+  line-height: 0.4rem;
 }
