@@ -48,8 +48,14 @@ Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin con
 ```
 
 ```py
-def hello(name: str):
-  return ("hello, "+name)
+class Rectangle(object):
+    def __init__(self, width, height):
+        self._width = width
+        self._height = height
+
+r = Rectangle(5, 6)
+# direct access of protected member
+print("Width: {:d}".format(r._width))
 ```
 
 {% highlight ruby linenos %}
@@ -101,6 +107,15 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 2. Second item, dawg
 3. Third item, what what?!
 4. Fourth item, fo sheezy my neezy
+
+### Math
+
+
+inline: $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
+display mode (centered):
+
+$$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
+
 
 ## Headings are cool! (h2)
 
