@@ -6,6 +6,7 @@ author:
   - Bart Simpson
   - Nelson Mandela Muntz
 meta: "Springfield"
+katex: True
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
@@ -111,7 +112,7 @@ In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla e
 ### Math
 
 
-inline: $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
+inline: $$f(x) \mathbb{N} = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
 display mode (centered):
 
 $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
