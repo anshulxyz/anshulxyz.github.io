@@ -1,11 +1,11 @@
-@import "syntax";
+@import "pastie";
 
 $cream: #fff2dc;
 $light-orange: #ffb298;
 $orange: #fb5607;
-$dark-orange: #d31107;
+$dark-orange: #c44736;
 $blue: #1f2b67;
-$font-color: #495057;
+// $font-color: #495057;
 
 body {
   background-color: #ffffff;
@@ -21,7 +21,7 @@ body {
 }
 
 .highlight {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .title {
@@ -31,13 +31,12 @@ body {
 a {
   color: $dark-orange;
   text-decoration: none;
-  // border-bottom: 1px solid $light-orange;
+  // border-bottom: 1px solid lightgrey;
 }
-
 a:hover {
-  color: $orange;
+  color: $dark-orange;
+  text-decoration: underline;
 }
-
 a:active {
   color: $orange;
 }
@@ -49,9 +48,7 @@ ol {
 
 blockquote {
   padding: 1rem 0.5rem 1rem 0.5rem;
-  background: #f7f1ef;
   margin: auto;
-  margin-left: 1rem;
   border-left: 0.15rem solid $light-orange;
 }
 

@@ -9,14 +9,10 @@ username: anshulxyz
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll_inline_highlight
 
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
 
-collections:
-  code:
-    output: true
-  essay:
-    output: true
