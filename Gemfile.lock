@@ -39,7 +39,7 @@ GEM
       listen (~> 3.0)
     jekyll_inline_highlight (3.0.1)
       jekyll (>= 3.0, < 5.0)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
