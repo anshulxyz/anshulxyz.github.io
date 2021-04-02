@@ -1,4 +1,4 @@
-@import "pastie";
+@import "syntax";
 
 $cream: #fff2dc;
 $light-orange: #ffb298;
@@ -55,4 +55,25 @@ blockquote {
 .footnotes {
   font-size: small;
   line-height: 0.4rem;
+}
+
+// navbar
+
+.topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav h2 {
+  float: left;
+  text-align: center;
+  padding: 14px 0px 14px 0px;
+  text-decoration: none;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  padding: 0px;
+
 }

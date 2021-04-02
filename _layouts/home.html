@@ -3,33 +3,23 @@
 {% include head.html %}
 
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h2 class="title">Hi, I'm <strong>Anshul</strong></h2>
-        <p style="color: dimgrey;">
-          Talk to me about programming, hiking, food<br/>
-          You can find me on <a href="https://twitter.com/intent/follow?screen_name={{ site.username }}">twitter</a>
-          and <a href="https://github.com/{{ site.username }}">github</a>.
-        </p>
-      </div>
-    </div>
-    <div class="row">
-      {% assign number_of_posts = site.posts | size %}
-      {% if number_of_posts > 0 %}
-      <h3><strong>Posts</strong></h3>
-      {% endif %}
-      <ul>
-        {% for post in site.posts %}
-        <li>
-          <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
 
-    {% include footer.html %}
+  
+  <div class="topnav">    
+    <h2 class="title">Hi, I'm <strong>Anshul</strong></h2>
+    <div class="topnav-right">
+      <h2 class="title">
+        <a href="https://twitter.com/intent/follow?screen_name={{ site.username }}">twitter</a>
+      </h2>
+    </div>
   </div>
+  <div>
+    <p>
+      I like playing football, hiking mountains and programming
+    </p>
+  </div>
+
+  {% include footer.html %}
 </body>
 
 </html>
