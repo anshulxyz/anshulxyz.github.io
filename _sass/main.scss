@@ -14,10 +14,10 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-weight: 400;
-  max-width: 600px;
+  max-width: 640px;
   margin: 0 auto;
   padding: 0 10px 0 10px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .highlight {
@@ -50,6 +50,7 @@ blockquote {
   padding: 1rem 0.5rem 1rem 0.5rem;
   margin: auto;
   border-left: 0.15rem solid $light-orange;
+  color: dimgray;
 }
 
 .footnotes {
@@ -75,5 +76,24 @@ blockquote {
 .topnav-right {
   float: right;
   padding: 0px;
+}
 
+// post top-nav
+
+.post-topnav {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.post-topnav p {
+  float: left;
+  text-align: center;
+  padding: 4px 0px 8px 0px;
+  text-decoration: none;
+}
+
+/* Right-aligned section inside the top navigation */
+.post-topnav-right {
+  float: right;
+  padding: 0px;
 }

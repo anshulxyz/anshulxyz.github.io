@@ -4,19 +4,29 @@
 
 <body>
 
-  
-  <div class="topnav">    
+
+  <div class="topnav">
     <h2 class="title">Hi, I'm <strong>Anshul</strong></h2>
     <div class="topnav-right">
-      <h2 class="title">
-        <a href="https://twitter.com/intent/follow?screen_name={{ site.username }}">twitter</a>
-      </h2>
+      <!-- <h2 class="title">
+        <a href="https://twitter.com/{{ site.username }}">twitter</a>
+      </h2> -->
     </div>
   </div>
   <div>
     <p>
-      I like playing football, hiking mountains and programming
+      I like playing football, hiking mountains and programming.
+      Find me on <a href="https://twitter.com/{{ site.username }}">twitter</a>.
     </p>
+  </div>
+  <div>
+    <ul>
+      {% for post in site.posts %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 
   {% include footer.html %}

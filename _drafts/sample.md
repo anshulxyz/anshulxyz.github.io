@@ -39,25 +39,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eg
 
 Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin convallis mi ac felis pharetra aliquam. Curabitur dignissim accumsan rutrum.
 
-```html
-<html>
-  <head> </head>
-  <body>
-    <p>Hello, World!</p>
-  </body>
-</html>
+This is test of inline highlighting
+
+This is a test `from m import x` vs {% ihighlight python %} from random
+import random {% endihighlight %}
+
+```ruby
+def foo
+  puts 'foo'
+end
 ```
 
-```py
-class Rectangle(object):
-    def __init__(self, width, height):
-        self._width = width
-        self._height = height
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
 
-r = Rectangle(5, 6)
-# direct access of protected member
-print("Width: {:d}".format(r._width))
-```
 
 {% highlight ruby linenos %}
 def foo
@@ -141,6 +139,8 @@ Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet b
 | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit                  |
 | lorem ipsum dolor          | lorem ipsum                            | lorem                      | lorem ipsum                            |
 | lorem ipsum dolor          | lorem ipsum dolor sit                  | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur |
+
+<hr/>
 
 [^1]: Some footnote.
 [^2]: Other footnote.
