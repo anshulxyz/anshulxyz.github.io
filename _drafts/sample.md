@@ -31,7 +31,10 @@ Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspe
 
 Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.
 
-> This quote will _change_ your life. It will reveal the <i>secrets</i> of the universe, and all the wonders of humanity. Don't <em>misuse</em> it.
+> This quote will _change_ your life. Don't <em>misuse</em> it.
+
+{:.red}
+> Blockquote but red. This quote will _change_ your life. Don't <em>misuse</em> it.
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.
 
@@ -44,10 +47,11 @@ This is test of inline highlighting
 This is a test `from m import x` vs {% ihighlight python %} from random
 import random {% endihighlight %}
 
-```ruby
-def foo
-  puts 'foo'
-end
+```python
+def hello(name: str) -> str:
+  length = len(name)
+  return "hello" + name
+# this is a comment
 ```
 
 {% highlight ruby %}
