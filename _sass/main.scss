@@ -13,7 +13,7 @@ $yellow-light: #eaca96;
 $green-light: #a4beb2;
 $blue-light: #a8bed2;
 $purple-light: #abacca;
-$red-text: #b62c31;
+$red-text: #e94a45;
 $orange-text: #ef5602;
 $yellow-text: #c98000;
 $green-text: #006e82;
@@ -69,20 +69,11 @@ body {
 
 a {
   text-decoration: none;
-  // border-bottom: 1px solid $red;
-  background: linear-gradient(to right, royalblue, royalblue 50%, dodgerblue 50%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-size: 200% 100%;
-  background-position: 100%;
-  transition: background-position 275ms ease;
-
+  color: $red-text;
 }
 a:hover {
   // color: $yellow-text;
   text-decoration: none;
-  background-position: 0 100%;
 
 }
 a:active {

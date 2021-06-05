@@ -15,6 +15,6 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
-  footnote_backlink: "&#x2936;"
+  # footnote_backlink: "&#x2936;"
 
-permalink: /:categories/:name
+permalink: /:categories/:title
