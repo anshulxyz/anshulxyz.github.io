@@ -5,44 +5,17 @@
 <body>
   <div style="padding-top: 20%; margin-bottom: 2rem; width: 100%;"></div>
   <div>
-    Hi! I am Anshul Chauhan. <br/>
-    I am a backend developer.<br/>
-    This is my personal website.
-  </div>
-  <div style="margin-top: 3rem;">
-    <!-- contact -->
-    <hr style="margin-bottom: 2rem;" />
-    <b>Contact</b>
-    <table style="margin-top: 1rem;">
-      <tr>
-        <td>email</td>
-        <td>anshulchauhan@outlook.com</td>
-      </tr>
-      <tr>
-        <td>github</td>
-        <td><a href="https://github.com/anshulxyz">anshulxyz</a></td>
-      </tr>
-      <tr>
-        <td>twitter</td>
-        <td><a href="https://twitter.com/anshulxyz">@anshulxyz</a></td>
-      </tr>
-    </table>
+    <p>
+      Hi! I am Anshul Chauhan. <br />
+    </p>
   </div>
   <div>
-    <!-- projects -->
+    <ul>
+      <li><a href="mailto:anshulchauhan@outlook.com">email</a></li>
+      <li><a href="https://github.com/anshulxyz">github</a></li>
+      <li><a href="https://twitter.com/anshulxyz">twitter</a></li>
+    </ul>
   </div>
-  <!-- <div style="margin-top: 3rem;">
-    <hr style="margin-bottom: 1rem;" />
-    <b>Writing</b>
-    <table width="100%" style="margin-top: 1rem;">
-      {% for post in site.posts %}
-      <tr>
-        <td><a href="{{ post.url }}">{{ post.title }}</a></td>
-        <td align="right"><span class="muted">{{ post.date | date: "%b %Y"}}</span></td>
-      </tr>
-      {% endfor %}
-    </table>
-  </div> -->
   {% include footer.html %}
 </body>
 
