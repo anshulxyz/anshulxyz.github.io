@@ -4,3 +4,20 @@
 
 layout: home
 ---
+
+# Anshul Chauhan
+
+I work as a software craftsman
+
+anshulxyz on [github](https://github.com/anshulxyz) &amp; [twitter](https://twitter.com/anshulxyz)
+{: .menu}
+
+**Favourites**
+{: .menu-title}
+
+- [albums]({% link albums.md %})
+- [animes]({% link animes.md %})
+- [books]({% link books.md %})
+- [movies]({% link movies.md %})
+{: .menu}
+

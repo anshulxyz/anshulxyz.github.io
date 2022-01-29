@@ -1,27 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
 html {
   max-width: 70ch;
   padding: 3em 1em;
   margin: auto;
   line-height: 1.6;
-  font-size: calc(1em * 0.875);
+  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+  font-size: calc(1em * 0.7);
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4 {
   margin: 3em 0 1em;
-  border-bottom: 1px solid #1d1d1d;
+  border-bottom: 1px solid;
 }
 
 p,ul,ol {
   margin-bottom: 2em;
   color: #1d1d1d;
-  font-family: sans-serif;
 }
 
 a {
   text-decoration: none;
-  color: #0645ad;
+  color: blue;
   background: none;
 }
+
 
 a:hover, a:focus {
   text-decoration: underline;
@@ -29,4 +32,29 @@ a:hover, a:focus {
 
 hr {
   margin: 2rem 0rem;
+}
+
+
+code, pre {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: calc(1em * 0.87);
+}
+
+.footer {
+  padding-top: 3em;
+}
+
+.lineno {
+  user-select: none;
+}
+
+.menu {
+  padding: 0;
+  list-style-type: none;
+  line-height: 1.1em;
+  margin-top: 0.1em;
+}
+
+.menu-title { 
+  margin-bottom: 0;
 }

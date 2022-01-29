@@ -46,15 +46,40 @@ Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit. Proin con
 
 This is test of inline highlighting
 
-
-```python
+{% highlight python %}
+@decorator
 def hello(name: str) -> str:
   """this is a docstring"""
   length = len(name)
+  print("statement")
+  return "hello" + name
+# this is a comment
+{% endhighlight %}
+
+
+```python
+@decorator
+def hello(name: str) -> str:
+  """this is a docstring"""
+  length = len(name)
+  print("statement")
   return "hello" + name
 # this is a comment
 ```
 
+```rust
+fn main() {
+    // sorting an array of integers
+    let mut a = [1,3,2];
+    a.sort();
+    assert_eq!(a, [1,2,3]);
+    println!("{:?}", a);
+
+    // sorting an array of floats
+    let mut b = [1.2, 3.3, 2.2]
+    b.sort();
+}
+```
 
 {% highlight ruby linenos %}
 # ruby code with numbered lines
@@ -62,6 +87,7 @@ def foo
   puts 'foo'
 end
 {% endhighlight %}
+
 
 In arcu magna, aliquet vel pretium et, molestie et arcu. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris.
 
