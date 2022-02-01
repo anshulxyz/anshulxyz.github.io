@@ -7,6 +7,7 @@ html {
   line-height: 1.6;
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: calc(1em * 0.875);
+  background-color: floralwhite;
 }
 
 h1,h2,h3,h4 {
@@ -16,7 +17,7 @@ h1,h2,h3,h4 {
 
 p,ul,ol {
   margin-bottom: 2em;
-  color: #1d1d1d;
+  color: black;
 }
 
 a {
@@ -50,9 +51,13 @@ code, pre {
 
 .menu {
   padding: 0;
-  list-style-type: none;
-  line-height: 1.1em;
+  // list-style-type: none;
+  line-height: 1.2em;
   margin-top: 0.1em;
+}
+
+.menu li {
+  margin-left: 1rem;
 }
 
 .menu-title { 

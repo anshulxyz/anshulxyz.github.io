@@ -9,7 +9,11 @@ layout: home
 
 I work as a software craftsman
 
-anshulxyz on [github](https://github.com/anshulxyz) &amp; [twitter](https://twitter.com/anshulxyz)
+**Elsewhere**
+{: .menu-title}
+
+I go by anshulxyz on [github](https://github.com/anshulxyz) &amp; [twitter](https://twitter.com/anshulxyz) \\
+Love email, say hi: anshulchauhan@outlook.com
 {: .menu}
 
 **Favourites**
@@ -21,3 +25,4 @@ anshulxyz on [github](https://github.com/anshulxyz) &amp; [twitter](https://twit
 - [movies]({% link movies.md %})
 {: .menu}
 
+_(more stuff coming soon)_
