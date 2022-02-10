@@ -9,10 +9,11 @@ username: anshulxyz
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
 
-permalink: /:title
+permalink: /:categories/:title

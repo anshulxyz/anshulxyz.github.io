@@ -7,7 +7,8 @@ html {
   line-height: 1.6;
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: calc(1em * 0.875);
-  background-color: floralwhite;
+  background-color: #E8FFFF;
+  color: #213E3B;
 }
 
 h1,h2,h3,h4 {
@@ -17,7 +18,6 @@ h1,h2,h3,h4 {
 
 p,ul,ol {
   margin-bottom: 2em;
-  color: black;
 }
 
 a {
@@ -62,4 +62,19 @@ code, pre {
 
 .menu-title { 
   margin-bottom: 0;
+}
+
+blockquote {
+  margin-left: 0;
+  padding-left: 1rem;
+  border-left: 0.5rem solid #A6F6F1;
+  p {
+    color: #41AEA9;
+  }
+}
+
+.footnotes {
+  p {
+    margin: 0
+  }
 }
