@@ -38,11 +38,7 @@ I work as a software craftsman
   {% for post in site.posts %}
     {% if post.categories contains "blog" %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> &emsp; <span class="date">
-            {{ post.date | date: "%B" }}
-            {{ post.date | date: "%d" | plus:'0' }}, 
-            {{ post.date | date: "%Y" }}
-          </span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
     {% endif %}
   {% endfor %}
