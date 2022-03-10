@@ -16,4 +16,4 @@ highlighter: rouge
 kramdown:
   input: GFM
 
-permalink: /:categories/:title
+permalink: /:title
