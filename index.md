@@ -6,6 +6,7 @@ layout: home
 redirect_from:
   - /project/
   - /junk/
+  - /blog/
 ---
 
 # Anshul Chauhan
@@ -16,17 +17,30 @@ I work as a software craftsman
 **Favourites**
 {: .menu-title}
 
-- [albums]({% link albums.md %})
-- [animes]({% link animes.md %})
-- [books]({% link books.md %})
-- [movies]({% link movies.md %})
+- [Albums]({% link albums.md %})
+- [Animes]({% link animes.md %})
+- [Books]({% link books.md %})
+- [Movies]({% link movies.md %})
 {: .menu}
 
 **Elsewhere**
 {: .menu-title}
 
-- [github](https://github.com/anshulxyz)
-- [twitter](https://twitter.com/anshulxyz)
+- [GitHub](https://github.com/anshulxyz)
+- [Twitter](https://twitter.com/anshulxyz)
 {: .menu}
 
-_(more stuff coming soon)_
+
+**Blogs**
+{: .menu-title}
+
+<ul>
+  {% for post in site.posts %}
+    {% if post.categories contains "blog" %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+{: .menu}
