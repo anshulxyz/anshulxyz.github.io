@@ -28,6 +28,7 @@ I work as a software craftsman
 
 - [GitHub](https://github.com/anshulxyz)
 - [Twitter](https://twitter.com/anshulxyz)
+- [YouTube](https://www.youtube.com/channel/UCnft0UN8a6uvyYtEL0H2E-g)
 {: .menu}
 
 
