@@ -19,7 +19,6 @@ I work as a software craftsman
 
 - [Albums]({% link albums.md %})
 - [Animes]({% link animes.md %})
-- [Books]({% link books.md %})
 - [Movies]({% link movies.md %})
 {: .menu}
 

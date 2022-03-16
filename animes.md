@@ -9,4 +9,5 @@ layout: page
 - Rankings of Kings
 - Made in Abyss
 - Samurai Champloo
+- Odd Taxi
 
