@@ -31,18 +31,14 @@ I work as a software craftsman
 {: .menu}
 
 
-**Blogs**
+**Writings**
 {: .menu-title}
 
 <ul>
   {% for post in site.posts %}
     {% if post.categories contains "blog" %}
       <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> &emsp; <span class="muted">
-            {{ post.date | date: "%B" }}
-            {{ post.date | date: "%d" | plus:'0' }}, 
-            {{ post.date | date: "%Y" }}
-          </span>
+        <a href="{{ post.url }}">{{ post.title }}</a> &emsp;
       </li>
     {% endif %}
   {% endfor %}
