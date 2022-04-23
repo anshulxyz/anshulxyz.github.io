@@ -16,6 +16,8 @@ Software craftsman. More [about me]({% link about.md %}).
 **Projects**
 {: .menu-title}
 
+_coming soon_
+
 <ul>
   {% for post in site.posts %}
     {% if post.categories contains "project" %}
