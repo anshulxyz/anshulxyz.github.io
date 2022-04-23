@@ -11,25 +11,21 @@ redirect_from:
 
 # Anshul Chauhan
 
-I work as a software craftsman
+Software craftsman. More [about me]({% link about.md %}).
 
-
-**Favourites**
+**Projects**
 {: .menu-title}
 
-- [Albums]({% link albums.md %})
-- [Animes]({% link animes.md %})
-- [Movies]({% link movies.md %})
+<ul>
+  {% for post in site.posts %}
+    {% if post.categories contains "project" %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> &emsp;
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
 {: .menu}
-
-**Elsewhere**
-{: .menu-title}
-
-- [GitHub](https://github.com/anshulxyz)
-- [Twitter](https://twitter.com/anshulxyz)
-- [YouTube](https://www.youtube.com/channel/UCnft0UN8a6uvyYtEL0H2E-g)
-{: .menu}
-
 
 **Writings**
 {: .menu-title}

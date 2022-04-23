@@ -6,7 +6,7 @@ layout: page
 
 - Fullmetal Alchemist: Brotherhood
 - Welcome to the N.H.K.
-- Rankings of Kings
+- Ranking of Kings
 - Made in Abyss
 - Samurai Champloo
 - Odd Taxi
