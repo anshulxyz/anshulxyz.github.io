@@ -4,14 +4,14 @@ layout: page
 
 # About Me
 
-Hi! I am Anshul Chauhan, I'm a software craftsman from Pune, India.
+Hi! I am Anshul Chauhan, a software craftsman from Pune, India.
 
-I primarilty code in Python, but I have recently been working with Java and
-Kotlin for projects at work. I have also been learning Rust, and trying to build
+I primarily code in Python, but I have recently been working with Java and
+Kotlin for projects at work. I have also been learning Rust and trying to build
 my side projects in it.
 
-Beyonf work I am interested in cliff-jumping, fish-curry, playing football and
-trekking.
+Beyond work, I am interested in cliff-jumping, fish-curry, playing football,
+and trekking.
 
 **Contact**
 {: .menu-title}
