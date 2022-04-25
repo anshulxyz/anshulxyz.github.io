@@ -13,6 +13,8 @@ my side projects in it.
 Beyond work, I am interested in cliff-jumping, fish-curry, playing football,
 and trekking.
 
+What I am doing [now]({% link now.md %}).
+
 **Contact**
 {: .menu-title}
 
@@ -31,4 +33,5 @@ You can also find me on [GitHub](https://github.com/anshulxyz), [Twitter](https:
 - [Albums]({% link albums.md %})
 - [Animes]({% link animes.md %})
 - [Movies]({% link movies.md %})
+- [Books]({% link books.md %})
 {: .menu}
