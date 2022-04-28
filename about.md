@@ -6,20 +6,14 @@ layout: page
 
 Hi! I am Anshul Chauhan, a software craftsman from Pune, India.
 
-I primarily code in Python, but I have recently been working with Java and
-Kotlin for projects at work. I have also been learning Rust and trying to build
-my side projects in it.
+I primarily code in Python, but I have recently been working with Kotlin for
+projects at work. Drop me a [mail](mailto:anshulchauhan@outlook.com) for any
+new opportunities.
 
 Beyond work, I am interested in cliff-jumping, fish-curry, playing football,
 and trekking.
 
 What I am doing [now]({% link now.md %}).
-
-**Contact**
-{: .menu-title}
-
-[anshulchauhan@outlook.com](mailto:anshulchauhan@outlook.com)
-{: .menu}
 
 **Elsewhere**
 {: .menu-title}
