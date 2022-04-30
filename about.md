@@ -13,8 +13,6 @@ new opportunities.
 Beyond work, I am interested in cliff-jumping, fish-curry, playing football,
 and trekking.
 
-What I am doing [now]({% link now.md %}).
-
 **Elsewhere**
 {: .menu-title}
 

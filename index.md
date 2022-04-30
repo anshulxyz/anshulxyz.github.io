@@ -11,7 +11,8 @@ redirect_from:
 
 # Anshul Chauhan
 
-Software craftsman. More [about me]({% link about.md %}).
+Software craftsman. More [about me]({% link about.md %}). What I am doing
+[now]({% link now.md %}).
 
 **Projects**
 {: .menu-title}
