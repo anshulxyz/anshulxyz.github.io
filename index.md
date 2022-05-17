@@ -14,32 +14,17 @@ redirect_from:
 Software craftsman. More [about me]({% link about.md %}). What I am doing
 [now]({% link now.md %}).
 
-**Projects**
+## Projects
+
+**BodhiBot**, A Discord bot for referencing Buddhist verses and texts. Written in **Rust**, using Serenity for handling Discord API and SeaORM as ORM for SQLite. [Demo](https://youtu.be/DYL19SGOmVw). [GitHub](https://github.com/anshulxyz/bodhi-bot-rs).
+{:.project}
+
 {: .menu-title}
+## Writings
 
-_coming soon_
+{% for post in site.posts %}
 
-<ul>
-  {% for post in site.posts %}
-    {% if post.categories contains "project" %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> &emsp;
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
+- [{{ post.title }}]({{ post.url }})
 {: .menu}
 
-**Writings**
-{: .menu-title}
-
-<ul>
-  {% for post in site.posts %}
-    {% if post.categories contains "blog" %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> &emsp;
-      </li>
-    {% endif %}
-  {% endfor %}
-</ul>
-{: .menu}
+{% endfor %}
