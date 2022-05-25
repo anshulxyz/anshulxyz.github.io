@@ -14,7 +14,10 @@ Last modified: 2022-05-25
 - Learning Rust by doing rustlings execises, and making
   [videos](https://www.youtube.com/playlist?list=PLn-XEhD3IYYbc36oJdrGlJzVsG2szX6OE){:target="_blank"}
   about it.
-- Learning skateboarding 🛹
+- Learning
+  [skateboarding](https://twitter.com/anshulxyz/status/1529485064773705731?s=20&t=wI6QWMB08x_VIezlZq-B9g){:target="_blank"}
+ 🛹
 - Playing football on weekends
 - Learning JavaScript, to bring a Chrome extension idea into existence
 - Studying [Precalculus](https://openstax.org/details/books/precalculus-2e){:target="_blank"} from OpenStax
+
