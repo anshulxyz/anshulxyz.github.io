@@ -1,3 +1,5 @@
+@import url("https://unpkg.com/reasonable-colors@0.4.0/reasonable-colors.css");
+
 @font-face {
   font-family: JetBrains Mono;
   src: url("../fonts/JetBrainsMono-Regular.ttf");
@@ -10,8 +12,8 @@ html {
   line-height: 1.6;
   font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   font-size: calc(1em * 0.9);
-  background-color: #E8FFFF;
-  color: #213E3B;
+  background-color: var(--color-teal-1);
+  color: var(--color-teal-5);
 }
 
 h1 {
@@ -29,7 +31,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #1672F9;
+  color: var(--color-indigo-4);
   background: none;
 }
 
@@ -67,9 +69,9 @@ footer {
 blockquote {
   margin-left: 0;
   padding-left: 1rem;
-  border-left: 0.5rem solid #98e2dd;
+  border-left: 0.5rem solid var(--color-teal-3);
   p {
-    color: #249993;
+    color: var(--color-teal-3);
   }
 }
 
@@ -80,10 +82,7 @@ blockquote {
 }
 
 .muted {
-  color: #a4d3d0;
-  a {
-    color: #a4d3d0;
-  }
+  color: var(--color-teal-3);
 }
 
 ul {
@@ -103,6 +102,6 @@ ol ol {
 }
 
 .project {
-  border: 1px solid #249993;
+  border: 1px solid var(--color-teal-3);
   padding: 1rem;
 }

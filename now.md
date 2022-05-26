@@ -5,7 +5,7 @@ layout: page
 # What I'm doing now
 
 {:.muted}
-Last modified: 2022-05-25
+_Last modified: 2022-05-25_
 
 - Working as a software developer.
 - Doing
@@ -20,4 +20,3 @@ Last modified: 2022-05-25
 - Playing football on weekends
 - Learning JavaScript, to bring a Chrome extension idea into existence
 - Studying [Precalculus](https://openstax.org/details/books/precalculus-2e){:target="_blank"} from OpenStax
-
