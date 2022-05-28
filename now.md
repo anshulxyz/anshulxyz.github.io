@@ -16,7 +16,5 @@ _Last modified: 2022-05-25_
   about it.
 - Learning
   [skateboarding](https://twitter.com/anshulxyz/status/1529485064773705731?s=20&t=wI6QWMB08x_VIezlZq-B9g){:target="_blank"}
- 🛹
 - Playing football on weekends
-- Learning JavaScript, to bring a Chrome extension idea into existence
 - Studying [Precalculus](https://openstax.org/details/books/precalculus-2e){:target="_blank"} from OpenStax
