@@ -1,19 +1,14 @@
 @import url("https://unpkg.com/reasonable-colors@0.4.0/reasonable-colors.css");
 
-@font-face {
-  font-family: JetBrains Mono;
-  src: url("../fonts/JetBrainsMono-Regular.ttf");
-}
-
 html {
   max-width: 60ch;
   padding: 3em 1em;
   margin: auto;
   line-height: 1.6;
-  font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-  font-size: calc(1em * 0.9);
-  background-color: var(--color-teal-1);
-  color: var(--color-teal-5);
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-size: calc(1em * 0.95);
+  background-color: var(--color-gray-1);
+  color: var(--color-gray-5);
 }
 
 h1 {
@@ -21,8 +16,12 @@ h1 {
   border-bottom: 1px solid;
 }
 
-h2,h3,h4 {
+h2,h3 {
   margin: 2em 0 1em;
+}
+
+h4 {
+  margin: 1em 0 1em;
 }
 
 p {
@@ -46,7 +45,7 @@ hr {
 
 
 code, pre {
-  font-family: 'JetBrains Mono', monospace;
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
   font-size: calc(1em * 0.87);
 }
 
@@ -69,9 +68,9 @@ footer {
 blockquote {
   margin-left: 0;
   padding-left: 1rem;
-  border-left: 0.5rem solid var(--color-teal-3);
+  border-left: 0.1rem solid var(--color-teal-3);
   p {
-    color: var(--color-teal-3);
+    color: var(--color-teal-4);
   }
 }
 
@@ -82,7 +81,7 @@ blockquote {
 }
 
 .muted {
-  color: var(--color-teal-3);
+  color: var(--color-gray-3);
 }
 
 ul {
@@ -102,6 +101,6 @@ ol ol {
 }
 
 .project {
-  border: 1px solid var(--color-teal-3);
+  border: 1px solid var(--color-gray-2);
   padding: 1rem;
 }
