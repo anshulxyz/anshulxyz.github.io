@@ -5,15 +5,14 @@ html {
   padding: 3em 1em;
   margin: auto;
   line-height: 1.6;
-  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   font-size: calc(1em * 0.95);
-  background-color: var(--color-gray-1);
+  background-color: white;
   color: var(--color-gray-5);
 }
 
 h1 {
   margin: 3em 0 1em;
-  border-bottom: 1px solid;
 }
 
 h2,h3 {
@@ -101,6 +100,13 @@ ol ol {
 }
 
 .project {
-  border: 1px solid var(--color-gray-2);
+  border: 1px dashed var(--color-gray-3);
   padding: 1rem;
+}
+
+.gradient-name {
+  background: #FD4D00;
+  background: linear-gradient(to bottom right, #FD4D00 25%, #DB0072 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
