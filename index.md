@@ -11,10 +11,10 @@ redirect_from:
 
 # Hi 👋 I am <span class="gradient-name">Anshul Chauhan</span>. <br/> A software craftsman.
 
-What I am doing [now]({% link now.md %}).
+<!--What I am doing [now]({% link now.md %}).-->
 
 <!--github &rarr; [anshulxyz](https://github.com/anshulxyz){:target="_blank"} <br/>-->
-<!--email &rarr; [anshulchauhan@outlook.com](mailto:anshulchauhan@outlook.com){:target="_blank"} <br/>-->
+You can email me at [anshulchauhan@outlook.com](mailto:anshulchauhan@outlook.com){:target="_blank"}
 
 ## Side Projects
 
