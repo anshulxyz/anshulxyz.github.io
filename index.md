@@ -9,21 +9,24 @@ redirect_from:
   - /blog/
 ---
 
-# Hi 👋 I am <span class="gradient-name">Anshul Chauhan</span>. <br/> A software craftsman.
+# <span class="gradient-name">Anshul Chauhan</span>
+
+<!--Backend software engineer.-->
+<!--More [about me]({% link about.md %}).-->
 
 <!--What I am doing [now]({% link now.md %}).-->
 
-<!--github &rarr; [anshulxyz](https://github.com/anshulxyz){:target="_blank"} <br/>-->
-You can email me at [anshulchauhan@outlook.com](mailto:anshulchauhan@outlook.com){:target="_blank"}
+[anshulchauhan@outlook.com](mailto:anshulchauhan@outlook.com){:target="_blank"}
+&mdash; [github](https://github.com/anshulxyz){:target="_blank"}
+&mdash; [twitter](https://twitter.com/anshulxyz){:target="_blank"} <br/>
 
-## Side Projects
+## Selected Projects
 
 **BodhiBot**, A Discord bot for referencing Buddhist verses and texts. Written
-in **Rust**, using Serenity for handling Discord API and SeaORM as ORM for
-SQLite. [Demo](https://youtu.be/DYL19SGOmVw){:target="_blank"}.
-[GitHub](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}.
-{:.project}
+in Rust, using Serenity for handling Discord API and SeaORM as ORM for
+SQLite. [Demo video](https://youtu.be/DYL19SGOmVw){:target="_blank"}.
+<!-- [GitHub](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}. -->
 
-## Writings
+## Writing
 
-- [Goals for 2022]({% post_url 2022-03-10-goals2022 %})
+[Goals for 2022]({% post_url 2022-03-10-goals2022 %})
