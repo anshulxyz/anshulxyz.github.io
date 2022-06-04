@@ -11,8 +11,7 @@ redirect_from:
 
 # <span class="gradient-name">Anshul Chauhan</span>
 
-<!--Backend software engineer.-->
-<!--More [about me]({% link about.md %}).-->
+Backend software engineer.
 
 <!--What I am doing [now]({% link now.md %}).-->
 
@@ -24,8 +23,9 @@ redirect_from:
 
 **BodhiBot**, A Discord bot for referencing Buddhist verses and texts. Written
 in Rust, using Serenity for handling Discord API and SeaORM as ORM for
-SQLite. [Demo video](https://youtu.be/DYL19SGOmVw){:target="_blank"}.
-<!-- [GitHub](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}. -->
+SQLite. <br/>
+[Demo video](https://youtu.be/DYL19SGOmVw){:target="_blank"} &mdash;
+[GitHub Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}
 
 ## Writing
 
