@@ -22,7 +22,7 @@ Backend software engineer.
 ## Selected Projects
 
 **BodhiBot**, A Discord bot for referencing Buddhist verses and texts. Written
-in Rust, using Serenity for handling Discord API and SeaORM as ORM for
+in <span style="color: var(--color-orange-4)">Rust</span>, using Serenity for handling Discord API and SeaORM as ORM for
 SQLite. <br/>
 [Demo video](https://youtu.be/DYL19SGOmVw){:target="_blank"} &mdash;
 [GitHub Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}
