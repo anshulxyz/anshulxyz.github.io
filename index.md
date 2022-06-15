@@ -19,13 +19,10 @@ Backend software engineer.
 &mdash; [github](https://github.com/anshulxyz){:target="_blank"}
 &mdash; [twitter](https://twitter.com/anshulxyz){:target="_blank"} <br/>
 
-## Selected Projects
+## Projects
 
-**BodhiBot**, A Discord bot for referencing Buddhist verses and texts. Written
-in <span style="color: var(--color-orange-4)">Rust</span>, using Serenity for handling Discord API and SeaORM as ORM for
-SQLite. <br/>
-[Demo video](https://youtu.be/DYL19SGOmVw){:target="_blank"} &mdash;
-[GitHub Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}
+**BodhiBot**, A Discord bot for referencing Buddhist scriptures. <br/>
+Tech: <span style="color: var(--color-orange-3)">Rust</span>, SQLite. [Demo video](https://youtu.be/DYL19SGOmVw){:target="_blank"}. [GitHub Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}
 
 ## Writing
 
