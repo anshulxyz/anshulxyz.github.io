@@ -9,7 +9,7 @@ redirect_from:
   - /blog/
 ---
 
-# <span class="gradient-name">Anshul Chauhan</span>
+# Anshul Chauhan
 
 Backend software engineer.
 
