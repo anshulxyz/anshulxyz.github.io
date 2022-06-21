@@ -10,4 +10,5 @@ layout: page
 - Made in Abyss
 - Samurai Champloo
 - Odd Taxi
+- Shigurui
 
