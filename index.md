@@ -21,8 +21,10 @@ Backend software engineer.
 
 ## Projects
 
-**BodhiBot**, A Discord bot for referencing Buddhist scriptures. <br/>
-Tech: <span style="color: var(--color-orange-3)">Rust</span>, SQLite. [Demo video](https://youtu.be/DYL19SGOmVw){:target="_blank"}. [GitHub Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}
+**BodhiBot**, A Discord bot written in Rust, for referencing Buddhist
+scriptures. Fetching data from SQLite using SeaORM. [Demo
+video](https://youtu.be/DYL19SGOmVw){:target="_blank"}. [GitHub
+Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}.
 
 ## Writing
 

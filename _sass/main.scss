@@ -7,11 +7,12 @@ html {
   line-height: 1.6;
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   font-size: calc(1em * 0.95);
-  background-color: black;
-  color: var(--color-gray-2);
+  background-color: ghostwhite;
+  color: var(--color-gray-6);
 }
 
 h1 {
+  font-size: 230%;
   margin: 3em 0 1em;
 }
 
