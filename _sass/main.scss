@@ -1,37 +1,42 @@
 @use "colors.scss" as *;
 
+$sans-serif: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui,
+helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+
+$serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid
+Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe
+UI Symbol;
+
 html {
   max-width: 60ch;
   padding: 3em 1em;
   margin: auto;
   line-height: 1.6;
-  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  font-family: $sans-serif;
   font-size: calc(1em * 0.95);
-  background-color: darken($color-gray-6, 2%);
-  color: $color-gray-1;
+  background-color: $color-gray-1;
+  color: $color-gray-6;
 }
 
-h1 {
-  font-size: 230%;
-  margin: 3em 0 1em;
-}
-
+h1,
 h2,
 h3 {
   margin: 2em 0 1em;
 }
+
+
 
 h4 {
   margin: 1em 0 1em;
 }
 
 p {
-  margin-bottom: 2em;
+  margin-top: 1em;
 }
 
 a {
   text-decoration: none;
-  color: lighten($color-indigo-3, 5%);
+  color: lighten($color-indigo-3, 0%);
   background: none;
 }
 
@@ -71,21 +76,18 @@ footer {
 blockquote {
   margin-left: 0;
   padding-left: 1rem;
-  border-left: 0.1rem solid $color-rose-3;
-
-  p {
-    color: $color-rose-2;
-  }
+  border-left: 0.3rem solid $color-gray-3;
+  //color: $color-gray-3;
 }
 
 .footnotes {
-  p {
-    margin: 0
-  }
+  margin: 0;
+  font-size: calc(1em * 0.85);
+  color: $color-gray-3;
 }
 
 .muted {
-  color: $color-gray-3;
+  color: lighten($color-gray-3, 15%);
 }
 
 ul {
@@ -104,7 +106,6 @@ ol ol {
   padding-left: 1.3rem;
 }
 
-pre.highlight {
-  // border: 0.5rem solid red;
-  background: black;
+pre.highlight,code.highlight {
+  //background: darken($color-gray-6, 5%);
 }
