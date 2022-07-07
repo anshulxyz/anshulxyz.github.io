@@ -12,7 +12,7 @@ plugins:
   - jekyll-redirect-from
 
 markdown: kramdown
-highlighter: rouge
+# highlighter: rouge
 kramdown:
   input: GFM
 

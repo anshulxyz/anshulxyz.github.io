@@ -14,20 +14,14 @@ html {
   line-height: 1.6;
   font-family: $sans-serif;
   font-size: calc(1em * 0.95);
-  background-color: $color-gray-1;
-  color: $color-gray-6;
+  background-color: $color-blue-6;
+  color: $color-blue-1;
 }
 
 h1,
 h2,
 h3 {
-  margin: 2em 0 1em;
-}
-
-
-
-h4 {
-  margin: 1em 0 1em;
+  margin: 2em 0 0;
 }
 
 p {
@@ -36,7 +30,7 @@ p {
 
 a {
   text-decoration: none;
-  color: lighten($color-indigo-3, 0%);
+  color: lighten($color-blue-3, 20%);
   background: none;
 }
 
@@ -54,15 +48,7 @@ hr {
 code,
 pre {
   font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-  font-size: calc(1em * 0.87);
-}
-
-code.language-plaintext.highlight.highlighter-rouge {
-  font-size: calc(1em * 0.83);
-}
-
-code.language-plaintext.highlighter-rouge {
-  font-size: calc(1em * 0.83);
+  font-size: calc(1em * 0.9);
 }
 
 footer {
@@ -76,8 +62,8 @@ footer {
 blockquote {
   margin-left: 0;
   padding-left: 1rem;
-  border-left: 0.3rem solid $color-gray-3;
-  //color: $color-gray-3;
+  border-left: 0.2rem solid $color-blue-2;
+  color: $color-blue-2;
 }
 
 .footnotes {
@@ -87,7 +73,7 @@ blockquote {
 }
 
 .muted {
-  color: lighten($color-gray-3, 15%);
+  color: #7285b7;
 }
 
 ul {
@@ -106,6 +92,6 @@ ol ol {
   padding-left: 1.3rem;
 }
 
-pre.highlight,code.highlight {
-  //background: darken($color-gray-6, 5%);
+figure {
+  margin: 0;
 }

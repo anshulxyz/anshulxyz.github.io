@@ -26,4 +26,11 @@
   </script>
   {% endif %}
 
+  {% if page.syntax %}
+  <!-- highlight.js -->
+  <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.5.1/styles/tomorrow-night-blue.min.css">
+  <script src="https://unpkg.com/@highlightjs/cdn-assets@11.5.1/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  {% endif %}
+
 </head>

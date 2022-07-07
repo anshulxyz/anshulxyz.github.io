@@ -9,15 +9,13 @@ redirect_from:
   - /blog/
 ---
 
+<!--It is later than you think.-->
+
 # Anshul Chauhan
 
-Backend software engineer.
+Backend software developer
 
-<!--What I am doing [now]({% link now.md %}).-->
-
-[anshulchauhan@outlook.com](mailto:anshulchauhan@outlook.com){:target="_blank"}
-&mdash; [github](https://github.com/anshulxyz){:target="_blank"}
-&mdash; [twitter](https://twitter.com/anshulxyz){:target="_blank"} <br/>
+anshulchauhan [at] outlook [dot] com
 
 ## Projects
 
@@ -29,3 +27,9 @@ scriptures. <br/>
 ## Writing
 
 [Goals for 2022]({% post_url 2022-03-10-goals2022 %})
+
+## Elsewhere
+
+[github](https://github.com/anshulxyz){:target="_blank"} &mdash;
+[twitter](https://twitter.com/anshulxyz){:target="_blank"} &mdash;
+[youtube](https://www.youtube.com/channel/UCnft0UN8a6uvyYtEL0H2E-g)
