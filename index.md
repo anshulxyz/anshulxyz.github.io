@@ -19,14 +19,24 @@ anshulchauhan [at] outlook [dot] com
 
 ## Projects
 
+**todo-rs**, A TUI ToDo-app written in Rust.<br/>
+[Demo video](https://www.youtube.com/watch?v=fdHLbGEJTFI){:target="_blank"}.
+[GitHub Repo](https://github.com/anshulxyz/todo-rs){:target="_blank"}.
+
 **BodhiBot**, A Discord bot written in Rust, for referencing Buddhist
-scriptures. <br/>
+scriptures.<br/>
 [Demo video](https://youtu.be/DYL19SGOmVw){:target="_blank"}.
 [GitHub Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}.
 
 ## Writing
 
-[Goals for 2022]({% post_url 2022-03-10-goals2022 %})
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
 ## Elsewhere
 
