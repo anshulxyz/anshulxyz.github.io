@@ -10,16 +10,19 @@ tags: rust sqlite
 {{ page.date | date_to_long_string }}
 {:.muted}
 
-The official docs of SeaORM can be found [here](https://www.sea-ql.org/SeaORM/docs/index/).
+> SeaORM is a relational ORM to help you build web services in Rust with the
+> familiarity of dynamic languages.
 
-**This guide assumes that you're using SQLite.** Before we start make sure you
-have [libsqlite3](https://www.sqlite.org/index.html) installed for you system.
+The official docs of SeaORM are on their [official website](https://www.sea-ql.org/SeaORM/docs/index/).
 
-Entire code for _this_ guide is at [github.com/anshulxyz/seaorm_demo](https://github.com/anshulxyz/seaorm_demo)
+**This guide assumes that you're using SQLite.** Before we start, make sure you
+have [libsqlite3](https://www.sqlite.org/index.html) installed for your system.
 
-In this guide we're going to build simple examples of each pieces of CRUD operations.
+The entire code for this guide is in this [repo](https://github.com/anshulxyz/seaorm_demo).
 
-For this guide I am using [Rust](https://www.rust-lang.org/) v1.62 and `sea-orm` v0.9
+In this guide, we're going to build simple examples of each piece of CRUD operations.
+
+I am using [Rust](https://www.rust-lang.org/) v1.62 and `sea-orm` v0.9
 
 ## Initialize a new project
 
@@ -55,7 +58,7 @@ We'll write a migration file to setup our database and table schema.
 sea-orm-cli migrate init
 ```
 
-This would have generated a module `migration` and now our project file structure is looking like
+It will generate a module called `migration`. Now our project structure should look like this.
 
 ```txt
 .
@@ -92,7 +95,7 @@ features = [
 Edit the file `migration/src/m20220101_000001_create_table.rs` in your
 favourite editor and remove the two mentions of `todo!()` and save the file.
 
-Set the url for your database as an environment varibale.
+Set the URL for your database as an environment varibale.
 
 ```txt
 export DATABASE_URL='sqlite://posts.sqlite?mode=rwc'
@@ -104,10 +107,10 @@ Next, we'll run the migration.
 sea-orm-cli migrate up
 ```
 
-This will compile the `migration` module and run your migrations. After this
-has run successfully you should see a file named `posts.sqlite` in your directory.
+It will compile the `migration` module and run your migrations. After this, you
+should see a file named posts.sqlite in your directory.
 
-You can check if your table has been created.
+To confirm if we have created the table, run the following command.
 
 ```txt
 $ sqlite3 posts.sqlite ".schema post" ".exit"
@@ -117,22 +120,22 @@ CREATE TABLE IF NOT EXISTS "post" ( "id" integer NOT NULL PRIMARY KEY AUTOINCREM
 
 ## Generate entities
 
-Create a new `entity` module
+Create a new `entity` module.
 
 ```txt
 cargo new entity --lib
 ```
 
-Next generate the entities
+Next, generate the entities.
 
 ```txt
 sea-orm-cli generate entity -o entity/src
 ```
 
-This will use the database we created earlier, by reading the `DATABASE_URL`
+It will use the database we created earlier by reading the `DATABASE_URL`
 environment variable.
 
-Add the `sea-orm` dependency to `entity`.
+Add the `sea-orm` dependency to the `entity` module.
 
 File: `entity/Cargo.toml`
 {:.muted}
@@ -142,7 +145,7 @@ File: `entity/Cargo.toml`
 sea-orm = { version = "0.9" }
 ```
 
-The generated entity should be looking like following.
+The generated entity should look like the following.
 
 File: `entity/src/post.rs`
 {:.muted}
@@ -173,12 +176,17 @@ impl RelationTrait for Relation {
 impl ActiveModelBehavior for ActiveModel {}
 {% endhighlight %}
 
-Since the module `entity` is in the root of our project, let's convert it into a library. So that we can consume it.
+Since the module `entity` is at the root of our project, let’s convert it into
+a library so that we can consume it.
 
 Rename the file `entity/src/mod.rs` to `entity/src/lib.rs`.
 
-Next we'll add the `entity` and `migration` library that we just created to the
-dependencies of the root project.
+```
+mv entity/src/mod.rs entity/src/lib.rs
+```
+
+Next, we’ll add the `entity` and `migration` library to the dependencies of the
+root project.
 
 File: `Cargo.toml`
 {:.muted}
@@ -217,7 +225,7 @@ And now your project structure should look like
 └── tasks.sqlite
 ```
 
-And your entire `Cargo.toml` must bee looking like
+And your entire `Cargo.toml` should look like the following.
 
 File: `Cargo.tmol`
 {:.muted}
@@ -297,24 +305,26 @@ async fn main() -> Result<(), DbErr>{
 }
 {% endhighlight %}
 
-We can run our new script with
+We can run our new script as follows.
 
 ```txt
 cargo run --bin create_post
 ```
 
-This is what it looked like for me.
+It should look like the following.
 
 ```txt
-$ cargo run --bin create_post                                                                                         ⏎
+$ cargo run --bin create_post
    Compiling seaorm_demo v0.1.0
     Finished dev [unoptimized + debuginfo] target(s) in 3.85s
      Running `target/debug/create_post`
 Post created with ID: 1, TITLE: Amazing title 1
 ```
 
-Change the title/text in `create_post.rs` and run the above command againt if
-you wish to create more entries in the database. I will go an create one more.
+If you wish to create more entries in the database, change the title/text in
+`create_post.rs` and execute the script again.
+
+I will create one more.
 
 ```txt
 $ cargo run --bin create_post
@@ -326,7 +336,7 @@ Post created with ID: 2, TITLE: Another title 2
 
 ## Read
 
-Next we write the example for reading all the posts in the database.
+Next, we write the example for reading all the posts in the database.
 
 File: `src/bin/read_posts.rs`
 {:.muted}
@@ -352,13 +362,13 @@ async fn main() -> Result<(), DbErr>{
 }
 {% endhighlight %}
 
-Just like earlier you can run this new file with
+Just like earlier, you can run this new file as follows.
 
 ```txt
 cargo run --bin read_posts
 ```
 
-Ansh this should look like
+And this should look like the following.
 
 ```txt
 $ cargo run --bin read_posts
@@ -372,7 +382,7 @@ ID: 2, TITLE: Another title 2
 
 ## Update
 
-Now, let's say we wanted to UPDATE the title of a post.
+Now, let’s say we wanted to perform an UPDATE operation to the title of a post.
 
 File: `src/bin/update_post.rs`
 {:.muted}
@@ -405,7 +415,7 @@ And we run this script with
 cargo run --bin update_post
 ```
 
-And this should look like
+And it should look like
 
 ```txt
 $ cargo run --bin update_post                                                                                         ⏎
@@ -452,7 +462,7 @@ And we will call this script with
 cargo run --bin delete_post
 ```
 
-And this should look like
+And it should look like
 
 ```txt
 $ cargo run --bin delete_post
@@ -462,8 +472,7 @@ $ cargo run --bin delete_post
 DeleteResult { rows_affected: 1 }
 ```
 
-You can now try running the `read_posts` script again to see what posts remain
-in the database.
+We can execute script `read_post` again to see what posts remain in the database.
 
 ```txt
 $ cargo run --bin read_posts 
@@ -475,6 +484,7 @@ ID: 2, TITLE: Another title 2
 
 ## Etc
 
-- Entire code can be found at [github.com/anshulxyz/seaorm_dem](https://github.com/anshulxyz/seaorm_demo)
-- Find SeaORM [examples](https://github.com/SeaQL/sea-orm/tree/master/examples) can be found on their official [repo](https://github.com/SeaQL/sea-orm)
+- Entire code can be found at [github.com/anshulxyz/seaorm_demo](https://github.com/anshulxyz/seaorm_demo)
+- Find SeaORM examples on their official [repo](https://github.com/SeaQL/sea-orm/tree/master/examples)
 - This post has taken direct inspiration from Diesel-rs' [getting-started](https://diesel.rs/guides/getting-started) guide.
+- Feel free to contact me on [@anshulxyz](https://twitter.com/anshulxyz)
