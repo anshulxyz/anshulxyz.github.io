@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Getting Started with SeaORM"
+description: "A tutorial to get you up-to speed with SeaORM, a relational ORM for Rust"
 categories: guides
 author: Anshul Chauhan
 syntax: True
