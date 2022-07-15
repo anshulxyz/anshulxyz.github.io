@@ -17,7 +17,7 @@ Backend software developer
 
 anshulchauhan [at] outlook [dot] com
 
-## Projects
+### Projects
 
 **todo-rs**, A TUI ToDo-app written in Rust.<br/>
 [Demo video](https://www.youtube.com/watch?v=fdHLbGEJTFI){:target="_blank"}.
@@ -28,7 +28,7 @@ scriptures.<br/>
 [Demo video](https://youtu.be/DYL19SGOmVw){:target="_blank"}.
 [GitHub Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}.
 
-## Writing
+### Writing
 
 <ul>
   {% for post in site.posts %}
@@ -38,8 +38,9 @@ scriptures.<br/>
   {% endfor %}
 </ul>
 
-## Elsewhere
+### Elsewhere
 
 [github](https://github.com/anshulxyz){:target="_blank"} &mdash;
 [twitter](https://twitter.com/anshulxyz){:target="_blank"} &mdash;
 [youtube](https://www.youtube.com/channel/UCnft0UN8a6uvyYtEL0H2E-g)
+
