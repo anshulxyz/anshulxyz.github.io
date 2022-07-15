@@ -483,9 +483,13 @@ All the posts in db:
 ID: 2, TITLE: Another title 2
 ```
 
+## Further reading
+
+- Official [SeaORM tutorial](https://www.sea-ql.org/sea-orm-tutorial/)
+- SeaORM examples on their official [repo](https://github.com/SeaQL/sea-orm/tree/master/examples)
+
 ## Etc
 
 - Entire code can be found at [github.com/anshulxyz/seaorm_demo](https://github.com/anshulxyz/seaorm_demo)
-- Find SeaORM examples on their official [repo](https://github.com/SeaQL/sea-orm/tree/master/examples)
 - This post has taken direct inspiration from Diesel-rs' [getting-started](https://diesel.rs/guides/getting-started) guide.
-- Feel free to contact me on [@anshulxyz](https://twitter.com/anshulxyz)
+- Feel free to contact me on twitter [@anshulxyz](https://twitter.com/anshulxyz)
