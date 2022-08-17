@@ -1,20 +1,20 @@
 ---
 layout: post
 title: "Getting Started with SeaORM"
-description: "A tutorial to get you up-to speed with SeaORM, a relational ORM for Rust"
-categories: guides
+categories: code
 author: Anshul Chauhan
+description: "A tutorial to get you up-to speed with SeaORM, a relational ORM for Rust"
 syntax: True
-tags: rust sqlite
+tags: rust sqlite SeaORM
 ---
 
-Last updated: 15 July 2022
+Last updated: 29 July 2022
 {:.muted}
 
 > SeaORM is a relational ORM to help you build web services in Rust with the
 > familiarity of dynamic languages.
 
-The official docs of SeaORM are on their [official website](https://www.sea-ql.org/SeaORM/docs/index/).
+The official docs of SeaORM are on their [website](https://www.sea-ql.org/SeaORM/docs/index/).
 
 **This guide assumes that you're using SQLite.** Before we start, make sure you
 have [libsqlite3](https://www.sqlite.org/index.html) installed for your system.
