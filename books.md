@@ -4,13 +4,18 @@ layout: page
 
 # Books
 
-- Herman Hesse: "Siddhartha"
-- Daniel Keyes: "Flowers for Algernon"
-- Arvind Adiga: "The White Tiger"
-- Morgan Housel: "The Psychology of Money"
-- Monika Halan: "Let's Talk Money"
-- Charles Bukowski: "Women"
-- J.D. Salinger: "The Catcher in the Rye"
-- Ayn Rand: "The Fountainhead"
-- Robert L. Stevenson: "Kidnapped"
+Currently reading:
+- Clean Code, by Robert C. Martin
+- Why Math?, by R. D. Driver
+- The Rust Programming Language, by Steve Klabnik and Carol Nichols
+
+Read:
+- Siddhartha, by Herman Hesse
+- Flowers for Algernon, by Daniel Keyes
+- The White Tiger, by Arvind Adiga
+- The Psychology of Money, by Morgan Housel
+- Let's Talk Money, by Monika Halan
+- Women, by Charles Bukowski
+- The Catcher in the Rye, by J.D. Salinger
+- The Fountainhead, by Ayn Rand
 

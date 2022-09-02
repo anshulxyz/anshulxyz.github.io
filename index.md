@@ -10,7 +10,7 @@ redirect_from:
 
 # Anshul Chauhan
 
-Backend software developer
+Software developer
 
 Email: [anshulchauhan@outlook.com](mailto:anshulchauhan@outlook.com)
 

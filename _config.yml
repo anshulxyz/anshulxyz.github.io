@@ -1,7 +1,7 @@
 title: Anshul Chauhan
 email: anshulchauhan@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Hi there, I am Anshul Chauhan. I am a software developer.
+  Personal website of Anshul Chauhan.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 username: anshulxyz
