@@ -39,3 +39,5 @@ I'm **@anshulxyz** on [Twitter](https://twitter.com/anshulxyz){:target="_blank"}
 
 - SeaQL/sea-query: [Update SQLite backend Boolean type from int to bool #400](https://github.com/SeaQL/sea-query/pull/400)
 - SeaQL/sea-orm: [Update get_info method to respect date-time crate #910](https://github.com/SeaQL/sea-orm/pull/910)
+
+For all my open source contributions, [click here](https://github.com/search?q=author:anshulxyz+is:pr++-user:anshulxyz).

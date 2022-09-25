@@ -6,8 +6,15 @@ layout: page
 
 Currently reading:
 - Clean Code, by Robert C. Martin
-- Why Math?, by R. D. Driver
 - The Rust Programming Language, by Steve Klabnik and Carol Nichols
+
+To read:
+- Meditations, by Marcus Aurelius
+- A Common-Sense Guide to Data Structures and Algorithms, by Jay Wengrow
+- Unit Testing Principles, Practices, and Patterns
+- Rust In Action
+- Programming Rust
+
 
 Read:
 - Siddhartha, by Herman Hesse
