@@ -33,7 +33,7 @@ I'm **@anshulxyz** on [Twitter](https://twitter.com/anshulxyz){:target="_blank"}
   [Demo](https://www.youtube.com/watch?v=fdHLbGEJTFI){:target="_blank"}.
   [Repo](https://github.com/anshulxyz/todo-rs){:target="_blank"}.
 - **BodhiBot**, A Discord bot written in Rust, for Buddhist
-  scriptures. [Demo](https://youtu.be/DYL19SGOmVw){:target="_blank"}.
+  scriptures. [Demo](https://www.youtube.com/watch?v=DYL19SGOmVw){:target="_blank"}.
   [Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}.
 
 ## Featured Open Source Contributions
