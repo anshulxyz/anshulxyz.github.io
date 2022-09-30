@@ -8,12 +8,12 @@ Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe
 UI Symbol;
 
 html {
-  max-width: 70ch;
+  max-width: 75ch;
   padding: 3em 1em;
   margin: auto;
   line-height: 1.6;
   font-family: $sans-serif;
-  font-size: calc(1em * 0.87);
+  font-size: calc(1em * 0.9);
   background-color: $color-blue-6;
   color: $color-blue-1;
 }
@@ -48,7 +48,7 @@ hr {
 code,
 pre {
   font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
-  font-size: calc(1em * 0.9);
+  font-size: calc(1em * 0.94);
 }
 
 footer {
