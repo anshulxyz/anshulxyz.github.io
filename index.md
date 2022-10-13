@@ -9,6 +9,7 @@ redirect_from:
 <!--It is later than you think.-->
 
 # Anshul Chauhan
+{:style="font-size: 300%"}
 
 Software developer
 
