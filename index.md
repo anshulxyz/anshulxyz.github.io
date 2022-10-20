@@ -9,11 +9,10 @@ redirect_from:
 <!--It is later than you think.-->
 
 # Anshul Chauhan
-{:style="font-size: 300%"}
 
-Software developer
+Programmer.
 
-I'm **@anshulxyz** on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and [GitHub](https://github.com/anshulxyz){:target="_blank"}. You can also [email me](mailto:anshulchauhan@outlook.com)
+I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and [GitHub](https://github.com/anshulxyz){:target="_blank"}. You can also [email me](mailto:anshulchauhan@outlook.com).
 
 <!--[youtube](https://www.youtube.com/channel/UCnft0UN8a6uvyYtEL0H2E-g)-->
 
@@ -30,10 +29,10 @@ I'm **@anshulxyz** on [Twitter](https://twitter.com/anshulxyz){:target="_blank"}
 
 ## Featured Projects
 
-- **todo-rs**, A TUI ToDo-app written in Rust.
+- **todo-rs**, A TUI ToDo-app written in _Rust_.
   [Demo](https://www.youtube.com/watch?v=fdHLbGEJTFI){:target="_blank"}.
   [Repo](https://github.com/anshulxyz/todo-rs){:target="_blank"}.
-- **BodhiBot**, A Discord bot written in Rust, for Buddhist
+- **BodhiBot**, A Discord bot written in _Rust_, for Buddhist
   scriptures. [Demo](https://www.youtube.com/watch?v=DYL19SGOmVw){:target="_blank"}.
   [Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}.
 
