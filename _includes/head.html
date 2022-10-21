@@ -31,9 +31,11 @@
 
   {% if page.syntax %}
   <!-- highlight.js -->
-  <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.5.1/styles/base16/equilibrium-light.min.css">
-  <script src="https://unpkg.com/@highlightjs/cdn-assets@11.5.1/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
+  <link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@11.6.0/styles/base16/equilibrium-light.min.css">
+  <script src="https://unpkg.com/@highlightjs/cdn-assets@11.6.0/highlight.min.js"></script>
+  <!--load additional languages-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/scala.min.js"></script>
+  <script>hljs.highlightAll();</script>
   {% endif %}
 
 </head>
