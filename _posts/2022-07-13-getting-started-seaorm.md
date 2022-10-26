@@ -8,9 +8,6 @@ syntax: True
 tags: rust sqlite SeaORM
 ---
 
-Last updated: 29 July 2022
-{:.muted}
-
 > SeaORM is a relational ORM to help you build web services in Rust with the
 > familiarity of dynamic languages.
 
