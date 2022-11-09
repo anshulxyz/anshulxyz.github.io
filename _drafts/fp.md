@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Notes on Functional Programming"
+subtitle: "in Scala"
 categories: code
 author: Anshul Chauhan
 Description: "My notes on Functional Programming through Scala"
@@ -9,9 +10,9 @@ syntax: True
 tags: scala functional
 ---
 
-- Functional programming: we construct programs using only _pure functions_.
+- **Functional programming**: we construct programs using only _pure functions_.
   That is, functions that have no _side effects_.
-- Pure function: A function $$f$$ with the input type $$A$$ and output type
+- **Pure function**: A function $$f$$ with the input type $$A$$ and output type
   $$B$$ is a computation that relates every value $$a$$ of type $$A$$ to
   exactly one value $$b$$ of type $$B$$ such that $$b$$ is determined solely by
   the value of $$a$$. Think of an injective(one-to-one) function in
@@ -19,23 +20,27 @@ tags: scala functional
 
 $$ f(x) = x + 1$$
 
-- Side effects: modification of the _state_ outside of the local scope.
-- Referential transparency:  A piece of code is referentially transparent if we
+The equivalent Scala code looks like:
+
+{% highlight scala %}
+def f(x: Int): Int = x+1
+{% endhighlight %}
+
+- **Side effects**: modification of the _state_ outside of the local scope.
+- **Referential transparency**:  A piece of code is referentially transparent if we
   can safely replace that piece of code with the value it computes and
   vice-versa, anywhere where that piece is used, without changing the meaning
   or result of our program.
-- Higher order function: functions that do at least one of the following two:
+- **Higher order function**: a function that does at least one of the following two:
   - Take one or more functions as an argument
   - Returns a function as it's result[^1]
-- tail position: A call is said to be in _tail position_ if the caller does
+- **tail position**: A call is said to be in _tail position_ if the caller does
   nothing other than return the value of the recursive call. Refer [Tail
   Recursion Explained -
   Computerphile](https://www.youtube.com/watch?v=_JtPhF8MshA)
 
-Language: Scala
-{:.muted}
-
 {% highlight scala %}
+// Scala
 // function to get the nth Fibonacci number
 def fib(n: Int): Int = {
   @annotation.tailrec
@@ -52,14 +57,15 @@ def fib(n: Int): Int = {
 > bytecode as would be emitted for a while loop, so long as the recursive call
 > is in _tail position_.
 
-- monomorphic function: is a function that operates only on one datatype
-- polymorphic/generic function: A generic function is a function that is
+- **monomorphic function**: is a function that operates only on one datatype
+- **polymorphic/generic function**: A generic function is a function that is
   declared with type parameters. When called, actual types are used instead of
   the type parameters.[^2]
-- anonymous function / function literal: Inline functions that can be defined without a name. Also known as *lambda function*.
+- **anonymous function** / function literal: Inline functions that can be defined without a name. Also known as *lambda function*.
 
 {% highlight scala %}
-// example of a generic function
+// example of a generic function, and a Higher order Function since it takes
+// a function as it's second argument
 def findFirst[A](as: Array[A], p: A => Boolean): Int = {
   @annotation.tailrec
   def loop(n: Int): Int = {
@@ -75,6 +81,15 @@ def findFirst[A](as: Array[A], p: A => Boolean): Int = {
 findFirst[Int](Array(1,2,3,4,5), x => x == 5) //4
 
 findFirst[String](Array("a", "b", "c"), x => x == "c") //2
+{% endhighlight %}
+
+Another example of anonymous functions
+
+{% highlight scala %}
+val square: Int => Int = x => x*x
+
+square(2) // 4
+square(3) // 9
 {% endhighlight %}
 
 ---

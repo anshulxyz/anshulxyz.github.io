@@ -33,10 +33,10 @@ I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and
   To show CRUD operations with Tauri.
   [Demo](https://twitter.com/anshulxyz/status/1587541091489787904?s=20&t=7WBoNJoLX5kWCS_QCF6xqA).
   [Repo](https://github.com/anshulxyz/tauri-svelte-todo-app).
-- **todo-rs**, A TUI ToDo-app written in _Rust_.
+- **todo-rs**, A TUI ToDo-app written in Rust.
   [Demo](https://www.youtube.com/watch?v=fdHLbGEJTFI){:target="_blank"}.
   [Repo](https://github.com/anshulxyz/todo-rs){:target="_blank"}.
-- **BodhiBot**, A Discord bot written in _Rust_, for Buddhist
+- **BodhiBot**, A Discord bot written in Rust, for Buddhist
   scriptures. [Demo](https://www.youtube.com/watch?v=DYL19SGOmVw){:target="_blank"}.
   [Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}.
 
