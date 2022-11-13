@@ -27,7 +27,7 @@ I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and
 </ul>
 
 
-## Projects
+## Side Projects
 
 - A Chrome Extension to remove specific websites from the Google search
   results. [Demo](https://www.youtube.com/watch?v=IUFg9-YpTLs).
