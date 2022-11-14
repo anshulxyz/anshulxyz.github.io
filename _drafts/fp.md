@@ -61,7 +61,7 @@ def fib(n: Int): Int = {
 - **polymorphic/generic function**: A generic function is a function that is
   declared with type parameters. When called, actual types are used instead of
   the type parameters.[^2]
-- **anonymous function** / function literal: Inline functions that can be defined without a name. Also known as *lambda function*.
+- **anonymous function**: Inline functions that can be defined without a name. Also known as *lambda function*, or *function literal*.
 
 {% highlight scala %}
 // example of a generic function, and a Higher order Function since it takes

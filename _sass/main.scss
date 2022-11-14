@@ -14,6 +14,7 @@ html {
   line-height: 1.6;
   font-family: $sans-serif;
   font-size: calc(1em * 0.95);
+  background: $color-amber-1;
   color: black;
 }
 
@@ -29,16 +30,16 @@ p {
 
 a {
   color:$color-indigo-4;
-}
-
-
-a:hover,
-a:focus {
-  color:$color-gray-6;
+  text-decoration: none;
 }
 
 a:visited {
   color: $color-violet-4;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
 }
 
 hr {
@@ -67,13 +68,15 @@ footer {
 blockquote {
   margin-left: 0;
   padding-left: 1rem;
-  border-left: 0.2rem solid $color-blue-3;
-  background: $color-blue-1;
+  border-left: 0.2rem solid $color-amber-3;
+  color: $color-amber-5;
+  background: lighten($color-amber-2, 5);
 
 }
 
 .footnotes {
   margin: 0;
+  line-height: 50%;
   font-size: calc(1em * 0.85);
   color: $color-gray-4;
 }
@@ -101,3 +104,4 @@ ol ol {
 figure {
   margin: 0;
 }
+
