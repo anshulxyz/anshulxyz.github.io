@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Removing specific websites from Google search results"
+title: "Improving Google search result by removing specific websites"
 categories: code
 author: Anshul Chauhan
 syntax: True
@@ -16,3 +16,5 @@ syntax: True
 - So the best solution I've found is to have a personal configured Google (a programmeable search engine) which let's you remove websites from the search result
 - Use a Chrome xtension that let's you set a custom newtab website, I have set the newtab website to redirect to my personal search engine
 - The problem was that this spam websites were getting ranked higher than the official docs.
+- refer: https://www.gwern.net/Search
+- refer: https://www.google.co.in/advanced_search

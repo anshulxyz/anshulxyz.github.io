@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes on Functional Programming"
+title: "Notes on Functional Programming <i>in Scala</i>"
 subtitle: "in Scala"
 categories: code
 author: Anshul Chauhan
@@ -34,28 +34,24 @@ def f(x: Int): Int = x+1
 - **Higher order function**: a function that does at least one of the following two:
   - Take one or more functions as an argument
   - Returns a function as it's result[^1]
-- **tail position**: A call is said to be in _tail position_ if the caller does
-  nothing other than return the value of the recursive call. Refer [Tail
-  Recursion Explained -
-  Computerphile](https://www.youtube.com/watch?v=_JtPhF8MshA)
+- **tail recursion**: A tail recursive function calls itself as its last
+  action. Can be optimized by reusing the using the stack frame. Represents an
+  iterative process. In Scala it can be annotated with `@tailrec` so that the
+  compiler will succeed only if the function is indeed tail recursive.
+  Refer [Tail Recursion Explained - Computerphile](https://www.youtube.com/watch?v=_JtPhF8MshA)
 
 {% highlight scala %}
-// Scala
 // function to get the nth Fibonacci number
 def fib(n: Int): Int = {
-  @annotation.tailrec
+  @tailrec
   def loop(n1: Int, n2: Int, i: Int): Int = {
     if (i == n) n1
-    else loop(n2, n1+n2, i+1) // <- tail recursion
+    else loop(n2, n1+n2, i+1) // <- tail call
   }
 
   loop(0, 1, 0)
 }
 {% endhighlight %}
-
-> Scala detects this sort of _self-recursion_ and compiles it to the same sort of
-> bytecode as would be emitted for a while loop, so long as the recursive call
-> is in _tail position_.
 
 - **monomorphic function**: is a function that operates only on one datatype
 - **polymorphic/generic function**: A generic function is a function that is
@@ -67,11 +63,11 @@ def fib(n: Int): Int = {
 // example of a generic function, and a Higher order Function since it takes
 // a function as it's second argument
 def findFirst[A](as: Array[A], p: A => Boolean): Int = {
-  @annotation.tailrec
+  @tailrec
   def loop(n: Int): Int = {
     if (n >= as.length) -1
     else if (p(as(n))) n
-    else loop(n+1)
+    else loop(n+1)          // <- tail call
   }
 
   loop(0)
@@ -91,6 +87,8 @@ val square: Int => Int = x => x*x
 square(2) // 4
 square(3) // 9
 {% endhighlight %}
+
+- TODO: Write about call by value and call by name.
 
 ---
 [^1]: [Clojure - Higher Order Function](https://clojure.org/guides/higher_order_functions#_higher_order_functions)
