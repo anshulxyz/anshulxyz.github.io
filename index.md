@@ -16,7 +16,7 @@ I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and
 
 <!--[youtube](https://www.youtube.com/channel/UCnft0UN8a6uvyYtEL0H2E-g)-->
 
-### Posts
+### Notes
 
 <ul>
   {% for post in site.posts %}
@@ -32,7 +32,6 @@ I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and
 - A Chrome Extension to remove specific websites from the Google search
   results. [Demo](https://www.youtube.com/watch?v=IUFg9-YpTLs).
 - **tauri-svelte-todo-app**, A ToDo Desktop app built with Tauri+Svelte+Rust.
-  To show CRUD operations with Tauri.
   [Demo](https://twitter.com/anshulxyz/status/1587541091489787904?s=20&t=7WBoNJoLX5kWCS_QCF6xqA).
   [Repo](https://github.com/anshulxyz/tauri-svelte-todo-app).
 - **todo-rs**, A TUI ToDo-app written in Rust.

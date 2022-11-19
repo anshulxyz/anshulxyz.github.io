@@ -1,25 +1,23 @@
 ---
+title: "Favourite Movies"
 layout: page
 ---
 
-# Favourite Movies
-
-- Mongol,  _Sergei Bodrov_
-- Oldboy, _Park Chan-wook_
-- Through the Olive Trees, _Abbas Kiarostami_
-- V for Vendetta, _James McTeigue_
-- Masaan, _Neeraj Ghaywan_
-- Kumbalangi Nights, _Madhu C. Narayanan_
-- The Fountain, _Darren Aronofsky_
-- Mirch Masala, _Ketan Mehta_
-- Chungking Express, _Wong Kar-wai_
-- In the Mood for Love, _Wong Kar-wai_
-- A Bittersweet Life, _Kim Jee-woon_
-- Premam, _Alphonse Puthren_
-- The Garden of Words, _Makoto Shinkai_
-- Princess Mononoke, _Hayao Miyazaki_
-- Parasite, _Bong Joon-ho_
-- The Seventh Seal, _Ingmar Bergman_
-- 12 Angry Men, _Sidney Lumet_
-- Mayaanadhi, _Aashiq Abu_
-- Under the Open Sky, _Miwa Nishikawa_
+- The Seventh Seal (1957), _Ingmar Bergman_
+- 12 Angry Men (1957), _Sidney Lumet_
+- Mirch Masala (1987), _Ketan Mehta_
+- Through the Olive Trees (1994), _Abbas Kiarostami_
+- Chungking Express (1994), _Wong Kar-wai_
+- Princess Mononoke (1997), _Hayao Miyazaki_
+- In the Mood for Love (2000), _Wong Kar-wai_
+- Oldboy (2003), _Park Chan-wook_
+- A Bittersweet Life (2005), _Kim Jee-woon_
+- The Fountain (2006), _Darren Aronofsky_
+- V for Vendetta (2006), _James McTeigue_
+- Mongol (2007),  _Sergei Bodrov_
+- The Garden of Words (2013), _Makoto Shinkai_
+- Premam (2015), _Alphonse Puthren_
+- Masaan (2015), _Neeraj Ghaywan_
+- Mayaanadhi (2017), _Aashiq Abu_
+- Parasite (2019), _Bong Joon-ho_
+- Kumbalangi Nights (2019), _Madhu C. Narayanan_

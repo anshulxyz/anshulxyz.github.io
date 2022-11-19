@@ -8,11 +8,11 @@ Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe
 UI Symbol;
 
 html {
-  max-width: 63ch;
+  max-width: 70ch;
   padding: 3em 1em;
   margin: auto;
   line-height: 1.6;
-  font-family: $sans-serif;
+  font-family: $serif;
   font-size: calc(1em * 0.95);
   background: $color-amber-1;
   color: black;

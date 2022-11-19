@@ -147,6 +147,16 @@ display mode (centered):
 
 $$f(x) = \int_{-\infty}^\infty \hat f(\xi)\,e^{2 \pi i \xi x} \,d\xi$$
 
+math equation with `aligned`
+
+$$
+\begin{aligned}
+a&=b+c \\
+d+e&=f
+\end{aligned}
+$$
+
+
 
 ## Headings are cool! (h2)
 
