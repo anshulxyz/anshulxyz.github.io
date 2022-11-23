@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes on Functional Programming <i>in Scala</i>"
+title: "Functional Programming <i>in Scala</i>"
 subtitle: "in Scala"
 categories: code
 author: Anshul Chauhan
@@ -82,13 +82,24 @@ findFirst[String](Array("a", "b", "c"), x => x == "c") //2
 Another example of anonymous functions
 
 {% highlight scala %}
-val square: Int => Int = x => x*x
+val square: Int => Int = x => x * x
+// OR
+val square = (x:Int) => x * x
 
 square(2) // 4
 square(3) // 9
 {% endhighlight %}
 
 - TODO: Write about call by value and call by name.
+
+{% highlight scala %}
+// call by value -> def f(x:Int)
+// call by name -> def f(x:=>Int)
+{% endhighlight %}
+
+- Functions that are inside the class are called **methods**.
+- Data Abstraction: The ability to choose different implementations of the data
+  without affecting clients.
 
 ---
 [^1]: [Clojure - Higher Order Function](https://clojure.org/guides/higher_order_functions#_higher_order_functions)
