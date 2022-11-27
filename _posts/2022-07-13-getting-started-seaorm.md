@@ -5,6 +5,7 @@ categories: code
 author: Anshul Chauhan
 description: "A tutorial to get you up-to speed with SeaORM, a relational ORM for Rust"
 syntax: True
+ogImage: https://i.imgur.com/812P9QY.png
 tags: rust sqlite SeaORM publish
 ---
 
