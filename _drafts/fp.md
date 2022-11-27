@@ -4,14 +4,16 @@ title: "Functional Programming <i>in Scala</i>"
 subtitle: "in Scala"
 categories: code
 author: Anshul Chauhan
-Description: "My notes on Functional Programming through Scala"
+Description: "My notes on Functional Programming via Scala"
 katex: True
 syntax: True
-tags: scala functional
+tags: scala functional publish
 ---
 
-- **Functional programming**: we construct programs using only _pure functions_.
-  That is, functions that have no _side effects_.
+- **Functional programming**: Functional languages treat functions as
+  first-class values, this means that, like any other value, functions can be
+  passed as a parameter and returns as a result. With an emphasis _pure
+  functions_. That is, functions that have no _side effects_.
 - **Pure function**: A function $$f$$ with the input type $$A$$ and output type
   $$B$$ is a computation that relates every value $$a$$ of type $$A$$ to
   exactly one value $$b$$ of type $$B$$ such that $$b$$ is determined solely by

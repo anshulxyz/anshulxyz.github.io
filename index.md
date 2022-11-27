@@ -16,15 +16,19 @@ I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and
 
 <!--[youtube](https://www.youtube.com/channel/UCnft0UN8a6uvyYtEL0H2E-g)-->
 
+---
+
 ### Notes
 
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
+    {% if post.tags contains 'publish' %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
   {% endfor %}
 </ul>
+
+---
 
 
 ### Side Projects
@@ -40,6 +44,8 @@ I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and
 - **BodhiBot**, A Discord bot written in Rust, for Buddhist
   scriptures. [Demo](https://www.youtube.com/watch?v=DYL19SGOmVw){:target="_blank"}.
   [Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}.
+
+---
 
 ### Selected Open Source Contributions
 
