@@ -65,9 +65,11 @@ footer {
 }
 
 blockquote {
-  margin-left: 0;
+  margin: 0;
   padding-left: 1rem;
-  border-left: 0.3rem solid $color-amber-3;
+  background: lighten($color-amber-2, 7%);
+  border: 1px solid $color-amber-3;
+  border-style: dashed solid;
 }
 
 .footnotes {
