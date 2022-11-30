@@ -26,6 +26,10 @@ I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and
   {% endfor %}
 </ul>
 
+- [Favourite Movies]({% link movies.md %})
+- [Favourite Animes]({% link animes.md %})
+- [Favourite Books]({% link books.md %})
+
 ### Side Projects
 
 - A Chrome Extension to remove specific websites from the Google search
