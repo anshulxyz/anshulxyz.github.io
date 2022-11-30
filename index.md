@@ -16,20 +16,6 @@ I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and
 
 <!--[youtube](https://www.youtube.com/channel/UCnft0UN8a6uvyYtEL0H2E-g)-->
 
-### Notes
-
-<ul>
-  {% for post in site.posts %}
-    {% if post.tags contains 'publish' %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
-- [Favourite Movies]({% link movies.md %})
-- [Favourite Animes]({% link animes.md %})
-- [Favourite Books]({% link books.md %})
-
 ### Side Projects
 
 - A Chrome Extension to remove specific websites from the Google search
@@ -51,3 +37,17 @@ I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and
 - rubyforgood/human-essentials: [Fix table columns alignment for numerals and dates #1263](https://github.com/rubyforgood/human-essentials/pull/1263)
 
 For all my open source contributions, [click here](https://github.com/search?q=author:anshulxyz+is:pr++-user:anshulxyz).
+
+### Notes
+
+<ul>
+  {% for post in site.posts %}
+    {% if post.tags contains 'publish' %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+- [Favourite Movies]({% link movies.md %})
+- [Favourite Animes]({% link animes.md %})
+- [Favourite Books]({% link books.md %})
