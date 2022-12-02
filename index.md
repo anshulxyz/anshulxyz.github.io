@@ -38,7 +38,7 @@ I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and
 
 For all my open source contributions, [click here](https://github.com/search?q=author:anshulxyz+is:pr++-user:anshulxyz).
 
-### Notes
+### Posts
 
 <ul>
   {% for post in site.posts %}
@@ -48,6 +48,6 @@ For all my open source contributions, [click here](https://github.com/search?q=a
   {% endfor %}
 </ul>
 
-- [Favourite Movies]({% link movies.md %})
-- [Favourite Animes]({% link animes.md %})
-- [Favourite Books]({% link books.md %})
+<!--- [Favourite Movies]({% link movies.md %})-->
+<!--- [Favourite Animes]({% link animes.md %})-->
+<!--- [Favourite Books]({% link books.md %})-->
