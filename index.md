@@ -40,20 +40,11 @@ For all my open source contributions, [click here](https://github.com/search?q=a
 
 ### Posts
 
-<!--<ul>-->
-  <!--{% for post in site.posts %}-->
-    <!--{% if post.tags contains 'publish' %}-->
-      <!--<li><a href="{{ post.url }}">{{ post.title }}</a></li>-->
-    <!--{% endif %}-->
-  <!--{% endfor %}-->
-<!--</ul>-->
-
 <ul>
   {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span class="muted">{{ post.date | date_to_string }}</span>
-    </li>
+    {% if post.tags contains 'publish' %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
   {% endfor %}
 </ul>
 
