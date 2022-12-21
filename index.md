@@ -10,11 +10,17 @@ redirect_from:
 
 # Anshul Chauhan
 
-Programmer.
+_Programmer_
 
-I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and [GitHub](https://github.com/anshulxyz){:target="_blank"}. You can also [email me](mailto:anshulchauhan@outlook.com).
+### Featured Posts
 
-<!--[youtube](https://www.youtube.com/channel/UCnft0UN8a6uvyYtEL0H2E-g)-->
+<ul>
+  {% for post in site.posts %}
+    {% if post.tags contains 'publish' %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endif %}
+  {% endfor %}
+</ul>
 
 ### Side Projects
 
@@ -38,13 +44,8 @@ I can be found on [Twitter](https://twitter.com/anshulxyz){:target="_blank"} and
 
 For all my open source contributions, [click here](https://github.com/search?q=author:anshulxyz+is:pr++-user:anshulxyz).
 
-### Posts
+### Contact
 
-<ul>
-  {% for post in site.posts %}
-    {% if post.tags contains 'publish' %}
-      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endif %}
-  {% endfor %}
-</ul>
-
+- [Twitter](https://twitter.com/anshulxyz){:target="_blank"}
+- [GitHub](https://github.com/anshulxyz){:target="_blank"}
+- [email](mailto:anshulchauhan@outlook.com)

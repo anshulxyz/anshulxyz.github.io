@@ -21,7 +21,7 @@ html {
 h1,
 h2,
 h3 {
-  margin: 2em 0 0;
+  margin: 1em 0 0;
 }
 
 p {
@@ -66,10 +66,10 @@ footer {
 
 blockquote {
   margin: 0;
-  padding-left: 1rem;
-  background: lighten($color-amber-2, 7%);
-  border: 1px solid $color-amber-3;
-  border-style: dashed solid;
+  padding: 0.1rem 1rem;
+  background: lighten($color-amber-2, 8%);
+  border-left: 2px solid $color-amber-3;
+  color: $color-amber-5;
 }
 
 .footnotes {
@@ -104,9 +104,15 @@ figure {
 }
 
 .language-plaintext {
-  background: $color-amber-2;
+  background: lighten($color-amber-2, 7%);
 }
 
 .muted .language-plaintext {
   background: $color-amber-1;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-color: $color-gray-3; 
 }
