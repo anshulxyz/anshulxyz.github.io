@@ -10,7 +10,14 @@ redirect_from:
 
 # Anshul Chauhan
 
-_Programmer_
+I work at Nelkinda as a _Software Craftsman_. I help Equal Experts build and
+maintain a tax filing system for an island nation.
+
+### Contact
+
+[Twitter](https://twitter.com/anshulxyz){:target="_blank"} &mdash;
+[GitHub](https://github.com/anshulxyz){:target="_blank"} &mdash;
+[eMail](mailto:anshulchauhan@outlook.com)
 
 ### Featured Posts
 
@@ -44,8 +51,3 @@ _Programmer_
 
 For all my open source contributions, [click here](https://github.com/search?q=author:anshulxyz+is:pr++-user:anshulxyz).
 
-### Contact
-
-- [Twitter](https://twitter.com/anshulxyz){:target="_blank"}
-- [GitHub](https://github.com/anshulxyz){:target="_blank"}
-- [email](mailto:anshulchauhan@outlook.com)

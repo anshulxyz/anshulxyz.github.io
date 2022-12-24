@@ -14,7 +14,7 @@ html {
   line-height: 1.6;
   font-family: $serif;
   font-size: calc(1em * 1.07);
-  background: $color-amber-1;
+  background: white;
   color: black;
 }
 
@@ -63,9 +63,9 @@ footer {
 blockquote {
   margin: 0;
   padding: 0.1rem 1rem;
-  background: lighten($color-amber-2, 8%);
-  border-left: 2px solid $color-amber-3;
-  color: $color-amber-5;
+  background: $color-sky-1;
+  //border-left: 2px solid $color-powder-3;
+  color: $color-sky-5;
 }
 
 .footnotes {
