@@ -7,7 +7,7 @@ layout: page
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <span class="muted">{{ post.date | date_to_string }}</span>
+      <span class="muted" style="font-size: 0.85rem;">{{ post.date | date: "%Y %b" }}</span>
     </li>
   {% endfor %}
 </ul>

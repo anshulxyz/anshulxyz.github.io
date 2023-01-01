@@ -5,6 +5,9 @@
 <body>
   <div class="container">
     <div>
+      <a href="/">&larrb; Home</a>
+    </div>
+    <div>
       <h1>{{ page.title }}</h1>
       <hr />
     </div>
@@ -14,18 +17,25 @@
     <div>
       <p class="muted" style="font-size: 0.85rem;">First published on {{ page.date | date_to_long_string: "ordinal" }}</p>
     </div>
-    {% include footer.html %}
+    <footer>
+      <a href="https://twitter.com/anshulxyz">Twitter</a> &mdash;
+      <a href="https://github.com/anshulxyz">GitHub</a> &mdash;
+      <a href="mailto:anshulc1995@gmail.com">Email</a> &mdash;
+      <a href="www.linkedin.com/in/anshul-chauhan">LinkedIn</a>
+    </footer>
   </div>
+  
   <!--
   <script src="https://utteranc.es/client.js"
         repo="anshulxyz/anshulxyz.github.io"
         issue-term="pathname"
         label="blog"
-        theme="photon-dark"
+        theme="boxy-light"
         crossorigin="anonymous"
         async>
   </script>
   -->
+
 </body>
 
 </html>

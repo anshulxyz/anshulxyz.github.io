@@ -10,18 +10,20 @@ redirect_from:
 
 # Anshul Chauhan
 
-I work at [Nelkinda](https://nelkinda.com/) as a _Software Craftsman_.
-I help [Equal Experts](https://www.equalexperts.com/) build and maintain a tax
-filing system for an island nation. I am pursuing  Bachelor of Science (BS)
-Degree in Data Science and Applications from [IIT Madras](https://www.iitm.ac.in/).
+### About me
 
-**Contact**
+I work at [Nelkinda](https://nelkinda.com/) as a _Software Craftsman_.
+This includes helping [Equal Experts](https://www.equalexperts.com/) build and maintain a tax
+filing system for an island nation.
+Pursuing  Bachelor of Science (B.S.) Degree in Data Science and
+Applications from [IIT Madras](https://www.iitm.ac.in/).
+
+### Links
 
 [Twitter](https://twitter.com/anshulxyz){:target="_blank"} &mdash;
-[GitHub](https://github.com/anshulxyz){:target="_blank"} &mdash;
-[eMail](mailto:anshulchauhan@outlook.com)
+[GitHub](https://github.com/anshulxyz){:target="_blank"}
 
-**Featured Posts**
+### Featured Posts
 
 <ul>
   {% for post in site.posts %}
@@ -31,7 +33,9 @@ Degree in Data Science and Applications from [IIT Madras](https://www.iitm.ac.in
   {% endfor %}
 </ul>
 
-**Side Projects**
+For all posts, visit [archive]({% link archive.md %})
+
+### Side Projects
 
 - A Chrome Extension to remove specific websites from the Google search
   results. [Demo](https://www.youtube.com/watch?v=IUFg9-YpTLs).
@@ -45,7 +49,7 @@ Degree in Data Science and Applications from [IIT Madras](https://www.iitm.ac.in
   scriptures. [Demo](https://www.youtube.com/watch?v=DYL19SGOmVw){:target="_blank"}.
   [Repo](https://github.com/anshulxyz/bodhi-bot-rs){:target="_blank"}.
 
-**Selected Open Source Contributions**
+### Selected Open Source Contributions
 
 - SeaQL/sea-query: [Update SQLite backend Boolean type from int to bool #400](https://github.com/SeaQL/sea-query/pull/400)
 - SeaQL/sea-orm: [Update get_info method to respect date-time crate #910](https://github.com/SeaQL/sea-orm/pull/910)
