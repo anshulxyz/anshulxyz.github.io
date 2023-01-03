@@ -13,15 +13,24 @@ redirect_from:
 ### About me
 
 I work at [Nelkinda](https://nelkinda.com/) as a _Software Craftsman_.
-This includes helping [Equal Experts](https://www.equalexperts.com/) build and maintain a tax
-filing system for an island nation.
-Pursuing  Bachelor of Science (B.S.) Degree in Data Science and
+It includes helping [Equal Experts](https://www.equalexperts.com/) build and
+maintain a tax filing system for an island nation.
+I'm pursuing a Bachelor of Science (BS) degree in Data Science and
 Applications from [IIT Madras](https://www.iitm.ac.in/).
+
+I love playing football, especially as a midfielder. I am a beginner at
+skateboarding. And I often catch myself daydreaming about snowboarding. I love
+watching movies and listening to music. These days I am listening to a lot of
+post-rock. Here is a list of my favourite [movies]({% post_url 2022-05-12-movies %}),
+[books]({% post_url 2022-05-12-books %}) &
+[albums]({% post_url 2022-05-12-albums %}).
+
+I am always open to making new friends; feel free to [DM](https://twitter.com/messages/compose?recipient_id=2547648448&text=hey) me.
 
 ### Links
 
 [Twitter](https://twitter.com/anshulxyz){:target="_blank"} &mdash;
-[GitHub](https://github.com/anshulxyz){:target="_blank"}
+[GitHub](https://github.com/anshulxyz){:target="_blank"} &mdash;
 
 ### Featured Posts
 
