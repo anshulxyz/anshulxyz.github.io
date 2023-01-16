@@ -13,7 +13,7 @@ html {
   margin: auto;
   line-height: 1.6;
   font-family: $serif;
-  //font-size: calc(1em * 1.05);
+  font-size: calc(1em * 1.1);
   background: white;
   color: black;
 }
@@ -77,7 +77,7 @@ blockquote {
 }
 
 .muted {
-  color: $color-gray-3;
+  color: lighten($color-gray-3, 10%);
 }
 
 ul {
