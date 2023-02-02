@@ -64,9 +64,7 @@ footer {
 blockquote {
   margin: 0;
   padding: 0.1rem 1rem;
-  background: $color-sky-1;
-  //border-left: 2px solid $color-powder-3;
-  color: $color-sky-5;
+  background: lighten($color-powder-2, 15%);
 }
 
 .footnotes {
@@ -101,11 +99,11 @@ figure {
 }
 
 .language-plaintext {
-  background: lighten($color-amber-2, 7%);
+  background: lighten($color-yellow-2, 20%);
 }
 
 .muted .language-plaintext {
-  background: $color-amber-1;
+  background: lighten($color-yellow-2, 30%);
 }
 
 table, th, td {

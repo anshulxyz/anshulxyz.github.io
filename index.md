@@ -43,8 +43,6 @@ I am always open to making new friends; feel free to [DM](https://twitter.com/me
   {% endfor %}
 </ul>
 
-For all posts, visit [archive]({% link archive.md %})
-
 ### Side Projects
 
 - A Chrome Extension to remove specific websites from the Google search
