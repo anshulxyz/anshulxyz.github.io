@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "A Sample Title"
+description: "A sample Description"
 categories: junk
 author:
   - Bart Simpson
