@@ -110,4 +110,9 @@ table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
   border-color: $color-gray-3; 
+  margin: auto;
+}
+
+td {
+  padding: 0.5rem;
 }

@@ -1,3 +1,7 @@
+---
+title: "About"
+layout: page
+---
 I am Anshul Chauhan. I am a software developer.
 
 
