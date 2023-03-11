@@ -12,7 +12,7 @@ author: Anshul Chauhan
 
 [Super Squats](https://www.goodreads.com/book/show/19254168-super-squats) is a
 6-week workout program mentioned in a book by the same name authored by Randall
-J. Strossen. The staple of the program is a single set of 20 repetitions of
+J. Strossen. Staple of the program is a single set of 20 repetitions of
 _breathing_ Squats. It's a full-body workout plan, everyday you will be
 targeting all parts of the body. But Squats remains the most important part of
 the day, as the name suggests. In every session you increase the weight on the
