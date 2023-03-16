@@ -28,6 +28,7 @@ p {
   margin-top: 1em;
 }
 
+// link
 a {
   color:$color-indigo-4;
   text-decoration: none;
@@ -76,6 +77,10 @@ blockquote {
 
 .muted {
   color: lighten($color-gray-3, 10%);
+}
+
+.title {
+  color: $color-orange-3;
 }
 
 ul {

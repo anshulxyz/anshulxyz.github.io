@@ -9,6 +9,7 @@ redirect_from:
 <!--It is later than you think.-->
 
 # Anshul Chauhan
+{:.title}
 
 ### About me
 
