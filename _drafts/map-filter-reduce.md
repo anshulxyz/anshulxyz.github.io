@@ -41,3 +41,9 @@ Same thing can be done with `map`
 def incrementByOne(list: List[Int]): List[Int] = list.map(_+1)
 {% endhighlight %}
 
+## Filter
+
+**Requirement:** Filter out(Remove) the odd integers.
+{% highlight scala %}
+List(1,2,3,4,5,6,7).filter(_ % 2 == 0) // List(2, 4, 6)
+{% endhighlight %}
