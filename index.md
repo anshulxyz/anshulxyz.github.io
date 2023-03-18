@@ -11,6 +11,9 @@ redirect_from:
 # Anshul Chauhan
 {:.title}
 
+---
+{:.title}
+
 ### About me
 
 I work at [Nelkinda](https://nelkinda.com/) as a _Software Craftsman_.

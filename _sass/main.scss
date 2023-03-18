@@ -83,6 +83,13 @@ blockquote {
   color: $color-orange-3;
 }
 
+hr.title {
+  height: 1px;
+  background-color: $color-orange-3;
+  border: none;
+
+}
+
 ul {
   padding-left: 1rem;
 }
