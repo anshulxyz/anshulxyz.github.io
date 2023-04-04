@@ -7,12 +7,13 @@ $serif: georgia, Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, 
 Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe
 UI Symbol;
 
+
 html {
   max-width: 65ch;
   padding: 3em 1em;
   margin: auto;
   line-height: 1.6;
-  font-family: $serif;
+  font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
   font-size: calc(1em * 1.1);
   background: white;
   color: black;
