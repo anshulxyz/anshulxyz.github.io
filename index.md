@@ -14,23 +14,17 @@ redirect_from:
 ---
 {:.title}
 
-### About me
+I am a software developer. In my free time I love exploring new programming
+languages and building side projects with them.
 
-I work at [Nelkinda](https://nelkinda.com/) as a _Software Craftsman_.
-It includes helping [Equal Experts](https://www.equalexperts.com/) build and
-maintain a tax filing system for an island nation.
-I'm pursuing a Bachelor of Science (BS) degree in Data Science and
-Applications from [IIT Madras](https://www.iitm.ac.in/).
 
-I love playing football, especially as a midfielder. I am a beginner at
-skateboarding. And I often catch myself daydreaming about snowboarding. I love
-watching movies and listening to music. These days I am listening to a lot of
-post-rock. Here is a list of my favourite [movies]({% post_url 2022-05-12-movies %}),
+My other interests include playing football, skateboarding and sketching.
+Here are lists of my favourite [movies]({% post_url 2022-05-12-movies %}),
 [books]({% post_url 2022-05-12-books %}),
 [animes]({% post_url 2022-05-12-animes %}) &
 [albums]({% post_url 2022-05-12-albums %}).
 
-I am always open to making new friends; feel free to [DM](https://twitter.com/messages/compose?recipient_id=2547648448&text=hey) me.
+Want to have a chat? feel free to [DM](https://twitter.com/messages/compose?recipient_id=2547648448&text=hey) me.
 
 ### Links
 
