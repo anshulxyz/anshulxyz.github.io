@@ -24,3 +24,6 @@ I am assuming you already have a valid passport.
 - IDP
 - flight experience
 - weatherspark
+
+- Book a hotel for every night. You'll need these bookings to get the VISA, even
+if you don't plan on being there. Even if you plan to take an overnight train.
