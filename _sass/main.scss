@@ -13,9 +13,10 @@ html {
   padding: 3em 1em;
   margin: auto;
   line-height: 1.6;
-  font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+  // font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
+  font-family: $sans-serif;
   font-size: calc(1em * 1.1);
-  background: $color-amber-1;
+  background: white;
   color: $color-emerald-6;
 }
 
@@ -32,7 +33,7 @@ p {
 
 // link
 a {
-  color:$color-indigo-4;
+  color:$color-blue-3;
   text-decoration: none;
 }
 
@@ -67,7 +68,7 @@ footer {
 blockquote {
   margin: 0;
   padding: 0.1rem 1rem;
-  background: $color-amber-2;
+  background: $color-violet-1;
 }
 
 .footnotes {
@@ -112,9 +113,9 @@ figure {
   margin: 0;
 }
 
-.language-plaintext {
-  background: lighten($color-amber-2, 5%);
-}
+// .language-plaintext {
+//   background: lighten($color-amber-2, 5%);
+// }
 
 table, th, td {
   border: 1px solid black;
