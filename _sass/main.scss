@@ -16,8 +16,8 @@ html {
   // font-family: Charter, 'Bitstream Charter', 'Sitka Text', Cambria, serif;
   font-family: $sans-serif;
   font-size: calc(1em * 1.1);
-  background: white;
-  color: $color-emerald-6;
+  background: $color-amber-1;
+  color: $color-gray-6;
 }
 
 h1,
@@ -34,7 +34,7 @@ p {
 // link
 a {
   color:$color-blue-3;
-  text-decoration: none;
+  //text-decoration: none;
 }
 
 a:hover,
@@ -67,8 +67,13 @@ footer {
 
 blockquote {
   margin: 0;
+  margin: 2rem;
   padding: 0.1rem 1rem;
-  background: $color-violet-1;
+  color: $color-amber-4;
+  background: darken($color-amber-1, 5%);
+  border-left: 5px solid;
+  border-color: $color-amber-2;
+  //border-radius: 10px;
 }
 
 .footnotes {
