@@ -15,7 +15,7 @@ redirect_from:
 {:.title}
 
 I am a software developer. In my free time I love exploring new programming
-languages and building side projects with them.
+languages and building projects with them.
 
 
 My other interests include playing football, skateboarding and sketching.
@@ -41,7 +41,7 @@ Want to have a chat? feel free to [DM](https://twitter.com/messages/compose?reci
   {% endfor %}
 </ul>
 
-### Side Projects
+### Projects
 
 - A Chrome Extension to remove specific websites from the Google search
   results. [Demo](https://www.youtube.com/watch?v=IUFg9-YpTLs).
