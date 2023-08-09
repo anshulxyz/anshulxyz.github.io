@@ -15,7 +15,7 @@ html {
   line-height: 1.6;
   font-family: $sans-serif;
   font-size: calc(1em * 1.1);
-  background: lighten($color-yellow-1, 1.5%);
+  background: $color-cinnamon-1;
   color: $color-gray-6;
 }
 
@@ -123,7 +123,7 @@ figure {
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
-  border-color: $color-gray-3; 
+  border-color: $color-gray-3;
   margin: auto;
 }
 
