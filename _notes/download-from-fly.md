@@ -13,8 +13,6 @@ database. And I wanted to copy that file off Fly to my local machine.
 flyctl ssh -a <APP_NAME> sftp get <FILEPATH>
 ```
 
-Link to [[rust]]
-
 ### Extra
 - fly.io docs [`fly ssh`](https://fly.io/docs/flyctl/ssh-sftp/)
 - Simon Willison - [How to scp files to and from Fly](https://til.simonwillison.net/fly)
