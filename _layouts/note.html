@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+
+<body>
+  <div class="container">
+    <div>
+      <a href="/" class="muted" >Home</a> - <a href="/notes" class="muted" >Notes</a>
+
+    </div>
+    <div>
+      <h1>{{ page.title }}</h1>
+      <hr />
+    </div>
+    <div>
+      <div>{{ content }}</div>
+    </div>
+    <div>
+      <hr/>
+      <p class="muted" style="font-size: 0.85rem;">First published on {{ page.createdAt | date_to_rfc822 }}</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
