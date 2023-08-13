@@ -17,7 +17,6 @@ gem 'minima', '~> 2.5'
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.12'
   gem 'jekyll_inline_highlight'
-  gem 'jekyll-wikilinks'
 end
 
 # Performance-booster for watching directories on Windows
