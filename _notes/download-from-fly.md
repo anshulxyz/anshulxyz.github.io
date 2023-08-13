@@ -4,6 +4,7 @@ layout: note
 syntax: True
 createdAt: "2023-08-09 21:00"
 tags: fly
+publish: true
 ---
 
 I have a Fly instance running a Rust app which is using a SQLite
@@ -16,3 +17,5 @@ flyctl ssh -a <APP_NAME> sftp get <FILEPATH>
 ### Extra
 - fly.io docs [`fly ssh`](https://fly.io/docs/flyctl/ssh-sftp/)
 - Simon Willison - [How to scp files to and from Fly](https://til.simonwillison.net/fly)
+
+Testing link to [[rust]]

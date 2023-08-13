@@ -21,4 +21,9 @@ collections:
     output: true
     permalink: /notes/:name
 
+wikilinks:
+  collections:
+    - '_notes'
+    - '_pages'
+
 permalink: /:title
