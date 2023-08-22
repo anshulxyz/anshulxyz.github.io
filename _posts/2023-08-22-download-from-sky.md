@@ -1,10 +1,10 @@
 ---
+layout: post
 title: "How to download files off of a Fly instance"
-layout: note
+categories: cloud
 syntax: True
-date: "2023-08-09 21:00"
 tags: fly
-publish: true
+author: Anshul Chauhan
 ---
 
 I have a Fly instance running a Rust app which is using a SQLite

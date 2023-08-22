@@ -16,9 +16,4 @@ markdown: kramdown
 kramdown:
   input: GFM
 
-collections:
-  notes:
-    output: true
-    permalink: /notes/:name
-
 permalink: /:title
