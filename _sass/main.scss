@@ -10,12 +10,12 @@ UI Symbol;
 
 html {
   max-width: 65ch;
-  padding: 3em 1em;
+  padding-top: 2em;
   margin: auto;
   line-height: 1.6;
   font-family: $sans-serif;
   font-size: calc(1em * 1.1);
-  background: $color-cinnamon-1;
+  background: white;
   color: $color-gray-6;
 }
 
@@ -32,12 +32,12 @@ p {
 
 // link
 a {
-  color:$color-indigo-4;
+  color:$color-azure-4;
 }
 
 a:hover,
 a:focus {
-  text-decoration: underline;
+  background:$color-azure-1;
 }
 
 hr {
@@ -64,14 +64,12 @@ footer {
 }
 
 blockquote {
-  margin: 0;
-  margin: 2rem;
-  padding: 0.1rem 1rem;
-  color: $color-sky-4;
-  background: $color-sky-1;
-  border-left: 5px solid;
-  border-color: $color-sky-2;
-  //border-radius: 10px;
+  margin: 1rem;
+  padding: 0.1rem 0.7rem;
+  color: $color-emerald-4;
+  background: lighten($color-emerald-1, 2%);
+  border-left: 3px solid;
+  border-color: darken($color-emerald-1, 10%);
 }
 
 .footnotes {

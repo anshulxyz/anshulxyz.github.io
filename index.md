@@ -14,22 +14,17 @@ redirect_from:
 ---
 {:.title}
 
-I am a software developer. In my free time I love exploring new programming
-languages and building projects with them.
+Software developer, currently working on a tax-filing website for an island nation.
 
-
-My other interests include playing football, skateboarding and sketching.
+I love exploring new programming languages and building projects with them.
+Some of my interests include playing football, skateboarding and sketching.
 Here are lists of my favourite [movies]({% post_url 2022-05-12-movies %}),
 [books]({% post_url 2022-05-12-books %}),
 [animes]({% post_url 2022-05-12-animes %}) &
 [albums]({% post_url 2022-05-12-albums %}).
 
-Want to have a chat? feel free to [DM](https://twitter.com/messages/compose?recipient_id=2547648448&text=hey) me.
-
-### Links
-
-[Twitter](https://twitter.com/anshulxyz){:target="_blank"} &mdash;
-[GitHub](https://github.com/anshulxyz){:target="_blank"} &mdash;
+Twitter: [@anshulxyz](https://twitter.com/anshulxyz){:target="_blank"} \\
+GitHub: [anshulxyz](https://github.com/anshulxyz){:target="_blank"}
 
 ### Featured Posts
 
@@ -62,4 +57,3 @@ Want to have a chat? feel free to [DM](https://twitter.com/messages/compose?reci
 - rubyforgood/human-essentials: [Fix table columns alignment for numerals and dates #1263](https://github.com/rubyforgood/human-essentials/pull/1263)
 
 For all my open source contributions, [click here](https://github.com/search?q=author:anshulxyz+is:pr++-user:anshulxyz).
-
