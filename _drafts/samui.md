@@ -1,29 +1,47 @@
-# A 10-day itinerary for Koh Samui
+---
+title: "A 10-day itinerary for Koh Samui"
+layout: post
+---
 
-In the early May-2023 I went to Koh Samui (in Thaialnd) for a vacation.
-In the following post I hope to document every piece of info that I
-would want to share with a friend if they wish to make a similar trip.
+> **Disclaimer**: Don't use me as the primary source for critical information.
+>
+>Always verify from official sources.
+{:.red}
 
-Ideal audience for the post is my past self, someone who has never
-done an international trip.
+In the May of 2023 I went an island called Koh Samui, in Thaialnd, for a vacation.
 
-**Disclaimer**: Don't use me as the primary source of critical information.
-Alsways verify with official sources.
+This was my first time going on an international trip.
 
-I am assuming you already have a valid passport.
+I am writing this post for my friends who wish to go on a similar trip and have never been abroad for a vacation.
+
+
+Koh Samui is beautiful.
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="Lzsp5hJ"><a href="https://imgur.com/Lzsp5hJ">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## Preparation
 
-1. Go to 
-2. Go to https://www.skyscanner.co.in/ and find the best flights across the airlines that suites your requirements.
+1. Get a passport.
 
-- flights / skyscanner
-- hotel bookings
+1. Watch bunch of YouTube videos about the island. Get the general idea of the culture and environment there. Learn about their roads and traffic rules. Learn a little about the history of Thailand. I really like this channel called [Side Trip Life](https://www.youtube.com/watch?v=jAnuxwqYYuA). His style of travelling is akin to mine. And less like an _influencer_.
+
+1. Learn about the weather and seasons on the island. Visit [weatherspark.com - Koh Samui](https://weatherspark.com/y/112991/Average-Weather-in-Ko-Samui-Thailand-Year-Round).
+Using this data decide the month you wish to visit in.
+
+1. Go to [skyscanner.com]( https://www.skyscanner.co.in/ ) and find the best flights across the airlines that suits your requirements.
+
 - excursions
-- eVOA
-- IDP
+- International Driver's License
 - flight experience
-- weatherspark
+- Apply for eVOA https://thailandevoa.vfsevisa.com/thailand/online/home/index
 
 - Book a hotel for every night. You'll need these bookings to get the VISA, even
 if you don't plan on being there. Even if you plan to take an overnight train.
+
+- clothing
+
+- food
+  - vegetarians may have some problem of finding variety of local food
+  - insert a fact about thai veg/non-veg ratio
+
+- women's safety

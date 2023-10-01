@@ -64,12 +64,19 @@ footer {
 }
 
 blockquote {
-  margin: 1rem;
+  margin: 1rem 0.5rem 1rem;
   padding: 0.1rem 0.7rem;
-  color: $color-emerald-4;
-  background: lighten($color-emerald-1, 2%);
+  color: #5c6e6c;
+  background: #d4e9e2;
   border-left: 3px solid;
-  border-color: darken($color-emerald-1, 10%);
+  border-color: #5c6e6c;
+}
+
+
+blockquote.red {
+  color: #BF0021;
+  background: #F1DEDF;
+  border-color: #BF0021
 }
 
 .footnotes {
