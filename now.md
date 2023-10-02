@@ -3,15 +3,15 @@ title: "Now"
 layout: page
 ---
 
-I use this page to keep track of things I am doing. And what I've done.
+What I've been doing lately.
 {:.muted}
 
-### What I've been doing lately?
-
-- Getting stronger. Following the rpogram called [StrongerByScience Hypertrophy](https://www.strongerbyscience.com/)
-- Reading "Flatland" by Edwin Abbott
-- Reading "... Data Structures and Algorithms" by Jay Wengrow &ensp;<span class="muted">5/20</span>
-- Reading "Precalculus" by James Stewart
+### Reading
+{:.muted}
+- "The Metamorphosis" by Franz Kafka
+- "Flatland" by Edwin Abbott
+- "A Common-Sense Guide to Data Structures and Algorithms" by Jay Wengrow
+- "Introduction to Mathematical Thinking" by Keith Devlin
 
 <!--
 #### To start
