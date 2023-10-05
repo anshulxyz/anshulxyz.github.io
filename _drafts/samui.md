@@ -3,10 +3,9 @@ title: "A 10-day itinerary for Koh Samui"
 layout: post
 ---
 
-> **Disclaimer**: Don't use me as the primary source for critical information.
->
->Always verify from official sources.
-{:.red}
+**Disclaimer**: Don't use this post as the primary source for any critical information.
+Always verify from official sources.
+{:.red .aside}
 
 In the May of 2023 I went an island called Koh Samui, in Thaialnd, for a vacation.
 

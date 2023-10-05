@@ -6,12 +6,10 @@ layout: page
 What I've been doing lately.
 {:.muted}
 
-### Reading
-{:.muted}
-- "The Metamorphosis" by Franz Kafka
-- "Flatland" by Edwin Abbott
-- "A Common-Sense Guide to Data Structures and Algorithms" by Jay Wengrow
-- "Introduction to Mathematical Thinking" by Keith Devlin
+- Reading "A Common-Sense Guide to Data Structures and Algorithms" by Jay Wengrow
+<!--- "The Metamorphosis" by Franz Kafka-->
+<!--- "Flatland" by Edwin Abbott-->
+<!--- "Introduction to Mathematical Thinking" by Keith Devlin-->
 
 <!--
 #### To start

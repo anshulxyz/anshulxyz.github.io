@@ -13,6 +13,11 @@ syntax: True
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
 
+This is a link to collection note post called [[news]]
+
+Samples marginal note. Samples marginal note. $$a + b = c$$
+{:.aside}
+
 Muted text
 {:.muted}
 
@@ -40,8 +45,8 @@ Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum e
 
 > This quote will _change_ your life. Don't <em>misuse</em> it.
 
-{:.red}
 > Blockquote but red. This quote will _change_ your life. Don't <em>misuse</em> it.
+{:.red}
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt.
 

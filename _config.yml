@@ -10,10 +10,15 @@ username: anshulxyz
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-wikilinks
 
 markdown: kramdown
-# highlighter: rouge
 kramdown:
   input: GFM
+
+collections:
+  notes:
+    output: true
+    permalink: /:collection/:name
 
 permalink: /:title
