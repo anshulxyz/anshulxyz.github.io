@@ -10,7 +10,6 @@ username: anshulxyz
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
-  - jekyll-wikilinks
 
 markdown: kramdown
 kramdown:
