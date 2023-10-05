@@ -9,14 +9,40 @@ UI Symbol;
 
 
 html {
-  max-width: 65ch;
-  padding-top: 2em;
+  max-width: 85ch;
   margin: auto;
+  padding-top: 2em;
   line-height: 1.6;
   font-family: $sans-serif;
   font-size: calc(1em * 1.1);
   background: white;
   color: $color-gray-6;
+}
+
+div.container {
+  margin-right: 25%;
+}
+
+aside, .aside {
+  display: inline;
+  float: right;
+  position: relative;
+  width: 20vw;
+  margin-right: -22vw;
+  font-size: calc(1em * 0.75);
+}
+
+@media (max-width: 768px) {
+  div.container {
+    margin: 1rem;
+  }
+  aside, .aside {
+    display: block;
+    float: none;
+    margin: 5% 10% 5% 10%;
+    width: 80%;
+    font-size: calc(1em * 0.9);
+  }
 }
 
 h1,
@@ -63,6 +89,10 @@ footer {
   user-select: none;
 }
 
+.red {
+  color: #BF0021;
+}
+
 blockquote {
   margin: 1rem 0.5rem 1rem;
   padding: 0.1rem 0.7rem;
@@ -72,12 +102,12 @@ blockquote {
   border-color: #5c6e6c;
 }
 
-
 blockquote.red {
   color: #BF0021;
   background: #F1DEDF;
   border-color: #BF0021
 }
+
 
 .footnotes {
   margin: 0;
