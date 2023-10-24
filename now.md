@@ -6,7 +6,9 @@ layout: page
 What I've been doing lately.
 {:.muted}
 
-- Reading "A Common-Sense Guide to Data Structures and Algorithms" by Jay Wengrow
+- Reading "A Common-Sense Guide to Data Structures and Algorithms" by J. Wengrow.
+- Studying for a Bachelor of Science degree in Data Science and Programming.
+- Working as a Software Craftsman, currently on a Tax Filing website for an island nation.
 <!--- "The Metamorphosis" by Franz Kafka-->
 <!--- "Flatland" by Edwin Abbott-->
 <!--- "Introduction to Mathematical Thinking" by Keith Devlin-->

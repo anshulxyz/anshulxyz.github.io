@@ -7,20 +7,21 @@ $serif: georgia, Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, 
 Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe
 UI Symbol;
 
+$book: et-book,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
 
 html {
-  max-width: 85ch;
+  max-width: 95ch;
   margin: auto;
   padding-top: 2em;
   line-height: 1.6;
-  font-family: $sans-serif;
+  font-family: $book;
   font-size: calc(1em * 1.1);
   background: white;
   color: $color-gray-6;
 }
 
 div.container {
-  margin-right: 25%;
+  margin-right: 22%;
 }
 
 aside, .aside {
@@ -29,7 +30,7 @@ aside, .aside {
   position: relative;
   width: 20vw;
   margin-right: -22vw;
-  font-size: calc(1em * 0.75);
+  font-size: calc(1em * 0.8);
 }
 
 @media (max-width: 768px) {
