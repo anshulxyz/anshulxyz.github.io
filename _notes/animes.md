@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: note
 title: "My Favourite Animes"
+updated: "2022-05-12"
 categories: extra
 author: Anshul Chauhan
 description: "My favourite animes"
@@ -16,4 +17,3 @@ redirect_from:
 - Shigurui
 - Ranking of Kings
 - One Piece
-

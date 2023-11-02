@@ -19,7 +19,6 @@ layout: page
 {% for note in notes %}
 <li>
   <a href="{{ note.url }}">{{ note.title }}</a>
-  <span class="muted" style="font-size: 0.85rem;">{{ note.date | date: "%Y %b" }}</span>
 </li>
 {% endfor %}
 </ul>

@@ -18,10 +18,10 @@ Software developer, currently working on a tax-filing website for an island nati
 
 I love exploring new programming languages and building projects with them.
 Some of my interests include playing football, skateboarding and sketching.
-Here are lists of my favourite [movies]({% post_url 2022-05-12-movies %}),
-[books]({% post_url 2022-05-12-books %}),
-[animes]({% post_url 2022-05-12-animes %}) &
-[albums]({% post_url 2022-05-12-albums %}).
+Here are lists of my favourite [movies]({% link _notes/movies.md %}),
+[books]({% link _notes/books.md %}),
+[animes]({% link _notes/animes.md %}) &
+[albums]({% link _notes/albums.md %}).
 
 Twitter: [@anshulxyz](https://twitter.com/anshulxyz){:target="_blank"} \\
 GitHub: [anshulxyz](https://github.com/anshulxyz){:target="_blank"}
@@ -57,3 +57,5 @@ GitHub: [anshulxyz](https://github.com/anshulxyz){:target="_blank"}
 - rubyforgood/human-essentials: [Fix table columns alignment for numerals and dates #1263](https://github.com/rubyforgood/human-essentials/pull/1263)
 
 For all my open source contributions, [click here](https://github.com/search?q=author:anshulxyz+is:pr++-user:anshulxyz).
+
+[RSS Feed]({{ site.url }}/feed)

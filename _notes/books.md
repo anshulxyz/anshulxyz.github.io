@@ -1,6 +1,7 @@
 ---
-layout: post
+layout: note
 title: "My Favourite Books"
+updated: "2022-05-12"
 categories: books
 author: Anshul Chauhan
 description: "My favourite books"
