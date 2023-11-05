@@ -16,8 +16,8 @@ html {
   line-height: 1.6;
   font-family: $book;
   font-size: calc(1em * 1.1);
-  background: white;
-  color: $color-gray-6;
+  background: $color-red-6;
+  color: $color-gray-2;
 }
 
 div.container {
@@ -59,12 +59,7 @@ p {
 
 // link
 a {
-  color:$color-azure-4;
-}
-
-a:hover,
-a:focus {
-  background:$color-azure-1;
+  color: lighten( $color-indigo-3, 13%);
 }
 
 hr {
@@ -97,16 +92,13 @@ footer {
 blockquote {
   margin: 1rem 0.5rem 1rem;
   padding: 0.1rem 0.7rem;
-  color: #5c6e6c;
-  background: #d4e9e2;
-  border-left: 3px solid;
-  border-color: #5c6e6c;
+  background: $color-emerald-5;
+  color: $color-emerald-1;
 }
 
 blockquote.red {
-  color: #BF0021;
-  background: #F1DEDF;
-  border-color: #BF0021
+  color: $color-red-2;
+  background: $color-red-4;
 }
 
 
@@ -118,16 +110,16 @@ blockquote.red {
 }
 
 .muted {
-  color: lighten($color-gray-3, 10%);
+  color:$color-gray-3;
 }
 
 .title {
-  color: $color-red-5;
+  color: $color-gray-1;
 }
 
 hr.title {
   height: 1px;
-  background-color: $color-red-5;
+  background-color: $color-gray-3;
   border: none;
 
 }

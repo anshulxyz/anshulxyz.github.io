@@ -2,6 +2,7 @@
 title: "Archive"
 layout: page
 ---
+[RSS Feed]({{ site.url }}/feed)
 
 ### Posts
 <ul>
