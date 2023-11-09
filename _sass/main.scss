@@ -13,10 +13,10 @@ html {
   max-width: 95ch;
   margin: auto;
   padding-top: 2em;
-  line-height: 1.6;
+  line-height: 1.5;
   font-family: $book;
-  font-size: calc(1em * 1.1);
-  background: $color-red-6;
+  font-size: calc(1em * 1.2);
+  background: #073C2A;
   color: $color-gray-2;
 }
 
@@ -30,7 +30,7 @@ aside, .aside {
   position: relative;
   width: 20vw;
   margin-right: -22vw;
-  font-size: calc(1em * 0.8);
+  font-size: calc(1em * 0.7);
 }
 
 @media (max-width: 768px) {
@@ -59,15 +59,15 @@ p {
 
 // link
 a {
-  color: lighten( $color-indigo-3, 13%);
+  color: #FFEA74;
 }
 
 hr {
   height: 1px;
   border-width: 0px;
   margin: 2rem 0rem;
-  color: $color-gray-3;
-  background-color: $color-gray-3;
+  color: #689377;
+  background-color: #689377;
 }
 
 code,
@@ -92,8 +92,7 @@ footer {
 blockquote {
   margin: 1rem 0.5rem 1rem;
   padding: 0.1rem 0.7rem;
-  background: $color-emerald-5;
-  color: $color-emerald-1;
+  background: #2D6141;
 }
 
 blockquote.red {
@@ -106,22 +105,14 @@ blockquote.red {
   margin: 0;
   line-height: 50%;
   font-size: calc(1em * 0.85);
-  color: $color-gray-4;
 }
 
 .muted {
-  color:$color-gray-3;
+  color: #689377;
 }
 
 .title {
   color: $color-gray-1;
-}
-
-hr.title {
-  height: 1px;
-  background-color: $color-gray-3;
-  border: none;
-
 }
 
 ul {
@@ -157,4 +148,8 @@ table, th, td {
 
 td {
   padding: 0.5rem;
+}
+
+.hljs {
+  background: rgba(0,0,0,0.4) !important;
 }
