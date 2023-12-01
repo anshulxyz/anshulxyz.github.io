@@ -13,7 +13,7 @@ html {
   max-width: 95ch;
   margin: auto;
   padding-top: 2em;
-  line-height: 1.5;
+  line-height: 1.4;
   font-family: $book;
   font-size: calc(1em * 1.2);
   background: #073C2A;
@@ -77,8 +77,8 @@ pre {
 }
 
 footer {
-  padding-top: 3em;
-  text-align: center;
+  //padding-top: 3em;
+  //text-align: center;
 }
 
 .lineno {

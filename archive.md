@@ -2,7 +2,7 @@
 title: "Archive"
 layout: page
 ---
-[RSS Feed]({{ site.url }}/feed)
+Subscribe [via RSS]({{ site.url }}/feed)
 
 ### Posts
 <ul>
@@ -14,6 +14,7 @@ layout: page
 {% endfor %}
 </ul>
 
+<!--
 ### Notes
 <ul>
 {% assign notes = site.notes | sort: "title" %}
@@ -23,3 +24,4 @@ layout: page
 </li>
 {% endfor %}
 </ul>
+-->

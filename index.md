@@ -58,4 +58,3 @@ GitHub: [anshulxyz](https://github.com/anshulxyz){:target="_blank"}
 
 For all my open source contributions, [click here](https://github.com/search?q=author:anshulxyz+is:pr++-user:anshulxyz).
 
-[RSS Feed]({{ site.url }}/feed)

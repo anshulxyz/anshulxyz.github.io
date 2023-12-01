@@ -28,3 +28,4 @@ To read at some time
 - 37 Signal, Shape Up
 - Practical Vim
 - Docs for Developers
+- Practice of Programming
