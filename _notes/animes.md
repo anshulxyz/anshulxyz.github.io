@@ -16,4 +16,8 @@ redirect_from:
 - Samurai Champloo
 - Shigurui
 - Ranking of Kings
+
+### Animes I'm currently following
+- Heavenly Delusion
+- Vinland Saga
 - One Piece
