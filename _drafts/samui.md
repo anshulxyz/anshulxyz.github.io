@@ -44,3 +44,9 @@ if you don't plan on being there. Even if you plan to take an overnight train.
   - insert a fact about thai veg/non-veg ratio
 
 - women's safety
+- show a beautiful map from https://maps.stamen.com/#terrain
+- show altitude because from the map it would seem flat, I was surprised to see
+  the mountains.
+
+### Inspiration
+- https://maxwellforbes.com/posts/2023-taipei/?utm_source=hnblogs.substack.com
