@@ -9,7 +9,6 @@ tags: animes extra
 redirect_from:
   - /anime/
 ---
-
 - Fullmetal Alchemist: Brotherhood
 - Welcome to the N.H.K.
 - Made in Abyss
@@ -17,7 +16,8 @@ redirect_from:
 - Shigurui
 - Ranking of Kings
 
-### Animes I'm currently following
+Animes I'm currently following:
+{:.muted}
 - Heavenly Delusion
 - Vinland Saga
 - One Piece
