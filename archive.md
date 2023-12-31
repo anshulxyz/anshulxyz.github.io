@@ -1,9 +1,7 @@
 ---
+title: "Archive"
 layout: page
 ---
-# Archive
----
-
 Subscribe [via RSS]({{ site.url }}/feed)
 
 ### Posts

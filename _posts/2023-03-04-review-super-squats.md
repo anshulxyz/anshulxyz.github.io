@@ -2,7 +2,6 @@
 layout: post
 title: "Program Review: Super Squats"
 description: "My review of the Super Squats when running it for the first time."
-tags: fitness
 categories: fitness
 author: Anshul Chauhan
 ---
