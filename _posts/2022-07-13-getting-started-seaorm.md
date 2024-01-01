@@ -5,7 +5,7 @@ categories: code
 author: Anshul Chauhan
 description: "A tutorial to get you up-to speed with SeaORM, a relational ORM for Rust"
 syntax: True
-tags: rust sqlite SeaORM publish
+tags: rust sqlite SeaORM featured
 ---
 
 > SeaORM is a relational ORM to help you build web services in Rust with the
@@ -473,7 +473,7 @@ DeleteResult { rows_affected: 1 }
 We can execute script `read_post` again to see what posts remain in the database.
 
 ```txt
-$ cargo run --bin read_posts 
+$ cargo run --bin read_posts
     Finished dev [unoptimized + debuginfo] target(s) in 0.31s
      Running `target/debug/read_posts`
 All the posts in db:
