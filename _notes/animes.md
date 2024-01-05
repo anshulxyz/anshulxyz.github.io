@@ -18,6 +18,7 @@ redirect_from:
 
 Animes I'm currently following:
 {:.muted}
+- Chainsaw Man
 - Heavenly Delusion
 - Vinland Saga
 - One Piece
