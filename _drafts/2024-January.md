@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Goals for January, 2024"
+title: "What I got done in January, 2024"
 author: Anshul Chauhan
-description: "Stuff I want to get done in Jan-2024"
+description: "Some stuff I got done in Jan-2024"
 image: https://i.imgur.com/RPbkPgD.png
 ---
 
