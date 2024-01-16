@@ -17,6 +17,3 @@ flyctl ssh -a <APP_NAME> sftp get <FILEPATH>
 ### Extra
 - fly.io docs [`fly ssh`](https://fly.io/docs/flyctl/ssh-sftp/)
 - Simon Willison - [How to scp files to and from Fly](https://til.simonwillison.net/fly)
-
-This is a test for jekyll-wikirefs
-[[review-super-squats]]

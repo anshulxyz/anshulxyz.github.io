@@ -6,7 +6,9 @@ description: "Some stuff I got done in Jan-2024"
 image: https://i.imgur.com/RPbkPgD.png
 ---
 
-1. Read "A Common-Sense Guide to Data Structures and Algorithms" by Jay Wengrow.
+- write down how many times I went to the gym, or played football
+- 2024-01-07
+  - Chapter 2 "A Common-Sense Guide to Data Structures and Algorithms" by Jay Wengrow
 2. Read "The Metamorphosis" by by Franz Kafka.
 3. Build a side-project.
 4. Finish [rustlings](https://rustlings.cool/)

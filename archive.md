@@ -8,6 +8,8 @@ redirect_from:
 
 Subscribe [via RSS]({{ site.url }}/feed)
 
+<div id="search"></div>
+
 ### Posts
 <ul>
 {% for post in site.posts %}
@@ -29,3 +31,12 @@ Subscribe [via RSS]({{ site.url }}/feed)
 {% endfor %}
 </ul>
 -->
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
+
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        new PagefindUI({ element: "#search", showSubResults: true });
+    });
+</script>

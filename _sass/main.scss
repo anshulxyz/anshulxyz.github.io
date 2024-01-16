@@ -9,6 +9,14 @@ UI Symbol;
 
 $book: et-book,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,serif;
 
+#search {
+  --pagefind-ui-primary: #eeeeee;
+  --pagefind-ui-text: $color-gray-2;
+  --pagefind-ui-background: $color-green-5;
+  --pagefind-ui-border: #152028;
+  --pagefind-ui-tag: #152028;
+}
+
 html {
   max-width: 90ch;
   margin: auto;
