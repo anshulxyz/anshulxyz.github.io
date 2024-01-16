@@ -13,7 +13,8 @@ layout: home
 Software developer, currently working on a tax-filing website for an island nation.
 
 I love exploring new programming languages and building projects with them.
-Some of my interests include playing football, skateboarding and sketching.\\
+Some of my interests include playing football, skateboarding and sketching.
+
 Here are lists of my favourite [movies]({% link _notes/movies.md %}),
 [books]({% link _notes/books.md %}),
 [animes]({% link _notes/animes.md %}) &
