@@ -416,7 +416,7 @@ cargo run --bin update_post
 And it should look like
 
 ```txt
-$ cargo run --bin update_post                                                                                         ⏎
+$ cargo run --bin update
    Compiling seaorm_demo v0.1.0
     Finished dev [unoptimized + debuginfo] target(s) in 2.80s
      Running `target/debug/update_post`
