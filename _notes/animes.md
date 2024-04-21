@@ -16,9 +16,14 @@ redirect_from:
 - Shigurui
 - Ranking of Kings
 
-Animes I'm currently following:
+Currently following:
 {:.muted}
 - Chainsaw Man
 - Heavenly Delusion
 - Vinland Saga
 - One Piece
+
+Watchlist
+{:.muted}
+- Pluto
+- Texhnolyze
