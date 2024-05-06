@@ -1,5 +1,5 @@
 ---
-title: "A 10-day itinerary for Koh Samui"
+title: "10 Days in Koh Samui"
 layout: post
 ---
 
@@ -41,12 +41,16 @@ if you don't plan on being there. Even if you plan to take an overnight train.
 
 - food
   - vegetarians may have some problem of finding variety of local food
-  - insert a fact about thai veg/non-veg ratio
+  - insert a fact about Thai veg/non-veg ratio
 
 - women's safety
 - show a beautiful map from https://maps.stamen.com/#terrain
 - show altitude because from the map it would seem flat, I was surprised to see
   the mountains.
+
+### Common Scams
+- Massage on the beach
+- Selling Water bottles
 
 ### Inspiration
 - https://maxwellforbes.com/posts/2023-taipei/?utm_source=hnblogs.substack.com
