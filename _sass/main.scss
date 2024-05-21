@@ -12,7 +12,7 @@ $book: et-book,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,s
 #search {
   --pagefind-ui-primary: #eeeeee;
   --pagefind-ui-text: $color-gray-2;
-  --pagefind-ui-background: $color-green-5;
+  --pagefind-ui-background: $color-gray-2;
   --pagefind-ui-border: #152028;
   --pagefind-ui-tag: #152028;
 }
@@ -23,9 +23,9 @@ html {
   padding-top: 2em;
   line-height: 1.4;
   font-family: $sans-serif;
-  font-size: calc(1em * 1.1);
-  background: #073C2A;
-  color: $color-gray-2;
+  font-size: calc(1em * 1.2);
+  background: white;
+  color: $color-gray-5;
 }
 
 div.container {
@@ -67,19 +67,19 @@ p {
 
 // link
 a {
-  color: #FFEA74;
+  color: $color-blue-3;
 }
 
 a:hover {
-  background: black;
+  background: $color-blue-1;
 }
 
 hr {
   height: 1px;
   border-width: 0px;
   margin: 2rem 0rem;
-  color: #689377;
-  background-color: #689377;
+  color: $color-blue-5;
+  background-color: $color-blue-5;
 }
 
 code,
@@ -98,18 +98,18 @@ footer {
 }
 
 .red {
-  color: #BF0021;
+  color: $color-red-4;
 }
 
 blockquote {
   margin: 1rem 0.5rem 1rem;
   padding: 0.1rem 0.7rem;
-  background: #2D6141;
+  background: $color-blue-1;
 }
 
 blockquote.red {
-  color: $color-red-2;
-  background: $color-red-4;
+  color: $color-red-5;
+  background: $color-red-2;
 }
 
 
@@ -120,11 +120,11 @@ blockquote.red {
 }
 
 .muted {
-  color: #689377;
+  color: $color-gray-3;
 }
 
 .title {
-  color: $color-gray-1;
+  color: $color-gray-5;
 }
 
 ul {
