@@ -6,10 +6,16 @@
   <div class="container">
     <div style="padding-bottom: 1rem;">
       <a href="/" style="float:left; margin:right: 2rem;">Home</a>
-      <a href="/archive" style="float:right;">Archive</a>
+      <!--<a href="/archive" style="float:right;">Archive</a>-->
     </div>
     <div>
       <h1>{{ page.title }}</h1>
+    <hr />
+    </div>
+    <div>
+      <div>{{ content }}</div>
+    </div>
+    <hr/>
     <div>
       <p class="muted" style="font-size: 0.9rem;">First published on {{ page.date | date_to_long_string: "ordinal" }}</p>
       {% if page.tags.size != 0 %}
@@ -19,15 +25,9 @@
         {% endfor %}
       {% endif %}
     </div>
-      <hr />
-    </div>
-    <div>
-      <div>{{ content }}</div>
-    </div>
-    <hr/>
-    <footer>
-    <a href="mailto:anshulchauhan@outlook.com?subject=Re: {{ page.title }}">Reply via email</a>
-    </footer>
+    <!--<footer>-->
+    <!--<a href="mailto:anshulchauhan@outlook.com?subject=Re: {{ page.title }}">Reply via email</a>-->
+    <!--</footer>-->
   </div>
 </body>
 
