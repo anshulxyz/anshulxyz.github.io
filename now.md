@@ -7,8 +7,7 @@ What I've been doing lately.
 {:.muted}
 
 - Reading "A Common-Sense Guide to Data Structures and Algorithms" by J. Wengrow.
-    - Chapter 4:
-- Reading "Modern "
+- Reading "Modern C" by Jens Gustedt
 <!--- "The Metamorphosis" by Franz Kafka-->
 <!--- "Flatland" by Edwin Abbott-->
 <!--- "Introduction to Mathematical Thinking" by Keith Devlin-->

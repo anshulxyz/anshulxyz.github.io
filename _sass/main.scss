@@ -120,7 +120,7 @@ blockquote.red {
 }
 
 .muted {
-  color: $color-gray-3;
+  color: lighten($color-gray-3, 15%);
 }
 
 .title {

@@ -8,9 +8,9 @@ description: "My favourite books"
 tags: books extra
 ---
 
-- Siddhartha, by Herman Hesse
-- Flowers for Algernon, by Daniel Keyes
-- The White Tiger, by Arvind Adiga
-- Women, by Charles Bukowski
-- The Catcher in the Rye, by J.D. Salinger
-- The Fountainhead, by Ayn Rand
+- Siddhartha, by _Herman Hesse_
+- Flowers for Algernon, by _Daniel Keyes_
+- The White Tiger, by _Arvind Adiga_
+- Women, by _Charles Bukowski_
+- The Catcher in the Rye, by _J.D. Salinger_
+- The Fountainhead, by _Ayn Rand_

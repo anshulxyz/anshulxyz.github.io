@@ -7,6 +7,7 @@ layout: note
 ### General
 
 Every arm of an `if` expression has to return the same type of value.
+
 {% highlight rust %}
 // error E0308
 if (x > 10) {
