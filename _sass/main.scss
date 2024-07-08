@@ -18,7 +18,7 @@ $book: et-book,Palatino,Palatino Linotype,Palatino LT STD,Book Antiqua,Georgia,s
 }
 
 html {
-  max-width: 90ch;
+  max-width: 80ch;
   margin: auto;
   padding-top: 2em;
   line-height: 1.4;
@@ -71,7 +71,7 @@ a {
 }
 
 a:hover {
-  background: $color-blue-1;
+  font-style: italic;
 }
 
 hr {
@@ -160,4 +160,11 @@ table, th, td {
 
 td {
   padding: 0.5rem;
+}
+
+.bottom-element {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
 }
