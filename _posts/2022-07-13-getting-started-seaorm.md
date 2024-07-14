@@ -5,7 +5,7 @@ categories: code
 author: Anshul Chauhan
 description: "A tutorial to get you up-to speed with SeaORM, a relational ORM for Rust"
 syntax: True
-tags: rust sqlite SeaORM featured
+tags: rust sqlite SeaORM
 ---
 
 > SeaORM is a relational ORM to help you build web services in Rust with the

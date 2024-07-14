@@ -78,8 +78,8 @@ hr {
   height: 1px;
   border-width: 0px;
   margin: 2rem 0rem;
-  color: $color-blue-5;
-  background-color: $color-blue-5;
+  color: $color-red-3;
+  background-color: lighten($color-gray-3, 15%);
 }
 
 code,

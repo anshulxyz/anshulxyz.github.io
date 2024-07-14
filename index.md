@@ -4,11 +4,11 @@ layout: home
 
 <!--It is later than you think.-->
 
-## Anshul Chauhan
-{:.title}
----
+Anshul Chauhan
 
-Software developer, currently working on a tax-filing website for an island nation.
+[/now](/now)
+
+<!--Software developer, currently working on a tax-filing website for an island nation.
 
 I love exploring new programming languages and building projects with them.
 Some of my interests include playing football, skateboarding and sketching.
@@ -42,3 +42,4 @@ GitHub: [anshulxyz](https://github.com/anshulxyz){:target="_blank"}
 - rubyforgood/human-essentials: [Fix table columns alignment for numerals and dates #1263](https://github.com/rubyforgood/human-essentials/pull/1263)
 
 For all my open source contributions, [click here](https://github.com/search?q=author:anshulxyz+is:pr++-user:anshulxyz).
+-->

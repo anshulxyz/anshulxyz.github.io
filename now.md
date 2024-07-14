@@ -6,16 +6,16 @@ layout: page
 What I've been doing lately.
 {:.muted}
 
-- Reading "A Common-Sense Guide to Data Structures and Algorithms" by J. Wengrow.
-- Reading "Modern C" by Jens Gustedt
-- Reading "Linear Algebra" by Jim Heffron
+- Reading "...Data Structures and Algorithms" by J. Wengrow. <span class="muted">5/20</span>
 
-Last updated on 2024-07-08 1:36 PM
+
+Last updated on 2024-07-15 02:23 AM
 {:.muted .bottom-element}
 
 <!--
 #### To start
 
+Reading "Beej's Guide to C Programming" <span class="muted">2/41</span>
 - Scala-99
 - MIT 6.006 (Prereq: The Wengrow's Book)
 - The Rust Book
