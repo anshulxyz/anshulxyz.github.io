@@ -6,7 +6,9 @@ layout: home
 
 Anshul Chauhan
 
-[/now](/now)
+👋
+
+(this site is under renovation)
 
 <!--Software developer, currently working on a tax-filing website for an island nation.
 
