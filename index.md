@@ -10,7 +10,7 @@ Anshul Chauhan
 
 (this site is under renovation)
 
-<!--Software developer, currently working on a tax-filing website for an island nation.
+<!--Software developer, currently working on a taxation project for an island nation.
 
 I love exploring new programming languages and building projects with them.
 Some of my interests include playing football, skateboarding and sketching.
