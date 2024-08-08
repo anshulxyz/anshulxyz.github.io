@@ -102,8 +102,8 @@ footer {
   color: $color-red-4;
 }
 
-.yellowbg {
-  background: #ffffde;
+.done {
+  background: $color-emerald-1;
 }
 
 blockquote {
@@ -172,4 +172,8 @@ td {
     bottom: 0;
     width: 100%;
     padding: 10px;
+}
+
+.hljs {
+  background: $color-gray-1;
 }
