@@ -22,6 +22,7 @@ Currently following:
 - Heavenly Delusion
 - Vinland Saga
 - One Piece
+- Blue Period
 
 Watchlist
 {:.muted}
