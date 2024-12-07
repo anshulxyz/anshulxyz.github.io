@@ -15,6 +15,7 @@ redirect_from:
 - Samurai Champloo
 - Shigurui
 - Ranking of Kings
+- Black Lagoon
 
 Currently following:
 {:.muted}
