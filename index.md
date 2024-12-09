@@ -6,11 +6,10 @@ layout: home
 
 Anshul Chauhan
 
-Software developer, currently working on a taxation project for an island
-nation.
+_Software developer_
 
-I love exploring new programming languages and building projects with them.
-Some of my interests include playing football, skateboarding and sketching.
+
+Some of my interests out of the programming world include playing football, skateboarding and sketching.
 
 Here are lists of my favourite [movies]({% link _notes/movies.md %}),
 [books]({% link _notes/books.md %}),
