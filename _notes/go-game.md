@@ -5,12 +5,13 @@ categories: life
 author: Anshul Chauhan
 ---
 
-**Note:** All the resources I've mentioned here are (legally) free to use.  I've
-intentionally kept the list, so that it doesn't overwhelm a beginner. For more
-resources refer [Soumya's list](https://weiqi.soumyak4.in/posts/weiqi-resources/)
+**Note:** All the resources I've mentioned here are (legally) free to use.
+I've intentionally kept the list small, so that it doesn't overwhelm a
+beginner. For more resources refer [Soumya's
+list](https://weiqi.soumyak4.in/posts/weiqi-resources/)
 
 As you take on the journey of learning and playing Go, [Sensei's
-Library](https://senseis.xmp.net/) will be your wikipedia.
+Library](https://senseis.xmp.net/) will be your Wikipedia.
 
 ---
 
