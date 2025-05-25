@@ -5,6 +5,15 @@ categories: life
 author: Anshul Chauhan
 ---
 
+**Note:** All the resources I've mentioned here are (legally) free to use.  I've
+intentionally kept the list, so that it doesn't overwhelm a beginner. For more
+resources refer [Soumya's list](https://weiqi.soumyak4.in/posts/weiqi-resources/)
+
+As you take on the journey of learning and playing Go, [Sensei's
+Library](https://senseis.xmp.net/) will be your wikipedia.
+
+---
+
 ## Where to learn?
 
 1. Book: [The Way to Go](https://www.usgo-archive.org/way-go) by Karl Baker
@@ -25,18 +34,9 @@ author: Anshul Chauhan
 2. [Dragon Go Server](https://www.dragongoserver.net/)
   Only correspondence games.
 
-3. [BadukPop (Androi/iOS/Web)](https://badukpop.com/)
+3. [BadukPop](https://badukpop.com/) (Androi/iOS/Web)
 
 ## Tsumego (Go Puzzles)
 
 1. [GoProblems](https://goproblems.com)
 2. [Black-To-Play](https://blacktoplay.com/) 
-
----
-
-**Note:** All the resources I've mentioned here are (legally) free to use.  I've
-intentionally kept the list, so that it doesn't overwhelm a beginner. For more
-resources refer [Soumya's list](https://weiqi.soumyak4.in/posts/weiqi-resources/)
-
-As you take on the journey of learning and playing Go, [Sensei's
-Library](https://senseis.xmp.net/) will be your wikipedia.
