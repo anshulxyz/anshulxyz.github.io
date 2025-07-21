@@ -5,6 +5,7 @@ layout: home
 <!--It is later than you think.-->
 
 Anshul Chauhan
+{:.half-bg}
 
 _Software developer_
 
