@@ -26,6 +26,7 @@
 
 		{#- Add the contents of a file to the bundle #}
 		<style>{% include "css/index.css" %}</style>
+		<style>{% include "css/message-box.css" %}</style>
 
 		{#- Or you can add from node_modules #}
 		{# <style>{% include "node_modules/something.css" %}</style> #}
@@ -39,10 +40,7 @@
 		{#- Add the heading-anchors web component to the JavaScript bundle #}
 		<script type="module">{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}</script>
 
-		<link
-			rel="stylesheet"
-			href="https://unpkg.com/katex@latest/dist/katex.min.css"
-		/>
+		<link rel="stylesheet" href="https://unpkg.com/katex@latest/dist/katex.min.css" />
 	</head>
 	<body>
 		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
