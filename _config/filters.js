@@ -1,4 +1,5 @@
 import { DateTime } from "luxon";
+import katex from "katex";
 
 export default function(eleventyConfig) {
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
@@ -9,6 +10,13 @@ export default function(eleventyConfig) {
 	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
 		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
 		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat('yyyy-LL-dd');
+	});
+
+	eleventyConfig.addFilter("latex", (content) => {
+		return content.replace(/\$\$(.+?)\$\$/g, (_, equation) => {
+			const cleanEquation = equation.replace(/&lt;/g, "<").replace(/&gt;/g, ">");
+			return katex.renderToString(cleanEquation, { throwOnError: false });
+		});
 	});
 
 	// Get the first `n` elements of a collection.
