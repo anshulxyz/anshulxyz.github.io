@@ -5,52 +5,17 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2025-07-27T09:00:54Z</updated>
+  <updated>2025-07-27T19:01:58Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
   <entry>
-    <title>Go (game) Resources</title>
-    <link href="https://example.com/blog/go-game/" />
-    <updated>2025-07-27T09:00:54Z</updated>
-    <id>https://example.com/blog/go-game/</id>
-    <content type="html">&lt;p class=&quot;message-box&quot;&gt;All the resources I&#39;ve mentioned here are &lt;em&gt;legally&lt;/em&gt; free to use.  I&#39;ve intentionally kept the list small, so that it doesn&#39;t overwhelm a beginner. For more resources refer to &lt;a href=&quot;https://weiqi.soumyak4.in/posts/weiqi-resources/&quot;&gt;Soumya&#39;s list&lt;/a&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;where-to-learn&quot;&gt;Where to learn?&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;Book: &lt;a href=&quot;https://www.usgo-archive.org/way-go&quot;&gt;The Way to Go&lt;/a&gt; by Karl Baker&lt;br&gt;
-A small 60 page booklet aimed at total beginners. It will get you familiar with basic rules and some proverbs to keep in mind while playing.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Interctive: &lt;a href=&quot;https://online-go.com/learn-to-play-go&quot;&gt;OGS&#39;s Tutorial&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Interactive: &lt;a href=&quot;https://gomagic.org/go-problems/&quot;&gt;Go-Magic / Go Problems&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://senseis.xmp.net/&quot;&gt;Sensei&#39;s Library&lt;/a&gt; &lt;em&gt;Wikipedia&lt;/em&gt; of Go.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;where-to-play&quot;&gt;Where to play?&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://online-go.com/&quot;&gt;Online-Go-Server&lt;/a&gt; (OGS)&lt;br&gt;
-Live and correspondence games. This is the most popular site for English speaking world. This is where you&#39;ll be playing most of your games. This is like lichess of the Go world.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.dragongoserver.net/&quot;&gt;Dragon Go Server&lt;/a&gt;&lt;br&gt;
-Only correspondence games.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;a href=&quot;https://badukpop.com/&quot;&gt;BadukPop&lt;/a&gt; (Androi/iOS/Web) Mobile app with both live and correspondence games.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&quot;tsumego-go-puzzles&quot;&gt;Tsumego (Go Puzzles)&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href=&quot;https://goproblems.com&quot;&gt;GoProblems&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://blacktoplay.com/&quot;&gt;Black-To-Play&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+    <title>Sample blog post</title>
+    <link href="https://example.com/blog/first-post/" />
+    <updated>2025-07-27T19:01:58Z</updated>
+    <id>https://example.com/blog/first-post/</id>
+    <content type="html">&lt;p&gt;Sample blog post.&lt;/p&gt;
 </content>
   </entry>
 </feed>

@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Go (game) Resources</title>
-		<meta name="description" content="This is a post on My Blog about agile frameworks.">
+		<title>Anshul Chauhan</title>
+		<meta name="description" content="I am writing about my experiences as a software craftsman and a human.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Anshul Chauhan">
 		
 		
@@ -239,6 +239,14 @@ header {
 	text-decoration: underline;
 }
 
+/* Notes list */
+.notelist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	margin-bottom: 1em;
+}
+
 /* Posts list */
 .postlist {
 	counter-reset: start-from var(--postlist-index);
@@ -324,174 +332,6 @@ header {
 	.message-box {
 		--color-message-box: #082840;
 	}
-}
-/**
- * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
- * @author ocodia
- */
-
-code[class*="language-"],
-pre[class*="language-"] {
-	color: #f8f8f2;
-	background: none;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
-	border-radius: 0.3em;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background: #272822;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
-	white-space: normal;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-	color: #8292a2;
-}
-
-.token.punctuation {
-	color: #f8f8f2;
-}
-
-.token.namespace {
-	opacity: .7;
-}
-
-.token.property,
-.token.tag,
-.token.constant,
-.token.symbol,
-.token.deleted {
-	color: #f92672;
-}
-
-.token.boolean,
-.token.number {
-	color: #ae81ff;
-}
-
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted {
-	color: #a6e22e;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable {
-	color: #f8f8f2;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.function,
-.token.class-name {
-	color: #e6db74;
-}
-
-.token.keyword {
-	color: #66d9ef;
-}
-
-.token.regex,
-.token.important {
-	color: #fd971f;
-}
-
-.token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
-}
-/*
- * New diff- syntax
- */
-
-pre[class*="language-diff-"] {
-	--eleventy-code-padding: 1.25em;
-	padding-left: var(--eleventy-code-padding);
-	padding-right: var(--eleventy-code-padding);
-}
-.token.deleted {
-	background-color: hsl(0, 51%, 37%);
-	color: inherit;
-}
-.token.inserted {
-	background-color: hsl(126, 31%, 39%);
-	color: inherit;
-}
-
-/* Make the + and - characters unselectable for copy/paste */
-.token.prefix.unchanged,
-.token.prefix.inserted,
-.token.prefix.deleted {
-	-webkit-user-select: none;
-	user-select: none;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.token.prefix.inserted,
-.token.prefix.deleted {
-	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
-}
-
-/* Optional: full-width background color */
-.token.inserted:not(.prefix),
-.token.deleted:not(.prefix) {
-	display: block;
-	margin-left: calc(-1 * var(--eleventy-code-padding));
-	margin-right: calc(-1 * var(--eleventy-code-padding));
-	text-decoration: none; /* override del, ins, mark defaults */
-	color: inherit; /* override del, ins, mark defaults */
 }</style>
 		
 
@@ -514,52 +354,16 @@ pre[class*="language-diff-"] {
 
 		<main id="main">
 			<heading-anchors>
-				
+				<h1 id="notes">Notes</h1>
 
 
-<h1 id="go-game-resources">Go (game) Resources</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2025-07-27">27 July 2025</time></li>
-	<li><a href="/tags/go-game/" class="post-tag">go-game</a></li>
+<ul reversed="">
+	<li>
+		<a href="/go-game/">Go (game) Resources</a>
+		<time class="postlist-date" datetime="2025-07-27">July 2025</time>
+	</li>
 </ul>
 
-<p class="message-box">All the resources I've mentioned here are <em>legally</em> free to use.  I've intentionally kept the list small, so that it doesn't overwhelm a beginner. For more resources refer to <a href="https://weiqi.soumyak4.in/posts/weiqi-resources/">Soumya's list</a>.</p>
-<h2 id="where-to-learn">Where to learn?</h2>
-<ol>
-<li>
-<p>Book: <a href="https://www.usgo-archive.org/way-go">The Way to Go</a> by Karl Baker<br>
-A small 60 page booklet aimed at total beginners. It will get you familiar with basic rules and some proverbs to keep in mind while playing.</p>
-</li>
-<li>
-<p>Interctive: <a href="https://online-go.com/learn-to-play-go">OGS's Tutorial</a></p>
-</li>
-<li>
-<p>Interactive: <a href="https://gomagic.org/go-problems/">Go-Magic / Go Problems</a></p>
-</li>
-<li>
-<p><a href="https://senseis.xmp.net/">Sensei's Library</a> <em>Wikipedia</em> of Go.</p>
-</li>
-</ol>
-<h2 id="where-to-play">Where to play?</h2>
-<ol>
-<li>
-<p><a href="https://online-go.com/">Online-Go-Server</a> (OGS)<br>
-Live and correspondence games. This is the most popular site for English speaking world. This is where you'll be playing most of your games. This is like lichess of the Go world.</p>
-</li>
-<li>
-<p><a href="https://www.dragongoserver.net/">Dragon Go Server</a><br>
-Only correspondence games.</p>
-</li>
-<li>
-<p><a href="https://badukpop.com/">BadukPop</a> (Androi/iOS/Web) Mobile app with both live and correspondence games.</p>
-</li>
-</ol>
-<h2 id="tsumego-go-puzzles">Tsumego (Go Puzzles)</h2>
-<ol>
-<li><a href="https://goproblems.com">GoProblems</a></li>
-<li><a href="https://blacktoplay.com/">Black-To-Play</a></li>
-</ol>
 
 
 			</heading-anchors>
@@ -571,7 +375,7 @@ Only correspondence games.</p>
 			<!-- </p> -->
 		</footer>
 
-		<!-- This page `/blog/go-game/` was built on 2025-07-27T09:01:27.526Z -->
+		<!-- This page `/notes/` was built on 2025-07-27T19:02:34.433Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
