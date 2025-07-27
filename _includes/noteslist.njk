@@ -1,8 +1,8 @@
-<ol reversed class="notelist" style="--notelist-index: {{ (noteslistCounter or noteslist.length) + 1 }}">
-{%- for note in noteslist | reverse %}
-	<li class="notelist-item{% if note.url == url %} notelist-item-active{% endif %}">
-		<a href="{{ note.url }}" class="notelist-link">{% if note.data.title %}{{ note.data.title }}{% else %}<code>{{ note.url }}</code>{% endif %}</a>
-		<time class="notelist-date" datetime="{{ note.date | htmlDateString }}">{{ note.date | readableDate("LLLL yyyy") }}</time>
+<ul reversed>
+{%- for post in noteslist | reverse %}
+	<li>
+		<a href="{{ post.url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+		<time class="postlist-date" datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
 	</li>
 {%- endfor %}
-</ol>
+</ul>

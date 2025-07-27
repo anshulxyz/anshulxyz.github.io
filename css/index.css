@@ -226,6 +226,14 @@ header {
 	text-decoration: underline;
 }
 
+/* Notes list */
+.notelist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	margin-bottom: 1em;
+}
+
 /* Posts list */
 .postlist {
 	counter-reset: start-from var(--postlist-index);
