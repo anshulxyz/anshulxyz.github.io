@@ -5,7 +5,7 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2025-07-25T00:00:00Z</updated>
+  <updated>2025-07-27T09:00:54Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
@@ -13,7 +13,7 @@
   <entry>
     <title>Go (game) Resources</title>
     <link href="https://example.com/blog/go-game/" />
-    <updated>2025-07-25T00:00:00Z</updated>
+    <updated>2025-07-27T09:00:54Z</updated>
     <id>https://example.com/blog/go-game/</id>
     <content type="html">&lt;p class=&quot;message-box&quot;&gt;All the resources I&#39;ve mentioned here are &lt;em&gt;legally&lt;/em&gt; free to use.  I&#39;ve intentionally kept the list small, so that it doesn&#39;t overwhelm a beginner. For more resources refer to &lt;a href=&quot;https://weiqi.soumyak4.in/posts/weiqi-resources/&quot;&gt;Soumya&#39;s list&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;where-to-learn&quot;&gt;Where to learn?&lt;/h2&gt;
