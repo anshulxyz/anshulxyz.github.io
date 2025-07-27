@@ -1,7 +1,7 @@
 ---
 title: Go (game) Resources
 description: This is a post on My Blog about agile frameworks.
-date: 2025-07-25
+date: git Last Modified
 tags: go-game
 ---
 

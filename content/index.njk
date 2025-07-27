@@ -3,6 +3,44 @@ const eleventyNavigation = {
 	key: "Home",
 	order: 1
 };
+
+const numberOfLatestPostsToShow = 3;
 ---
 
-Work-in-progress
+<p>
+Hi! I am Anshul. This is my personal website. By profession, I am a software
+craftsman. Some of my interests outside of programming are: playing football,
+playing <a href="{{ '/blog/go-game' | url }}">Go</a> and skateboarding.
+</p>
+
+<p>
+Here I plan to write just about anything that catches my fancy. All opinions are
+my own and not a representation of my employers.
+</p>
+
+<p>
+You can find me on <a href="www.twitter.com/anshulxyz">twitter</a> and <a
+href="www.github.com/anshulxyz">github</a>.
+</p>
+
+{% set postsCount = collections.posts | length %}
+{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
+<h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h2>
+
+{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslistCounter = postsCount %}
+{% include "postslist.njk" %}
+
+{% set morePosts = postsCount - numberOfLatestPostsToShow %}
+{% if morePosts > 0 %}
+<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
+{% endif %}
+
+{# List every content page in the project #}
+{#
+<ul>
+	{%- for entry in collections.all %}
+	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	{%- endfor %}
+</ul>
+#}
