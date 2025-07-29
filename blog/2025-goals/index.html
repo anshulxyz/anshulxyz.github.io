@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Anshul Chauhan</title>
-		<meta name="description" content="I am writing about my experiences as a software craftsman and a human.">
+		<title>Goals for 2025</title>
+		<meta name="description" content="My goals for the year 2025.">
 		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Anshul Chauhan">
 		
 		
@@ -332,6 +332,174 @@ header {
 	.message-box {
 		--color-message-box: #082840;
 	}
+}
+/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
 }</style>
 		
 
@@ -354,17 +522,41 @@ header {
 
 		<main id="main">
 			<heading-anchors>
-				<h1 id="notes">Notes</h1>
+				
 
 
-<ul reversed="">
-	<li>
-		<a href="/go-game/">Go (game) Resources</a>
-		<time class="postlist-date" datetime="2025-07-29">July 2025</time>
-	</li>
+<h1 id="goals-for-2025">Goals for 2025</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-07-29">29 July 2025</time></li>
+	<li><a href="/tags/life/" class="post-tag">life</a></li>
 </ul>
 
+<p>As of writing this post (2025-07-29), more than half of the year has passed.<br>
+Probably not the best time to be making a post named &quot;Goals for YYYY&quot;.<br>
+Nonetheless, here we are.</p>
+<p>At the end of the year, I'll revisit this post and reflect on how I did.</p>
+<h2 id="priority">Priority</h2>
+<ol>
+<li>Read &quot;The Little Schemer&quot;.</li>
+<li>Read &quot;... Data Structures and Algorithms&quot; by Jay Wengrow.</li>
+<li>Read &quot;Book of Proof&quot; by Richard Hammack.</li>
+<li>Write a blog post on a topic from Linear Algebra.</li>
+<li>Throw a party for kid's birthday.</li>
+<li>Go to a tech conference.</li>
+<li>Squat 100 kg</li>
+<li>Deadlift 120 kg</li>
+</ol>
+<h2 id="optional">Optional</h2>
+<ol>
+<li>Read parts of &quot;Elementary Linear Algebra&quot; by Howard Anton</li>
+<li>Read &quot;C Programming Language&quot;.</li>
+<li>Read &quot;Demian&quot; by Herman Hesse</li>
+<li>Read &quot;Lessons in Fundamentals of Go&quot; by Kageyama</li>
+</ol>
 
+<ul class="links-nextprev"><li class="links-nextprev-next">Next →<br><a href="/blog/first-post/">Sample blog post</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
@@ -375,7 +567,7 @@ header {
 			<!-- </p> -->
 		</footer>
 
-		<!-- This page `/notes/` was built on 2025-07-29T13:04:21.753Z -->
+		<!-- This page `/blog/2025-goals/` was built on 2025-07-29T13:04:21.755Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
