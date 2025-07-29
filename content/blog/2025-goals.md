@@ -1,7 +1,7 @@
 ---
 title: Goals for 2025
 description: My goals for the year 2025.
-date: git Last Modified
+date: Last Modified
 tags: life
 ---
 
