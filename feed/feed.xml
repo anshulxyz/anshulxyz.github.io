@@ -5,7 +5,7 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2025-07-29T18:37:02Z</updated>
+  <updated>2025-08-03T10:06:20Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
@@ -13,10 +13,10 @@
   <entry>
     <title>Goals for 2025</title>
     <link href="https://example.com/blog/2025-goals/" />
-    <updated>2025-07-29T18:37:02Z</updated>
+    <updated>2025-08-03T10:06:20Z</updated>
     <id>https://example.com/blog/2025-goals/</id>
-    <content type="html">&lt;p&gt;As of writing this post (2025-07-29), more than half of the year has passed.&lt;br&gt;
-Probably not the best time to be making a post named &amp;quot;Goals for YYYY&amp;quot;.&lt;br&gt;
+    <content type="html">&lt;p&gt;As of writing this post (2025-07-29), more than half of the year has passed.
+Probably not the best time to be making a post named &amp;quot;Goals for YYYY&amp;quot;.
 Nonetheless, here we are.&lt;/p&gt;
 &lt;p&gt;At the end of the year, I&#39;ll revisit this post and reflect on how I did.&lt;/p&gt;
 &lt;h2 id=&quot;priority&quot;&gt;Priority&lt;/h2&gt;
