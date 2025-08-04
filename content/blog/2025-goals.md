@@ -1,7 +1,7 @@
 ---
 title: Goals for 2025
 description: My goals for the year 2025.
-date: Last Modified
+date: 2025-07-29
 tags: life
 ---
 
