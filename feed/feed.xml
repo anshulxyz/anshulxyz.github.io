@@ -32,7 +32,12 @@ Nonetheless, here we are.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;optional&quot;&gt;Optional&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;Read parts of &amp;quot;Elementary Linear Algebra&amp;quot; by Howard Anton&lt;/li&gt;
+&lt;li&gt;Read parts of &amp;quot;Elementary Linear Algebra&amp;quot; by Howard Anton
+&lt;ol&gt;
+&lt;li&gt;&amp;quot;Determinants&amp;quot;&lt;/li&gt;
+&lt;li&gt;&amp;quot;General Vector Spaces&amp;quot;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
 &lt;li&gt;Read &amp;quot;C Programming Language&amp;quot;.&lt;/li&gt;
 &lt;li&gt;Read &amp;quot;Demian&amp;quot; by Herman Hesse&lt;/li&gt;
 &lt;li&gt;Read &amp;quot;Lessons in Fundamentals of Go&amp;quot; by Kageyama&lt;/li&gt;
