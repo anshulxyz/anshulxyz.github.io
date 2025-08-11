@@ -23,6 +23,8 @@ At the end of the year, I'll revisit this post and reflect on how I did.
 
 ## Optional
 1. Read parts of "Elementary Linear Algebra" by Howard Anton
+    1. "Determinants"
+    1. "General Vector Spaces"
 1. Read "C Programming Language".
 1. Read "Demian" by Herman Hesse
 1. Read "Lessons in Fundamentals of Go" by Kageyama

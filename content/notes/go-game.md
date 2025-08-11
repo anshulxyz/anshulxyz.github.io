@@ -5,19 +5,18 @@ date: git Last Modified
 tags: go-game
 ---
 
-All the resources I've mentioned here are _legally_ free to use.  I've intentionally kept the list small, so that it doesn't overwhelm a beginner. For more resources refer to [Soumya's list](https://weiqi.soumyak4.in/posts/weiqi-resources/).
-{.message-box}
-
 ## Where to learn?
 
 1. Book: [The Way to Go](https://www.usgo-archive.org/way-go) by Karl Baker
   A small 60 page booklet aimed at total beginners. It will get you familiar with basic rules and some proverbs to keep in mind while playing.
 
-2. Interctive: [OGS's Tutorial](https://online-go.com/learn-to-play-go)
+1. Interctive: [OGS's Tutorial](https://online-go.com/learn-to-play-go)
 
-3. Interactive: [Go-Magic / Go Problems](https://gomagic.org/go-problems/)
+1. Interactive: [Go-Magic / Go Problems](https://gomagic.org/go-problems/)
 
-4. [Sensei's Library](https://senseis.xmp.net/) _Wikipedia_ of Go.
+1. Interactive: ["Stone Development for Beginners"](https://online-go.com/puzzle/3421) by mark5000
+
+1. Wiki: [Sensei's Library](https://senseis.xmp.net/) _Wikipedia_ of the Go world.
 
 ## Where to play?
 
@@ -32,4 +31,8 @@ All the resources I've mentioned here are _legally_ free to use.  I've intention
 ## Tsumego (Go Puzzles)
 
 1. [GoProblems](https://goproblems.com)
-2. [Black-To-Play](https://blacktoplay.com/)
+1. [Black-To-Play](https://blacktoplay.com/)
+1. [Tsumego-Hero](https://tsumego-hero.com/sets)
+
+All the resources I've mentioned here are _legally_ free to use.  I've intentionally kept the list small, so that it doesn't overwhelm a beginner. For more resources refer to [Soumya's list](https://weiqi.soumyak4.in/posts/weiqi-resources/).
+{.message-box}
