@@ -81,3 +81,4 @@ manage to finish the program at 80 kg of 20 reps. But I did. Gladly proved
 myself wrong.
 
 You have to be a masochist to run this program for the 2nd time.
+

@@ -7,27 +7,23 @@ const eleventyNavigation = {
 const numberOfLatestPostsToShow = 3;
 ---
 <p>
-Hi! I am Anshul Chauhan. This is my blog.
+Hi! I am Anshul Chauhan. This is my personal website. By profession, I am a
+software craftsman. Some of my interests outside of programming are:
+<a href="https://x.com/anshulxyz/status/1865803780635447451" target="_blank">playing football</a>,
+and playing <a href="{{ '/go-game' | url }}">Go</a>.
 </p>
 
-{% set postsCount = collections.posts | length %}
-{% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h2>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h2>
+<p>
+Here I plan to write just about anything that catches my fancy. To document
+various things in life.
+</p>
 
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
+<p>
+All opinions are my own and not a representation of my employers.
+</p>
 
-{% set morePosts = postsCount - numberOfLatestPostsToShow %}
-{% if morePosts > 0 %}
-<p>{{ morePosts }} more post{% if morePosts != 1 %}s{% endif %} can be found in <a href="blog.njk">the archive</a>.</p>
-{% endif %}
+<p>
+You can find me on <a href="https://twitter.com/anshulxyz" target="_blank">twitter</a>
+and <a href="https://github.com/anshulxyz" target="_blank">github</a>.
+</p>
 
-{# List every content page in the project #}
-{#
-<ul>
-	{%- for entry in collections.all %}
-	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
-	{%- endfor %}
-</ul>
-#}
