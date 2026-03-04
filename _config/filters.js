@@ -4,7 +4,7 @@ import katex from "katex";
 export default function(eleventyConfig) {
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
 		// Formatting tokens for Luxon: https://moment.github.io/luxon/#/formatting?id=table-of-tokens
-		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "dd LLLL yyyy");
+		return DateTime.fromJSDate(dateObj, { zone: zone || "utc" }).toFormat(format || "d LLLL yyyy");
 	});
 
 	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
@@ -13,10 +13,23 @@ export default function(eleventyConfig) {
 	});
 
 	eleventyConfig.addFilter("latex", (content) => {
-		return content.replace(/\$\$(.+?)\$\$/g, (_, equation) => {
-			const cleanEquation = equation.replace(/&lt;/g, "<").replace(/&gt;/g, ">");
-			return katex.renderToString(cleanEquation, { throwOnError: false });
-		});
+		return content
+			.replace(/\$\$([\s\S]+?)\$\$/g, (_, equation) => {
+				const cleanEquation = equation
+					.replace(/<br\s*\/?>/gi, "\n")
+					.replace(/&lt;/g, "<")
+					.replace(/&gt;/g, ">")
+					.replace(/&amp;/g, "&");
+				return katex.renderToString(cleanEquation, { throwOnError: false, displayMode: true });
+			})
+			.replace(/\$([\s\S]+?)\$/g, (_, equation) => {
+				const cleanEquation = equation
+					.replace(/<br\s*\/?>/gi, " ")
+					.replace(/&lt;/g, "<")
+					.replace(/&gt;/g, ">")
+					.replace(/&amp;/g, "&");
+				return katex.renderToString(cleanEquation, { throwOnError: false, displayMode: false });
+			});
 	});
 
 	// Get the first `n` elements of a collection.
