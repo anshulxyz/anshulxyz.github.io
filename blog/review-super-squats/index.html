@@ -1,16 +1,43 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="math-grid">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Program Review: Super Squats</title>
 		<meta name="description" content="My review of the Super Squats when running it for the first time.">
-		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Anshul Chauhan">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Anshul&#39;s">
 		
 		
 		
 		
 		<style>/* This is an arbitrary CSS string added to the bundle */
+/* Math notebook 5mm grid background utility */
+html.math-grid {
+	--grid-size: 5mm;
+	--line-thickness: 1px;
+
+	--bg-color: hsl(40 30% 97%);        /* Premium warm paper/ivory tone */
+	--line-color: hsl(209 100% 81.8% / 15%);  /*  15% opacity */
+
+	background-color: var(--bg-color) !important;
+	background-image:
+		linear-gradient(to right, var(--line-color) 0px, var(--line-color) 1px, transparent 1px),
+		linear-gradient(to bottom, var(--line-color) 0px, var(--line-color) 1px, transparent 1px) !important;
+	background-size: var(--grid-size) var(--grid-size) !important;
+	background-position: 0 0 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+	html.math-grid {
+		--bg-color: #15202b;
+		--line-color: hsl(0 0% 25% / 20%);  /* Dark mode line at 20% opacity */
+	}
+}
+
+html.math-grid body {
+	/* background-color: var(--background-color) !important; */
+	min-height: 100vh;
+}
 /* Defaults */
 :root {
 	--font-family: -apple-system, system-ui, sans-serif;
@@ -25,10 +52,10 @@
 
 	--background-color: #fff;
 
-	--text-color: var(--color-gray-90);
-	--text-color-link: #1493fb;
-	--text-color-link-active: #6969f7;
-	--text-color-link-visited: #9d4edd;
+	--text-color: #03045e;
+	--text-color-link: #0077b6;
+	--text-color-link-active: hsl(209 100% 81.8% / 25%);
+	--text-color-link-visited: #023e8a;
 
 	--syntax-tab-size: 2;
 }
@@ -64,7 +91,6 @@ body {
 	margin: 0 auto;
 	font-family: var(--font-family);
 	color: var(--text-color);
-	background-color: var(--background-color);
 }
 html {
 	overflow-y: scroll;
@@ -72,6 +98,7 @@ html {
 body {
 	max-width: 40em;
 }
+
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
 .visually-hidden:not(:focus):not(:active) {
 	clip: rect(0 0 0 0);
@@ -123,7 +150,7 @@ a[href]:visited {
 }
 a[href]:hover,
 a[href]:active {
-	color: var(--text-color-link-active);
+	background-color: var(--text-color-link-active);
 }
 
 main,
@@ -239,14 +266,6 @@ header {
 	text-decoration: underline;
 }
 
-/* Notes list */
-.notelist-item {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: baseline;
-	margin-bottom: 1em;
-}
-
 /* Posts list */
 .postlist {
 	counter-reset: start-from var(--postlist-index);
@@ -315,22 +334,146 @@ header {
 .post-metadata time {
 	margin-right: 1em;
 }
-/* Message Box */
-.message-box {
-	--color-message-box: #ffc;
-
+pre code.hljs {
 	display: block;
-	background-color: var(--color-message-box);
-	color: var(--color-gray-90);
-	padding: 1em 0.625em; /* 16px 10px /16 */
+	overflow-x: auto;
+	padding: 1em;
 }
-.message-box ol {
-	margin-top: 0;
+
+code.hljs {
+	padding: 3px 5px;
+}
+
+/* Ascetic theme (light mode) */
+.hljs {
+	background: white;
+	color: black;
+}
+
+.hljs-string,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-section,
+.hljs-addition,
+.hljs-attribute,
+.hljs-link {
+	color: #888;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-meta,
+.hljs-deletion {
+	color: GoldenRod;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-name,
+.hljs-type,
+.hljs-strong {
+	font-weight: bold;
+}
+
+.hljs-emphasis {
+	font-style: italic;
 }
 
 @media (prefers-color-scheme: dark) {
-	.message-box {
-		--color-message-box: #082840;
+	/* GitHub Dark theme */
+	.hljs {
+		color: #c9d1d9;
+		background: #0d1117;
+	}
+
+	.hljs-doctag,
+	.hljs-keyword,
+	.hljs-meta .hljs-keyword,
+	.hljs-template-tag,
+	.hljs-template-variable,
+	.hljs-type,
+	.hljs-variable.language_ {
+		color: #ff7b72;
+	}
+
+	.hljs-title,
+	.hljs-title.class_,
+	.hljs-title.class_.inherited__,
+	.hljs-title.function_ {
+		color: #d2a8ff;
+	}
+
+	.hljs-attr,
+	.hljs-attribute,
+	.hljs-literal,
+	.hljs-meta,
+	.hljs-number,
+	.hljs-operator,
+	.hljs-selector-attr,
+	.hljs-selector-class,
+	.hljs-selector-id,
+	.hljs-variable {
+		color: #79c0ff;
+	}
+
+	.hljs-meta .hljs-string,
+	.hljs-regexp,
+	.hljs-string {
+		color: #a5d6ff;
+	}
+
+	.hljs-built_in,
+	.hljs-symbol {
+		color: #ffa657;
+	}
+
+	.hljs-code,
+	.hljs-comment,
+	.hljs-formula {
+		color: #8b949e;
+	}
+
+	.hljs-name,
+	.hljs-quote,
+	.hljs-selector-pseudo,
+	.hljs-selector-tag {
+		color: #7ee787;
+	}
+
+	.hljs-subst {
+		color: #c9d1d9;
+	}
+
+	.hljs-section {
+		color: #1f6feb;
+		font-weight: 700;
+	}
+
+	.hljs-bullet {
+		color: #f2cc60;
+	}
+
+	.hljs-emphasis {
+		color: #c9d1d9;
+		font-style: italic;
+	}
+
+	.hljs-strong {
+		color: #c9d1d9;
+		font-weight: 700;
+	}
+
+	.hljs-addition {
+		color: #aff5b4;
+		background-color: #033a16;
+	}
+
+	.hljs-deletion {
+		color: #ffdcd7;
+		background-color: #67060c;
 	}
 }</style>
 		
@@ -341,12 +484,12 @@ header {
 		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link">Anshul Chauhan</a>
+			<a href="/" class="home-link">Anshul&#39;s</a>
 			<nav>
 				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
 				<ul class="nav">
 					<li class="nav-item"><a href="/">Home</a></li>
-					<li class="nav-item"><a href="/notes/">Notes</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
 					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
 				</ul>
 			</nav>
@@ -354,7 +497,15 @@ header {
 
 		<main id="main">
 			<heading-anchors>
-				<h2 id="what-is-it">What is it?</h2>
+				
+
+<h1 id="program-review-super-squats">Program Review: Super Squats</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2023-03-04">4 March 2023</time></li>
+</ul>
+
+<h2 id="what-is-it">What is it?</h2>
 <p><strong>What is Super Squats?</strong></p>
 <p><a href="https://www.goodreads.com/book/show/19254168-super-squats">Super Squats</a> is a 6-week workout program mentioned in a book by the same name authored by Randall J. Strossen. Staple of the program is a single set of 20 repetitions of <em>breathing</em> Squats. It's a full-body workout plan, everyday you will be targeting all parts of the body.</p>
 <p>But Squats remains the most important part of the day, as the name suggests. In every session you increase the weight on the Squats bar by 2.5 kg.</p>
@@ -430,17 +581,19 @@ manage to finish the program at 80 kg of 20 reps. But I did. Gladly proved
 myself wrong.</p>
 <p>You have to be a masochist to run this program for the 2nd time.</p>
 
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/firstpost/">This is my first post.</a></li><li class="links-nextprev-next">Next →<br><a href="/blog/notes-tlhe-little-schemer/">Note: The Little Schemer</a></li>
+</ul>
 
 			</heading-anchors>
 		</main>
 
 		<footer>
-			<!-- <p> -->
-			<!-- 	<em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em> -->
-			<!-- </p> -->
+			<p>
+				<!-- <em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em> -->
+			</p>
 		</footer>
 
-		<!-- This page `/review-super-squats/` was built on 2026-04-08T18:43:37.127Z -->
+		<!-- This page `/blog/review-super-squats/` was built on 2026-07-30T08:47:31.906Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

@@ -2,37 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 	
 	<url>
-		<loc>https://anshulchauhan.com/review-super-squats/</loc>
+		<loc>https://anshulchauhan.com/blog/firstpost/</loc>
+		<lastmod>2018-05-01</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://anshulchauhan.com/blog/review-super-squats/</loc>
 		<lastmod>2023-03-04</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://anshulchauhan.com/go-game/</loc>
-		<lastmod>2026-04-08</lastmod>
+		<loc>https://anshulchauhan.com/blog/notes-tlhe-little-schemer/</loc>
+		<lastmod>2026-03-03</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://anshulchauhan.com/archive/</loc>
-		<lastmod>2026-04-08</lastmod>
+		<loc>https://anshulchauhan.com/blog/book-of-proof/</loc>
+		<lastmod>2026-05-06</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://anshulchauhan.com/blog/</loc>
+		<lastmod>2026-07-30</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://anshulchauhan.com/</loc>
-		<lastmod>2026-04-08</lastmod>
+		<lastmod>2026-07-30</lastmod>
 	</url>
 	
 	<url>
-		<loc>https://anshulchauhan.com/notes/</loc>
-		<lastmod>2026-04-08</lastmod>
+		<loc>https://anshulchauhan.com/links/</loc>
+		<lastmod>2026-07-30</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://anshulchauhan.com/now/</loc>
+		<lastmod>2026-07-30</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://anshulchauhan.com/tags/</loc>
-		<lastmod>2026-04-08</lastmod>
+		<lastmod>2026-07-30</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://anshulchauhan.com/feed/feed.xml</loc>
-		<lastmod>2026-04-08</lastmod>
+		<lastmod>2026-07-30</lastmod>
 	</url>
 </urlset>

@@ -5,9 +5,243 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2026-04-08T18:43:37Z</updated>
+  <updated>2026-05-06T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
+  <entry>
+    <title>Note: Book of Proof</title>
+    <link href="https://example.com/blog/book-of-proof/" />
+    <updated>2026-05-06T00:00:00Z</updated>
+    <id>https://example.com/blog/book-of-proof/</id>
+    <content type="html">&lt;h2 id=&quot;2-logic&quot;&gt;2. Logic&lt;/h2&gt;
+&lt;p&gt;DeMorgan&#39;s Laws:&lt;/p&gt;
+&lt;p&gt;$$ &#92;neg (P &#92;land Q) = (&#92;neg P) &#92;lor (&#92;neg Q) $$&lt;/p&gt;
+&lt;p&gt;$$ &#92;neg (P &#92;lor Q) = (&#92;neg P) &#92;land (&#92;neg Q) $$&lt;/p&gt;
+&lt;h3 id=&quot;2-9-solutions-translating-english-to-symbolic-logic&quot;&gt;2.9. Solutions &amp;quot;Translating English to Symbolic Logic&amp;quot;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;$(P &#92;land Q) &#92;implies R$&lt;/li&gt;
+&lt;li&gt;$P(x) &#92;land &#92;neg P(y)$&lt;/li&gt;
+&lt;li&gt;$P &#92;implies &#92;neg Q$&lt;/li&gt;
+&lt;li&gt;$&#92;forall &#92;text{prime } p, &#92;exists &#92;text{prime } q, q &amp;gt; p$&lt;/li&gt;
+&lt;li&gt;$&#92;forall &#92;epsilon &#92;in &#92;mathbb{R}, &#92;epsilon &amp;gt; 0, &#92;exists &#92;delta &#92;in &#92;mathbb{R}, &#92;delta &amp;gt; 0, (|x - a| &amp;lt; &#92;delta) &#92;implies (|f(x) - f(a)| &amp;lt; &#92;epsilon)$&lt;/li&gt;
+&lt;li&gt;$&#92;forall &#92;epsilon &#92;in &#92;mathbb{R}, &#92;epsilon &amp;gt; 0, &#92;exists M &#92;in &#92;mathbb{R}, M &amp;gt; 0, (x &amp;gt; M) &#92;implies (|f(x) - b| &amp;lt; &#92;epsilon)$&lt;/li&gt;
+&lt;li&gt;$&#92;exists a &#92;in &#92;mathbb{R}, &#92;forall x &#92;in &#92;mathbb{R}, a + x = x$&lt;/li&gt;
+&lt;li&gt;$&#92;neg P$&lt;/li&gt;
+&lt;li&gt;$(x &#92;in &#92;mathbb{Q} &#92;land x &#92;neq 0) &#92;implies &#92;tan(x) &#92;notin &#92;mathbb{Q}$&lt;/li&gt;
+&lt;li&gt;$(&#92;sin(x) &amp;lt; 0) &#92;implies &#92;neg (0 &#92;le x &#92;le &#92;pi)$&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;2-10-solutions-negating-statements&quot;&gt;2.10. Solutions &amp;quot;Negating Statements&amp;quot;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;$x$ is not positive or $y$ is positive.&lt;/li&gt;
+&lt;li&gt;$x$ is prime, and $&#92;sqrt{x}$ is rational.&lt;/li&gt;
+&lt;li&gt;There exists a prime number $p$, for every prime number $q$, such that $q &#92;le p$.&lt;/li&gt;
+&lt;li&gt;There exists a positive number $&#92;epsilon$, for every positive number $M$, such that $(x &amp;gt; M)$ and $(|f(x) - b| &#92;ge &#92;epsilon)$.&lt;/li&gt;
+&lt;li&gt;$&#92;forall a &#92;in &#92;mathbb{R}, &#92;exists x &#92;in &#92;mathbb{R}, a + x &#92;neq x$&lt;/li&gt;
+&lt;li&gt;$P: x &#92;in &#92;mathbb{Q}$&lt;br&gt;
+$Q: x &#92;neq 0$&lt;br&gt;
+$R: &#92;tan(x) &#92;in &#92;mathbb{Q}$&lt;br&gt;
+$S: (P &#92;land Q) &#92;implies &#92;neg R$&lt;br&gt;
+$&#92;neg S: (P &#92;land Q) &#92;land R$&lt;/li&gt;
+&lt;li&gt;There exists a number $x$, such that $(&#92;sin(x) &amp;lt; 0) &#92;land (0 &#92;le x &#92;le &#92;pi)$.&lt;/li&gt;
+&lt;li&gt;There exists a function $f$, where $f$ is a polynomial and its degree is greater than 2, and $f&#39;$ is constant.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;3-2-solutions-the-multiplication-principle&quot;&gt;3.2. Solutions &amp;quot;The Multiplication Principle&amp;quot;&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;(a) $6 &#92;cdot 6 &#92;cdot 6 &#92;cdot 6 = 1296$&lt;br&gt;
+(b) $6 &#92;cdot 6 &#92;cdot 6 = 216$&lt;br&gt;
+(c) $5 &#92;cdot 6 &#92;cdot 6 &#92;cdot 6 = 1080$&lt;/li&gt;
+&lt;li&gt;$26 &#92;cdot 26 &#92;cdot 26 = 17576$&lt;/li&gt;
+&lt;li&gt;(a) $6 &#92;cdot 6 &#92;cdot 6 = 216$&lt;br&gt;
+(b) $6 &#92;cdot 5 &#92;cdot 4 = 120$&lt;br&gt;
+(c) $6 &#92;cdot 5 = 30$&lt;br&gt;
+(d) $6 &#92;cdot 6 = 36$&lt;/li&gt;
+&lt;li&gt;$2 &#92;cdot 6 = 12$&lt;/li&gt;
+&lt;li&gt;(a) $2^8 = 256$&lt;br&gt;
+(b) $2^7 = 128$&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Note: The Little Schemer</title>
+    <link href="https://example.com/blog/notes-tlhe-little-schemer/" />
+    <updated>2026-03-03T00:00:00Z</updated>
+    <id>https://example.com/blog/notes-tlhe-little-schemer/</id>
+    <content type="html">&lt;h2 id=&quot;intro&quot;&gt;Intro&lt;/h2&gt;
+&lt;p&gt;&amp;quot;The Little Schemer&amp;quot; is a book written by Daniel P. Friedman and Matthias
+Felleisen. It discusses recursion and continuous passing style. It uses Scheme
+programming language (from Lisp family) to discuss these topics. It builds up
+complexity of the functions from the first principles.&lt;/p&gt;
+&lt;p&gt;I decided to read this book for two reasons:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Is considered one of the classics of the field.&lt;/li&gt;
+&lt;li&gt;I wanted an entry point to learn a Lisp family language.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The format the book is written in unique. It&#39;s like a workbook. On the left half
+of the page, there&#39;s a question, and on the right half is the answer. This gets
+you to engage with the material. As you can&#39;t just leisurely skim the book while
+doomscrolling. You can&#39;t jump a few pages without missing the plot.&lt;/p&gt;
+&lt;p&gt;I am writing this &lt;em&gt;note&lt;/em&gt; for my future self. So that if one day I decide to read
+&amp;quot;The Seasoned Schemer&amp;quot;, or re-read &amp;quot;The Litle Schemer&amp;quot;, this note might serve
+as a recap.&lt;/p&gt;
+&lt;h2 id=&quot;recursion&quot;&gt;Recursion&lt;/h2&gt;
+&lt;p&gt;Book has some axioms. It gets you to think in terms of the &amp;quot;base case&amp;quot;, when
+writing a recursive function. For example, here is the function to remove the
+first match from a list.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs language-scheme&quot;&gt;(&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;define&lt;/span&gt;&lt;/span&gt; rember
+  (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;lambda&lt;/span&gt;&lt;/span&gt; (a lat)
+    (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cond&lt;/span&gt;&lt;/span&gt;
+     [(&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;null?&lt;/span&gt;&lt;/span&gt; lat) (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;list&lt;/span&gt;&lt;/span&gt;)] &lt;span class=&quot;hljs-comment&quot;&gt;;; base case&lt;/span&gt;
+     [(&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;eq?&lt;/span&gt;&lt;/span&gt; (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;car&lt;/span&gt;&lt;/span&gt; lat) a) (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cdr&lt;/span&gt;&lt;/span&gt; lat)]
+     [&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;else&lt;/span&gt;&lt;/span&gt; (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cons&lt;/span&gt;&lt;/span&gt; (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;car&lt;/span&gt;&lt;/span&gt; lat) (&lt;span class=&quot;hljs-name&quot;&gt;rember&lt;/span&gt; a (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cdr&lt;/span&gt;&lt;/span&gt; lat)))])))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But what if I want to remove all the matches?&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs language-scheme&quot;&gt;(&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;define&lt;/span&gt;&lt;/span&gt; multirember
+  (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;lambda&lt;/span&gt;&lt;/span&gt; (a lat)
+    (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cond&lt;/span&gt;&lt;/span&gt;
+     [(&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;null?&lt;/span&gt;&lt;/span&gt; lat) (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;list&lt;/span&gt;&lt;/span&gt;)] &lt;span class=&quot;hljs-comment&quot;&gt;;; base case&lt;/span&gt;
+     [(&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;eq?&lt;/span&gt;&lt;/span&gt; a (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;car&lt;/span&gt;&lt;/span&gt; lat))
+      (&lt;span class=&quot;hljs-name&quot;&gt;multirember&lt;/span&gt; a (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cdr&lt;/span&gt;&lt;/span&gt; lat))]
+     [&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;else&lt;/span&gt;&lt;/span&gt; (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cons&lt;/span&gt;&lt;/span&gt; (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;car&lt;/span&gt;&lt;/span&gt; lat)
+                 (&lt;span class=&quot;hljs-name&quot;&gt;multirember&lt;/span&gt; a (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cdr&lt;/span&gt;&lt;/span&gt; lat)))])))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But what if you also want to consider nested lists?&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs language-scheme&quot;&gt;(&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;define&lt;/span&gt;&lt;/span&gt; rember*
+  (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;lambda&lt;/span&gt;&lt;/span&gt; (a l)
+    (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cond&lt;/span&gt;&lt;/span&gt;
+     [(&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;null?&lt;/span&gt;&lt;/span&gt; l) (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;list&lt;/span&gt;&lt;/span&gt;)] &lt;span class=&quot;hljs-comment&quot;&gt;;; base case&lt;/span&gt;
+     [(&lt;span class=&quot;hljs-name&quot;&gt;atom?&lt;/span&gt; (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;car&lt;/span&gt;&lt;/span&gt; l))
+      (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cond&lt;/span&gt;&lt;/span&gt;
+       [(&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;eq?&lt;/span&gt;&lt;/span&gt; a (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;car&lt;/span&gt;&lt;/span&gt; l))
+        (&lt;span class=&quot;hljs-name&quot;&gt;rember*&lt;/span&gt; a (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cdr&lt;/span&gt;&lt;/span&gt; l))]
+       [&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;else&lt;/span&gt;&lt;/span&gt; (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cons&lt;/span&gt;&lt;/span&gt; (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;car&lt;/span&gt;&lt;/span&gt; l)
+                   (&lt;span class=&quot;hljs-name&quot;&gt;rember*&lt;/span&gt; a (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cdr&lt;/span&gt;&lt;/span&gt; l)))])]
+     [&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;else&lt;/span&gt;&lt;/span&gt; (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cons&lt;/span&gt;&lt;/span&gt; (&lt;span class=&quot;hljs-name&quot;&gt;rember*&lt;/span&gt; a (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;car&lt;/span&gt;&lt;/span&gt; l))
+                 (&lt;span class=&quot;hljs-name&quot;&gt;rember*&lt;/span&gt; a (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;cdr&lt;/span&gt;&lt;/span&gt; l)))])))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;See how things are getting progressively more complex? Author gets you to start
+from something very simple and builds on top of it as you go on.&lt;/p&gt;
+&lt;p&gt;I really loved that the author gets us to build basic functions from other basic
+building block. For example, they get us to implement multiplication through
+repeated addition. And addition itself is built on top of a function who&#39;s job
+is to increment a number by 1. (Refer &lt;a href=&quot;https://en.wikipedia.org/wiki/Peano_axioms&quot;&gt;Peano arihtmetic&lt;/a&gt;)&lt;/p&gt;
+&lt;h2 id=&quot;currying&quot;&gt;Currying&lt;/h2&gt;
+&lt;p&gt;Imagine that a function, instead of returning a value, returns another function.
+And converting a function that takes multiple arguments into a series of
+function that take one argument.&lt;/p&gt;
+&lt;p&gt;Example&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&quot;hljs language-scheme&quot;&gt;(&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;define&lt;/span&gt;&lt;/span&gt; add
+  (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;lambda&lt;/span&gt;&lt;/span&gt; (x y)
+    (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;+&lt;/span&gt;&lt;/span&gt; x y)))
+
+(&lt;span class=&quot;hljs-name&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;5&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;;; 8&lt;/span&gt;
+
+&lt;span class=&quot;hljs-comment&quot;&gt;;; Curry&lt;/span&gt;
+(&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;define&lt;/span&gt;&lt;/span&gt; curried-add
+  (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;lambda&lt;/span&gt;&lt;/span&gt; (x)
+    (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;lambda&lt;/span&gt;&lt;/span&gt; (y)
+      (&lt;span class=&quot;hljs-name&quot;&gt;&lt;span class=&quot;hljs-built_in&quot;&gt;+&lt;/span&gt;&lt;/span&gt; x y))))
+
+((&lt;span class=&quot;hljs-name&quot;&gt;curried-add&lt;/span&gt; &lt;span class=&quot;hljs-number&quot;&gt;3&lt;/span&gt;) &lt;span class=&quot;hljs-number&quot;&gt;7&lt;/span&gt;) &lt;span class=&quot;hljs-comment&quot;&gt;;; 10&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;NOTE: I first came across &amp;quot;Currying&amp;quot; while I was learning Scala for a backend
+project. And I have never seen it being used anywhere in production. If you
+have used this in production, I would like to know why and how.&lt;/p&gt;
+&lt;h2 id=&quot;continuous-passing-style&quot;&gt;Continuous Passing Style&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;CPS
+3.1 What?
+3.2 How?
+3.3 Why?
+3.3.1 Because the recursive call is made at the end, the CPS functions are by design tail-recursive
+3.3.1 We can return a value anytime in the run without having to wind-down all of the nested calls.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;Show a sample code of the standard factorial, and then the CPS one&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+  </entry>
+  <entry>
+    <title>Program Review: Super Squats</title>
+    <link href="https://example.com/blog/review-super-squats/" />
+    <updated>2023-03-04T00:00:00Z</updated>
+    <id>https://example.com/blog/review-super-squats/</id>
+    <content type="html">&lt;h2 id=&quot;what-is-it&quot;&gt;What is it?&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;What is Super Squats?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.goodreads.com/book/show/19254168-super-squats&quot;&gt;Super Squats&lt;/a&gt; is a 6-week workout program mentioned in a book by the same name authored by Randall J. Strossen. Staple of the program is a single set of 20 repetitions of &lt;em&gt;breathing&lt;/em&gt; Squats. It&#39;s a full-body workout plan, everyday you will be targeting all parts of the body.&lt;/p&gt;
+&lt;p&gt;But Squats remains the most important part of the day, as the name suggests. In every session you increase the weight on the Squats bar by 2.5 kg.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What is a breathing Squat?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Think of your normal Barbell Squats, but you have to take at least 3 deep breaths between each rep.&lt;/p&gt;
+&lt;p&gt;It is the most brutal thing I&#39;ve ever done in the gym.&lt;/p&gt;
+&lt;h2 id=&quot;how-it-went&quot;&gt;How it went?&lt;/h2&gt;
+&lt;p&gt;If you care to watch each of my 20-rep Squat set (even the ones where I
+failed), then you can view it all in this &lt;a href=&quot;https://www.youtube.com/playlist?list=PL1kBC0TDs8qQRfCxZXM9T26mP9DDeoPde&quot;&gt;YouTube
+playlist&lt;/a&gt;
+On the first day I did 21 reps of 40 kg, on the last day I did 20 reps of 80
+kg.&lt;/p&gt;
+&lt;p&gt;Some stats.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Category&lt;/th&gt;
+&lt;th&gt;First Day&lt;/th&gt;
+&lt;th&gt;Last Day&lt;/th&gt;
+&lt;th&gt;Difference&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Bodyweight&lt;/td&gt;
+&lt;td&gt;59.5 kg (131 lbs)&lt;/td&gt;
+&lt;td&gt;65.5 kg (144 lbs)&lt;/td&gt;
+&lt;td&gt;6kg (13 lbs)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Height&lt;/td&gt;
+&lt;td&gt;5&#39;9&lt;/td&gt;
+&lt;td&gt;5&#39;9&lt;/td&gt;
+&lt;td&gt;0&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Super Squats set&lt;/td&gt;
+&lt;td&gt;40 kg (88 lbs)&lt;/td&gt;
+&lt;td&gt;80 kg (176lbs)&lt;/td&gt;
+&lt;td&gt;40 kg (88 lbs)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;strong&gt;How closely did I adhere to the programming laid out in the book?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I followed the full routine except for the last few days when I was running out
+of time and the full routine was taking longer than an hour. In those cases I
+followed the abridged program&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How did I handle the eating prescribed by the book?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This is where I truly fell short. The eating prescribed by the book is
+something I cannot handle, so I tried to eat the best to my ability and
+resources. But doing so day-after-day became really tiring and time consuming
+and I started slacking.&lt;/p&gt;
+&lt;p&gt;Eating (more) has always been difficult for me.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;My general thoughts and experiences regarding the Super Squats
+programming&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Loved it. And hated it. These 6 weeks a true horror for my body, it took me
+three attempts to get 20 reps on 80 kg. And after 3rd week I has some pain in
+my trapezius everyday.&lt;/p&gt;
+&lt;p&gt;Because in a 20 rep set, the bar stays on your shoulders for a lot longer than
+your normal squat set. And adding deep breathing to the mix only increases this
+duration. Then it becomes less about my quad strength and more about my upper
+back. The time under tension is the true enemy here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;How I will move on from this in my continued training and diet?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I&#39;ve decided to step away from powerlifting style of training. I&#39;ve played
+around with 5/3/1 style of training for a year and it did get me strong.&lt;/p&gt;
+&lt;p&gt;Now I want to do hypertrophy focused work.&lt;/p&gt;
+&lt;p&gt;I choosing to go with &lt;a href=&quot;https://www.strongerbyscience.com/program-bundle/&quot;&gt;Stronger By Science Hypertrophy
+template&lt;/a&gt;. It&#39;s a 21-week
+program.&lt;/p&gt;
+&lt;p&gt;I am really thankful of the Super Squats for showing me how much mental
+strength I can muster. It was a successful run, On day 0 I was not sure I could
+manage to finish the program at 80 kg of 20 reps. But I did. Gladly proved
+myself wrong.&lt;/p&gt;
+&lt;p&gt;You have to be a masochist to run this program for the 2nd time.&lt;/p&gt;
+</content>
+  </entry>
 </feed>

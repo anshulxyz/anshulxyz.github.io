@@ -1,0 +1,616 @@
+<!doctype html>
+<html lang="en" class="math-grid">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Note: The Little Schemer</title>
+		<meta name="description" content="Major learnings I got from the book The Little Schemer">
+		<link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Anshul&#39;s">
+		
+		
+		
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+/* Math notebook 5mm grid background utility */
+html.math-grid {
+	--grid-size: 5mm;
+	--line-thickness: 1px;
+
+	--bg-color: hsl(40 30% 97%);        /* Premium warm paper/ivory tone */
+	--line-color: hsl(209 100% 81.8% / 15%);  /*  15% opacity */
+
+	background-color: var(--bg-color) !important;
+	background-image:
+		linear-gradient(to right, var(--line-color) 0px, var(--line-color) 1px, transparent 1px),
+		linear-gradient(to bottom, var(--line-color) 0px, var(--line-color) 1px, transparent 1px) !important;
+	background-size: var(--grid-size) var(--grid-size) !important;
+	background-position: 0 0 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+	html.math-grid {
+		--bg-color: #15202b;
+		--line-color: hsl(0 0% 25% / 20%);  /* Dark mode line at 20% opacity */
+	}
+}
+
+html.math-grid body {
+	/* background-color: var(--background-color) !important; */
+	min-height: 100vh;
+}
+/* Defaults */
+:root {
+	--font-family: -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #e0e0e0;
+	--color-gray-50: #C0C0C0;
+	--color-gray-90: #333;
+
+	--background-color: #fff;
+
+	--text-color: #03045e;
+	--text-color-link: #0077b6;
+	--text-color-link-active: hsl(209 100% 81.8% / 25%);
+	--text-color-link-visited: #023e8a;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #e0e0e0;
+		--color-gray-50: #C0C0C0;
+		--color-gray-90: #dad8d8;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #1493fb;
+		--text-color-link-active: #6969f7;
+		--text-color-link-visited: #a6a6f8;
+
+		--background-color: #15202b;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+@view-transition {
+	navigation: auto;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 40em;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden:not(:focus):not(:active) {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img{
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+video,
+iframe {
+	width: 100%;
+	height: auto;
+}
+iframe {
+	aspect-ratio: 16/9;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	background-color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 1px dashed var(--color-gray-20);
+}
+
+#skip-link {
+	text-decoration: none;
+	background: var(--background-color);
+	color: var(--text-color);
+	padding: 0.5rem 1rem;
+	border: 1px solid var(--color-gray-90);
+	border-radius: 2px;
+}
+
+/* Prevent visually-hidden skip link fom pushing content around when focused */
+#skip-link.visually-hidden:focus {
+	position: absolute;
+	top: 1rem;
+	left: 1rem;
+	/* Ensure it is positioned on top of everything else when it is shown */
+	z-index: 999;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	flex-grow: 1;
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	gap: .5em 1em;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	counter-reset: start-from var(--postlist-index);
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+pre code.hljs {
+	display: block;
+	overflow-x: auto;
+	padding: 1em;
+}
+
+code.hljs {
+	padding: 3px 5px;
+}
+
+/* Ascetic theme (light mode) */
+.hljs {
+	background: white;
+	color: black;
+}
+
+.hljs-string,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-section,
+.hljs-addition,
+.hljs-attribute,
+.hljs-link {
+	color: #888;
+}
+
+.hljs-comment,
+.hljs-quote,
+.hljs-meta,
+.hljs-deletion {
+	color: GoldenRod;
+}
+
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-section,
+.hljs-name,
+.hljs-type,
+.hljs-strong {
+	font-weight: bold;
+}
+
+.hljs-emphasis {
+	font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+	/* GitHub Dark theme */
+	.hljs {
+		color: #c9d1d9;
+		background: #0d1117;
+	}
+
+	.hljs-doctag,
+	.hljs-keyword,
+	.hljs-meta .hljs-keyword,
+	.hljs-template-tag,
+	.hljs-template-variable,
+	.hljs-type,
+	.hljs-variable.language_ {
+		color: #ff7b72;
+	}
+
+	.hljs-title,
+	.hljs-title.class_,
+	.hljs-title.class_.inherited__,
+	.hljs-title.function_ {
+		color: #d2a8ff;
+	}
+
+	.hljs-attr,
+	.hljs-attribute,
+	.hljs-literal,
+	.hljs-meta,
+	.hljs-number,
+	.hljs-operator,
+	.hljs-selector-attr,
+	.hljs-selector-class,
+	.hljs-selector-id,
+	.hljs-variable {
+		color: #79c0ff;
+	}
+
+	.hljs-meta .hljs-string,
+	.hljs-regexp,
+	.hljs-string {
+		color: #a5d6ff;
+	}
+
+	.hljs-built_in,
+	.hljs-symbol {
+		color: #ffa657;
+	}
+
+	.hljs-code,
+	.hljs-comment,
+	.hljs-formula {
+		color: #8b949e;
+	}
+
+	.hljs-name,
+	.hljs-quote,
+	.hljs-selector-pseudo,
+	.hljs-selector-tag {
+		color: #7ee787;
+	}
+
+	.hljs-subst {
+		color: #c9d1d9;
+	}
+
+	.hljs-section {
+		color: #1f6feb;
+		font-weight: 700;
+	}
+
+	.hljs-bullet {
+		color: #f2cc60;
+	}
+
+	.hljs-emphasis {
+		color: #c9d1d9;
+		font-style: italic;
+	}
+
+	.hljs-strong {
+		color: #c9d1d9;
+		font-weight: 700;
+	}
+
+	.hljs-addition {
+		color: #aff5b4;
+		background-color: #033a16;
+	}
+
+	.hljs-deletion {
+		color: #ffdcd7;
+		background-color: #67060c;
+	}
+}</style>
+		
+
+		<link rel="stylesheet" href="https://unpkg.com/katex@latest/dist/katex.min.css">
+	</head>
+	<body>
+		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Anshul&#39;s</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/blog/">Archive</a></li>
+					<li class="nav-item"><a href="/feed/feed.xml">Feed</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="main">
+			<heading-anchors>
+				
+
+<h1 id="note-the-little-schemer">Note: The Little Schemer</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2026-03-03">3 March 2026</time></li>
+</ul>
+
+<h2 id="intro">Intro</h2>
+<p>&quot;The Little Schemer&quot; is a book written by Daniel P. Friedman and Matthias
+Felleisen. It discusses recursion and continuous passing style. It uses Scheme
+programming language (from Lisp family) to discuss these topics. It builds up
+complexity of the functions from the first principles.</p>
+<p>I decided to read this book for two reasons:</p>
+<ol>
+<li>Is considered one of the classics of the field.</li>
+<li>I wanted an entry point to learn a Lisp family language.</li>
+</ol>
+<p>The format the book is written in unique. It's like a workbook. On the left half
+of the page, there's a question, and on the right half is the answer. This gets
+you to engage with the material. As you can't just leisurely skim the book while
+doomscrolling. You can't jump a few pages without missing the plot.</p>
+<p>I am writing this <em>note</em> for my future self. So that if one day I decide to read
+&quot;The Seasoned Schemer&quot;, or re-read &quot;The Litle Schemer&quot;, this note might serve
+as a recap.</p>
+<h2 id="recursion">Recursion</h2>
+<p>Book has some axioms. It gets you to think in terms of the &quot;base case&quot;, when
+writing a recursive function. For example, here is the function to remove the
+first match from a list.</p>
+<pre><code class="hljs language-scheme">(<span class="hljs-name"><span class="hljs-built_in">define</span></span> rember
+  (<span class="hljs-name"><span class="hljs-built_in">lambda</span></span> (a lat)
+    (<span class="hljs-name"><span class="hljs-built_in">cond</span></span>
+     [(<span class="hljs-name"><span class="hljs-built_in">null?</span></span> lat) (<span class="hljs-name"><span class="hljs-built_in">list</span></span>)] <span class="hljs-comment">;; base case</span>
+     [(<span class="hljs-name"><span class="hljs-built_in">eq?</span></span> (<span class="hljs-name"><span class="hljs-built_in">car</span></span> lat) a) (<span class="hljs-name"><span class="hljs-built_in">cdr</span></span> lat)]
+     [<span class="hljs-name"><span class="hljs-built_in">else</span></span> (<span class="hljs-name"><span class="hljs-built_in">cons</span></span> (<span class="hljs-name"><span class="hljs-built_in">car</span></span> lat) (<span class="hljs-name">rember</span> a (<span class="hljs-name"><span class="hljs-built_in">cdr</span></span> lat)))])))
+</code></pre>
+<p>But what if I want to remove all the matches?</p>
+<pre><code class="hljs language-scheme">(<span class="hljs-name"><span class="hljs-built_in">define</span></span> multirember
+  (<span class="hljs-name"><span class="hljs-built_in">lambda</span></span> (a lat)
+    (<span class="hljs-name"><span class="hljs-built_in">cond</span></span>
+     [(<span class="hljs-name"><span class="hljs-built_in">null?</span></span> lat) (<span class="hljs-name"><span class="hljs-built_in">list</span></span>)] <span class="hljs-comment">;; base case</span>
+     [(<span class="hljs-name"><span class="hljs-built_in">eq?</span></span> a (<span class="hljs-name"><span class="hljs-built_in">car</span></span> lat))
+      (<span class="hljs-name">multirember</span> a (<span class="hljs-name"><span class="hljs-built_in">cdr</span></span> lat))]
+     [<span class="hljs-name"><span class="hljs-built_in">else</span></span> (<span class="hljs-name"><span class="hljs-built_in">cons</span></span> (<span class="hljs-name"><span class="hljs-built_in">car</span></span> lat)
+                 (<span class="hljs-name">multirember</span> a (<span class="hljs-name"><span class="hljs-built_in">cdr</span></span> lat)))])))
+</code></pre>
+<p>But what if you also want to consider nested lists?</p>
+<pre><code class="hljs language-scheme">(<span class="hljs-name"><span class="hljs-built_in">define</span></span> rember*
+  (<span class="hljs-name"><span class="hljs-built_in">lambda</span></span> (a l)
+    (<span class="hljs-name"><span class="hljs-built_in">cond</span></span>
+     [(<span class="hljs-name"><span class="hljs-built_in">null?</span></span> l) (<span class="hljs-name"><span class="hljs-built_in">list</span></span>)] <span class="hljs-comment">;; base case</span>
+     [(<span class="hljs-name">atom?</span> (<span class="hljs-name"><span class="hljs-built_in">car</span></span> l))
+      (<span class="hljs-name"><span class="hljs-built_in">cond</span></span>
+       [(<span class="hljs-name"><span class="hljs-built_in">eq?</span></span> a (<span class="hljs-name"><span class="hljs-built_in">car</span></span> l))
+        (<span class="hljs-name">rember*</span> a (<span class="hljs-name"><span class="hljs-built_in">cdr</span></span> l))]
+       [<span class="hljs-name"><span class="hljs-built_in">else</span></span> (<span class="hljs-name"><span class="hljs-built_in">cons</span></span> (<span class="hljs-name"><span class="hljs-built_in">car</span></span> l)
+                   (<span class="hljs-name">rember*</span> a (<span class="hljs-name"><span class="hljs-built_in">cdr</span></span> l)))])]
+     [<span class="hljs-name"><span class="hljs-built_in">else</span></span> (<span class="hljs-name"><span class="hljs-built_in">cons</span></span> (<span class="hljs-name">rember*</span> a (<span class="hljs-name"><span class="hljs-built_in">car</span></span> l))
+                 (<span class="hljs-name">rember*</span> a (<span class="hljs-name"><span class="hljs-built_in">cdr</span></span> l)))])))
+</code></pre>
+<p>See how things are getting progressively more complex? Author gets you to start
+from something very simple and builds on top of it as you go on.</p>
+<p>I really loved that the author gets us to build basic functions from other basic
+building block. For example, they get us to implement multiplication through
+repeated addition. And addition itself is built on top of a function who's job
+is to increment a number by 1. (Refer <a href="https://en.wikipedia.org/wiki/Peano_axioms">Peano arihtmetic</a>)</p>
+<h2 id="currying">Currying</h2>
+<p>Imagine that a function, instead of returning a value, returns another function.
+And converting a function that takes multiple arguments into a series of
+function that take one argument.</p>
+<p>Example</p>
+<pre><code class="hljs language-scheme">(<span class="hljs-name"><span class="hljs-built_in">define</span></span> add
+  (<span class="hljs-name"><span class="hljs-built_in">lambda</span></span> (x y)
+    (<span class="hljs-name"><span class="hljs-built_in">+</span></span> x y)))
+
+(<span class="hljs-name">add</span> <span class="hljs-number">3</span> <span class="hljs-number">5</span>) <span class="hljs-comment">;; 8</span>
+
+<span class="hljs-comment">;; Curry</span>
+(<span class="hljs-name"><span class="hljs-built_in">define</span></span> curried-add
+  (<span class="hljs-name"><span class="hljs-built_in">lambda</span></span> (x)
+    (<span class="hljs-name"><span class="hljs-built_in">lambda</span></span> (y)
+      (<span class="hljs-name"><span class="hljs-built_in">+</span></span> x y))))
+
+((<span class="hljs-name">curried-add</span> <span class="hljs-number">3</span>) <span class="hljs-number">7</span>) <span class="hljs-comment">;; 10</span>
+</code></pre>
+<p>NOTE: I first came across &quot;Currying&quot; while I was learning Scala for a backend
+project. And I have never seen it being used anywhere in production. If you
+have used this in production, I would like to know why and how.</p>
+<h2 id="continuous-passing-style">Continuous Passing Style</h2>
+<ol>
+<li>CPS
+3.1 What?
+3.2 How?
+3.3 Why?
+3.3.1 Because the recursive call is made at the end, the CPS functions are by design tail-recursive
+3.3.1 We can return a value anytime in the run without having to wind-down all of the nested calls.</li>
+</ol>
+<ul>
+<li>Show a sample code of the standard factorial, and then the CPS one</li>
+</ul>
+
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/review-super-squats/">Program Review: Super Squats</a></li><li class="links-nextprev-next">Next →<br><a href="/blog/book-of-proof/">Note: Book of Proof</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p>
+				<!-- <em>Built with <a href="https://www.11ty.dev/">Eleventy v3.1.2</a></em> -->
+			</p>
+		</footer>
+
+		<!-- This page `/blog/notes-tlhe-little-schemer/` was built on 2026-07-30T08:47:31.906Z -->
+		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
+	</body>
+</html>
