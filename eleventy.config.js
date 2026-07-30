@@ -12,7 +12,7 @@ export default async function(eleventyConfig) {
 	// Markdown-it with HighlightJS
 	const mdOptions = {
 		html: true,
-		breaks: true,
+		breaks: false,
 		linkify: true,
 	};
 	const mdLib = markdownIt(mdOptions).use(markdownItHighlightJS);
@@ -59,6 +59,10 @@ export default async function(eleventyConfig) {
 		bundleHtmlContentFromSelector: "script",
 	});
 
+	eleventyConfig.addCollection("publishedPosts", (collection) => {
+		return collection.getFilteredByTag("posts").filter(post => !post.data.unlisted && !post.data.draft);
+	});
+
 	// Official plugins
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
@@ -75,7 +79,7 @@ export default async function(eleventyConfig) {
 			}
 		},
 		collection: {
-			name: "posts",
+			name: "publishedPosts",
 			limit: 10,
 		},
 		metadata: {

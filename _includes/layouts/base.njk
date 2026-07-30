@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ metadata.language }}">
+<html lang="{{ metadata.language }}" class="math-grid">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,6 +25,7 @@
 		<style>/* This is an arbitrary CSS string added to the bundle */</style>
 
 		{#- Add the contents of a file to the bundle #}
+		<style>{% include "css/math-grid.css" %}</style>
 		<style>{% include "css/index.css" %}</style>
 
 		{#- Or you can add from node_modules #}
@@ -69,7 +70,7 @@
 
 		<footer>
 			<p>
-				<em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em>
+				<!-- <em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em> -->
 			</p>
 		</footer>
 

@@ -12,10 +12,10 @@
 
 	--background-color: #fff;
 
-	--text-color: var(--color-gray-90);
-	--text-color-link: #082840;
-	--text-color-link-active: #5f2b48;
-	--text-color-link-visited: #17050F;
+	--text-color: #03045e;
+	--text-color-link: #0077b6;
+	--text-color-link-active: hsl(209 100% 81.8% / 25%);
+	--text-color-link-visited: #023e8a;
 
 	--syntax-tab-size: 2;
 }
@@ -51,7 +51,6 @@ body {
 	margin: 0 auto;
 	font-family: var(--font-family);
 	color: var(--text-color);
-	background-color: var(--background-color);
 }
 html {
 	overflow-y: scroll;
@@ -111,7 +110,7 @@ a[href]:visited {
 }
 a[href]:hover,
 a[href]:active {
-	color: var(--text-color-link-active);
+	background-color: var(--text-color-link-active);
 }
 
 main,

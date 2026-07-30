@@ -6,11 +6,24 @@ const eleventyNavigation = {
 
 const numberOfLatestPostsToShow = 3;
 ---
-{% set postsCount = collections.posts | length %}
+
+<p>
+Hi! I am Anshul Chauhan. Welcome to my personal corner of the web.
+</p>
+
+<p>
+Some of my interests outside of programming are: playing <a
+href="https://x.com/anshulxyz/status/1865803780635447451"
+target="_blank">football</a>, and playing <a href="{{ '/go-game' | url
+}}">Go</a>.
+</p>
+
+{% set publishedPosts = collections.publishedPosts %}
+{% set postsCount = publishedPosts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
 <h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
 
-{% set postslist = collections.posts | head(-1 * numberOfLatestPostsToShow) %}
+{% set postslist = publishedPosts | head(-1 * numberOfLatestPostsToShow) %}
 {% set postslistCounter = postsCount %}
 {% include "postslist.njk" %}
 

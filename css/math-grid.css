@@ -1,0 +1,31 @@
+/* Math notebook 5mm grid background utility */
+html.math-grid {
+	--grid-size: 5mm;
+	--line-thickness: 1px;
+
+	--bg-color: hsl(40 30% 97%);        /* Premium warm paper/ivory tone */
+	--line-color: hsl(209 100% 81.8% / 15%);  /*  15% opacity */
+
+	background-color: var(--bg-color) !important;
+	background-image:
+		linear-gradient(to right, var(--line-color) 0px, var(--line-color) 1px, transparent 1px),
+		linear-gradient(to bottom, var(--line-color) 0px, var(--line-color) 1px, transparent 1px) !important;
+	background-size: var(--grid-size) var(--grid-size) !important;
+	background-position: 0 0 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+	html.math-grid {
+		--bg-color: #15202b;
+		--line-color: hsl(0 0% 25% / 20%);  /* Dark mode line at 20% opacity */
+	}
+}
+
+html.math-grid body {
+	/* background-color: var(--background-color) !important; */
+	min-height: 100vh;
+}
+
+
+
+
