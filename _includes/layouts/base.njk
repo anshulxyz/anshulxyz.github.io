@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ metadata.language }}" class="math-grid">
+<html lang="{{ metadata.language }}">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -24,12 +24,8 @@
 		{#- Add CSS to the bundle #}
 		<style>/* This is an arbitrary CSS string added to the bundle */</style>
 
-		{#- Add the contents of a file to the bundle #}
-		<style>{% include "css/math-grid.css" %}</style>
 		<style>{% include "css/index.css" %}</style>
 
-		{#- Or you can add from node_modules #}
-		{# <style>{% include "node_modules/something.css" %}</style> #}
 
 		{#- Render the CSS bundle using inlined CSS (for the fastest site performance in production) #}
 		<style>{% getBundle "css" %}</style>
@@ -44,19 +40,22 @@
 			rel="stylesheet"
 			href="https://unpkg.com/katex@latest/dist/katex.min.css"
 		/>
+
+
 	</head>
 	<body>
 		<a href="#main" id="skip-link" class="visually-hidden">Skip to main content</a>
 
 		<header>
-			<a href="/" class="home-link">{{ metadata.title }}</a>
+			<!-- <a href="/" class="home-link">{{ metadata.title }}</a> -->
 
 			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
 			<nav>
-				<h2 class="visually-hidden">Top level navigation menu</h2>
 				<ul class="nav">
 				{%- for entry in collections.all | eleventyNavigation %}
+					{% if not (entry.key == "Home" and page.url == "/") %}
 					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+					{% endif %}
 				{%- endfor %}
 				</ul>
 			</nav>

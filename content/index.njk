@@ -4,28 +4,40 @@ const eleventyNavigation = {
 	order: 1
 };
 
-const numberOfLatestPostsToShow = 3;
+const numberOfLatestPostsToShow = 9;
 ---
 
+<h1>Anshul Chauhan</h1>
+
 <p>
-Hi! I am Anshul Chauhan. Welcome to my personal corner of the web.
+Hi! I am Anshul. I am a software craftsman(and other things).
 </p>
 
 <p>
-Some of my interests outside of programming are: playing <a
-href="https://x.com/anshulxyz/status/1865803780635447451"
-target="_blank">football</a>, and playing <a href="{{ '/go-game' | url
-}}">Go</a>.
+Welcome to my personal corner of the web.
 </p>
 
+
+{% set publishedLists = collections.publishedLists %}
 {% set publishedPosts = collections.publishedPosts %}
 {% set postsCount = publishedPosts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
-<h1>Latest {{ latestPostsCount }} Post{% if latestPostsCount != 1 %}s{% endif %}</h1>
-
 {% set postslist = publishedPosts | head(-1 * numberOfLatestPostsToShow) %}
-{% set postslistCounter = postsCount %}
-{% include "postslist.njk" %}
+
+<ul class="content-list">
+{%- for item in publishedLists %}
+	<li>
+		<a href="{{ item.url }}">{% if item.data.title %}{{ item.data.title }}{% else %}<code>{{ item.url }}</code>{% endif %}</a>
+	</li>
+{%- endfor %}
+{%- for post in postslist | reverse %}
+	<li>
+		<a href="{{ post.url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
+		<span>&nbsp;</span>
+		<time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate("LLLL yyyy") }}</time>
+	</li>
+{%- endfor %}
+</ul>
 
 {% set morePosts = postsCount - numberOfLatestPostsToShow %}
 {% if morePosts > 0 %}

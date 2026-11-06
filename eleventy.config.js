@@ -63,6 +63,13 @@ export default async function(eleventyConfig) {
 		return collection.getFilteredByTag("posts").filter(post => !post.data.unlisted && !post.data.draft);
 	});
 
+	eleventyConfig.addCollection("publishedLists", (collection) => {
+		return collection
+			.getFilteredByTag("lists")
+			.filter(item => !item.data.unlisted && !item.data.draft)
+			.sort((a, b) => (a.data.title || "").localeCompare(b.data.title || ""));
+	});
+
 	// Official plugins
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
