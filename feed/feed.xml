@@ -5,64 +5,11 @@
   <subtitle>This is a longer description about your blog.</subtitle>
   <link href="https://example.com/feed/feed.xml" rel="self" />
   <link href="https://example.com/" />
-  <updated>2026-05-06T00:00:00Z</updated>
+  <updated>2026-03-03T00:00:00Z</updated>
   <id>https://example.com/</id>
   <author>
     <name>Your Name</name>
   </author>
-  <entry>
-    <title>Note: Book of Proof</title>
-    <link href="https://example.com/blog/book-of-proof/" />
-    <updated>2026-05-06T00:00:00Z</updated>
-    <id>https://example.com/blog/book-of-proof/</id>
-    <content type="html">&lt;h2 id=&quot;2-logic&quot;&gt;2. Logic&lt;/h2&gt;
-&lt;p&gt;DeMorgan&#39;s Laws:&lt;/p&gt;
-&lt;p&gt;$$ &#92;neg (P &#92;land Q) = (&#92;neg P) &#92;lor (&#92;neg Q) $$&lt;/p&gt;
-&lt;p&gt;$$ &#92;neg (P &#92;lor Q) = (&#92;neg P) &#92;land (&#92;neg Q) $$&lt;/p&gt;
-&lt;h3 id=&quot;2-9-solutions-translating-english-to-symbolic-logic&quot;&gt;2.9. Solutions &amp;quot;Translating English to Symbolic Logic&amp;quot;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;$(P &#92;land Q) &#92;implies R$&lt;/li&gt;
-&lt;li&gt;$P(x) &#92;land &#92;neg P(y)$&lt;/li&gt;
-&lt;li&gt;$P &#92;implies &#92;neg Q$&lt;/li&gt;
-&lt;li&gt;$&#92;forall &#92;text{prime } p, &#92;exists &#92;text{prime } q, q &amp;gt; p$&lt;/li&gt;
-&lt;li&gt;$&#92;forall &#92;epsilon &#92;in &#92;mathbb{R}, &#92;epsilon &amp;gt; 0, &#92;exists &#92;delta &#92;in &#92;mathbb{R}, &#92;delta &amp;gt; 0, (|x - a| &amp;lt; &#92;delta) &#92;implies (|f(x) - f(a)| &amp;lt; &#92;epsilon)$&lt;/li&gt;
-&lt;li&gt;$&#92;forall &#92;epsilon &#92;in &#92;mathbb{R}, &#92;epsilon &amp;gt; 0, &#92;exists M &#92;in &#92;mathbb{R}, M &amp;gt; 0, (x &amp;gt; M) &#92;implies (|f(x) - b| &amp;lt; &#92;epsilon)$&lt;/li&gt;
-&lt;li&gt;$&#92;exists a &#92;in &#92;mathbb{R}, &#92;forall x &#92;in &#92;mathbb{R}, a + x = x$&lt;/li&gt;
-&lt;li&gt;$&#92;neg P$&lt;/li&gt;
-&lt;li&gt;$(x &#92;in &#92;mathbb{Q} &#92;land x &#92;neq 0) &#92;implies &#92;tan(x) &#92;notin &#92;mathbb{Q}$&lt;/li&gt;
-&lt;li&gt;$(&#92;sin(x) &amp;lt; 0) &#92;implies &#92;neg (0 &#92;le x &#92;le &#92;pi)$&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&quot;2-10-solutions-negating-statements&quot;&gt;2.10. Solutions &amp;quot;Negating Statements&amp;quot;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;$x$ is not positive or $y$ is positive.&lt;/li&gt;
-&lt;li&gt;$x$ is prime, and $&#92;sqrt{x}$ is rational.&lt;/li&gt;
-&lt;li&gt;There exists a prime number $p$, for every prime number $q$, such that $q &#92;le p$.&lt;/li&gt;
-&lt;li&gt;There exists a positive number $&#92;epsilon$, for every positive number $M$, such that $(x &amp;gt; M)$ and $(|f(x) - b| &#92;ge &#92;epsilon)$.&lt;/li&gt;
-&lt;li&gt;$&#92;forall a &#92;in &#92;mathbb{R}, &#92;exists x &#92;in &#92;mathbb{R}, a + x &#92;neq x$&lt;/li&gt;
-&lt;li&gt;$P: x &#92;in &#92;mathbb{Q}$&lt;br&gt;
-$Q: x &#92;neq 0$&lt;br&gt;
-$R: &#92;tan(x) &#92;in &#92;mathbb{Q}$&lt;br&gt;
-$S: (P &#92;land Q) &#92;implies &#92;neg R$&lt;br&gt;
-$&#92;neg S: (P &#92;land Q) &#92;land R$&lt;/li&gt;
-&lt;li&gt;There exists a number $x$, such that $(&#92;sin(x) &amp;lt; 0) &#92;land (0 &#92;le x &#92;le &#92;pi)$.&lt;/li&gt;
-&lt;li&gt;There exists a function $f$, where $f$ is a polynomial and its degree is greater than 2, and $f&#39;$ is constant.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id=&quot;3-2-solutions-the-multiplication-principle&quot;&gt;3.2. Solutions &amp;quot;The Multiplication Principle&amp;quot;&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;(a) $6 &#92;cdot 6 &#92;cdot 6 &#92;cdot 6 = 1296$&lt;br&gt;
-(b) $6 &#92;cdot 6 &#92;cdot 6 = 216$&lt;br&gt;
-(c) $5 &#92;cdot 6 &#92;cdot 6 &#92;cdot 6 = 1080$&lt;/li&gt;
-&lt;li&gt;$26 &#92;cdot 26 &#92;cdot 26 = 17576$&lt;/li&gt;
-&lt;li&gt;(a) $6 &#92;cdot 6 &#92;cdot 6 = 216$&lt;br&gt;
-(b) $6 &#92;cdot 5 &#92;cdot 4 = 120$&lt;br&gt;
-(c) $6 &#92;cdot 5 = 30$&lt;br&gt;
-(d) $6 &#92;cdot 6 = 36$&lt;/li&gt;
-&lt;li&gt;$2 &#92;cdot 6 = 12$&lt;/li&gt;
-&lt;li&gt;(a) $2^8 = 256$&lt;br&gt;
-(b) $2^7 = 128$&lt;/li&gt;
-&lt;/ol&gt;
-</content>
-  </entry>
   <entry>
     <title>Note: The Little Schemer</title>
     <link href="https://example.com/blog/notes-tlhe-little-schemer/" />
